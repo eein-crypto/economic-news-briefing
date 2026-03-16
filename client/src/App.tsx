@@ -1,3 +1,4 @@
+import { useEffect } from 'react';
 import { Toaster } from "@/components/ui/sonner";
 import { TooltipProvider } from "@/components/ui/tooltip";
 import NotFound from "@/pages/NotFound";
@@ -24,6 +25,15 @@ function Router() {
 // - If you want to make theme switchable, pass `switchable` ThemeProvider and use `useTheme` hook
 
 function App() {
+  // Register Service Worker for PWA
+  useEffect(() => {
+    if ('serviceWorker' in navigator) {
+      navigator.serviceWorker.register('/sw.js').catch(err => {
+        console.log('Service Worker registration failed:', err);
+      });
+    }
+  }, []);
+
   return (
     <ErrorBoundary>
       <ThemeProvider
