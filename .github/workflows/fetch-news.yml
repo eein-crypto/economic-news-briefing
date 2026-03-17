@@ -1,51 +1,59 @@
-name: Daily News Fetch
+name: 경제 뉴스 자동 수집
 
 on:
   schedule:
-    # 매일 아침 8시 (UTC+9 기준 23시 전날)
+    # 매일 8시 (UTC+9 기준, 23시 UTC)
     - cron: '0 23 * * *'
-  workflow_dispatch: # 수동 실행 가능
+  
+  # 수동 실행 옵션
+  workflow_dispatch:
 
 jobs:
-  fetch-news:
+  fetch-and-analyze:
     runs-on: ubuntu-latest
     
     steps:
-      - name: Checkout code
-        uses: actions/checkout@v3
+      - name: 저장소 체크아웃
+        uses: actions/checkout@v4
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
 
-      - name: Setup Node.js
-        uses: actions/setup-node@v3
+      - name: Node.js 설정
+        uses: actions/setup-node@v4
         with:
-          node-version: '18'
+          node-version: '22'
 
-      - name: Install dependencies
-        run: |
-          npm install xml2js node-fetch
+      - name: 의존성 설치
+        run: npm install --legacy-peer-deps
 
-      - name: Fetch news
-        run: |
-          node scripts/fetch-news.mjs
+      - name: 뉴스 수집
+        run: node scripts/fetch-news.mjs
 
-      - name: Commit and push changes
+      - name: 뉴스 분석
+        run: node scripts/analyze-news.mjs
+
+      - name: 변경사항 커밋 및 푸시
         run: |
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
           
-          if git diff --quiet; then
-            echo "No changes to commit"
+          # 변경사항이 있는지 확인
+          if git diff --quiet public/data/; then
+            echo "변경사항이 없습니다."
           else
-            git add public/data/news.json
-            git commit -m "📰 Update news data - $(date '+%Y-%m-%d %H:%M:%S')"
+            git add public/data/
+            git commit -m "chore: 경제 뉴스 자동 수집 - $(date +'%Y-%m-%d %H:%M:%S')"
             git push
           fi
 
-      - name: Upload artifact
-        uses: actions/upload-artifact@v3
-        if: always()
-        with:
-          name: news-data
-          path: public/data/news.json
-          retention-days: 7
+      - name: 성공 로그
+        if: success()
+        run: |
+          echo "✅ 뉴스 수집 및 분석 완료!"
+          echo "📊 수집 시간: $(date +'%Y-%m-%d %H:%M:%S')"
+
+      - name: 실패 로그
+        if: failure()
+        run: |
+          echo "❌ 뉴스 수집 중 오류 발생"
+          echo "📊 실패 시간: $(date +'%Y-%m-%d %H:%M:%S')"
