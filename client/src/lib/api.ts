@@ -71,13 +71,88 @@ const MOCK_BRIEFING_DATA: BriefingData = {
 };
 
 export async function fetchBriefingData(): Promise<BriefingData> {
-  // In production, fetch from API or static file
-  // For now, return mock data
+  try {
+    // GitHub에서 수집된 뉴스 데이터 로드
+    const response = await fetch('/data/analysis.json');
+    
+    if (response.ok) {
+      const data = await response.json();
+      
+      // GitHub에서 수집된 데이터를 BriefingData 형식으로 변환
+      if (data.topNews && data.insights) {
+        const convertedNews = data.topNews.map((news: any, idx: number) => ({
+          id: news.id || `news_${idx}`,
+          title: news.title,
+          summary: news.summary || news.title,
+          detailedExplanation: `이 뉴스는 "${news.category}" 카테고리에 속하며, 중요도 점수는 ${news.importance}점입니다.\n\n원문: ${news.title}\n\n출처: ${news.source}`,
+          category: mapCategory(news.category),
+          readingTime: 3,
+          link: news.link,
+          sourceUrl: news.link,
+          publishedAt: news.date,
+          source: news.source
+        }));
+        
+        return {
+          date: new Date().toISOString().split('T')[0],
+          lastUpdated: data.timestamp || new Date().toISOString(),
+          news: convertedNews,
+          investmentReport: formatInvestmentReport(data.insights)
+        };
+      }
+    }
+  } catch (error) {
+    console.warn('Failed to load news from GitHub, using mock data:', error);
+  }
+  
+  // 폴백: 더미 데이터 사용
   return new Promise(resolve => {
     setTimeout(() => {
       resolve(MOCK_BRIEFING_DATA);
     }, 500);
   });
+}
+
+function mapCategory(category: string): string {
+  const categoryMap: { [key: string]: string } = {
+    '금리/통화': 'market',
+    '주식': 'market',
+    '환율': 'market',
+    '부동산': 'domestic',
+    '고용': 'domestic',
+    '물가': 'domestic',
+    '기업': 'domestic',
+    '암호화폐': 'market',
+    '정책': 'domestic',
+    '국제': 'international'
+  };
+  
+  return categoryMap[category] || 'domestic';
+}
+
+function formatInvestmentReport(insights: any): string {
+  const topCategories = insights.topCategories || [];
+  const recommendation = insights.recommendation || '분산 투자를 권장합니다.';
+  const riskLevel = insights.riskLevel || '중간';
+  
+  let report = `## 📊 오늘의 투자 인사이트\n\n`;
+  report += `### 주요 뉴스 카테고리\n\n`;
+  
+  topCategories.forEach((cat: any) => {
+    report += `**${cat.category}** (${cat.count}개 뉴스)\n`;
+    report += `• ${cat.topNews}\n\n`;
+  });
+  
+  report += `### 투자 전략\n\n`;
+  report += `**추천:** ${recommendation}\n`;
+  report += `**위험 수준:** ${riskLevel}\n\n`;
+  
+  report += `### 주요 섹터\n\n`;
+  insights.sectors?.forEach((sector: any) => {
+    report += `• **${sector.name}**: ${sector.outlook} - ${sector.reason}\n`;
+  });
+  
+  return report;
 }
 
 export function formatTime(dateString: string): string {
