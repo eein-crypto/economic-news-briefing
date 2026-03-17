@@ -1,15 +1,20 @@
 import { useEffect, useState } from 'react';
+import { useLocation } from 'wouter';
 import Header from '@/components/Header';
 import NewsCard from '@/components/NewsCard';
 import InvestmentReport from '@/components/InvestmentReport';
+import NewsDetailModal from '@/components/NewsDetailModal';
 import { fetchBriefingData } from '@/lib/api';
-import { BriefingData } from '@/lib/types';
-import { Loader2 } from 'lucide-react';
+import { BriefingData, NewsItem } from '@/lib/types';
+import { Loader2, Settings } from 'lucide-react';
 
 export default function Home() {
+  const [, setLocation] = useLocation();
   const [data, setData] = useState<BriefingData | null>(null);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState<string | null>(null);
+  const [selectedNews, setSelectedNews] = useState<NewsItem | null>(null);
+  const [isModalOpen, setIsModalOpen] = useState(false);
 
   useEffect(() => {
     loadData();
@@ -27,6 +32,11 @@ export default function Home() {
     } finally {
       setLoading(false);
     }
+  };
+
+  const handleNewsClick = (news: NewsItem) => {
+    setSelectedNews(news);
+    setIsModalOpen(true);
   };
 
   if (loading) {
@@ -63,6 +73,17 @@ export default function Home() {
     <div className="min-h-screen flex flex-col bg-background">
       <Header lastUpdated={data.lastUpdated} onRefresh={loadData} isLoading={loading} />
 
+      {/* Settings Button */}
+      <div className="container py-3 md:py-4 flex justify-end">
+        <button
+          onClick={() => setLocation('/settings')}
+          className="inline-flex items-center gap-2 px-4 py-2 bg-secondary text-foreground rounded-lg hover:bg-secondary/80 transition-colors text-sm font-medium"
+        >
+          <Settings className="w-4 h-4" />
+          설정
+        </button>
+      </div>
+
       <main className="flex-1">
         <div className="container py-8 md:py-12">
           {/* Welcome Section */}
@@ -80,7 +101,11 @@ export default function Home() {
             <h2 className="text-2xl md:text-3xl font-bold text-foreground mb-6">📰 오늘의 경제 뉴스</h2>
             <div className="grid grid-cols-1 md:grid-cols-2 gap-4 md:gap-6">
               {data.news.map(news => (
-                <NewsCard key={news.id} news={news} />
+                <NewsCard 
+                  key={news.id} 
+                  news={news}
+                  onDetailClick={handleNewsClick}
+                />
               ))}
             </div>
           </section>
@@ -101,11 +126,20 @@ export default function Home() {
               })}
             </p>
             <p className="text-xs text-muted-foreground">
-              뉴스 출처: 한국경제 | 매일 아침 8시에 자동으로 업데이트됩니다
+              뉴스 출처: 한국경제 | 매일 아침 설정된 시간에 자동으로 업데이트됩니다
             </p>
           </section>
         </div>
       </main>
+
+      {/* News Detail Modal */}
+      {selectedNews && (
+        <NewsDetailModal
+          news={selectedNews}
+          isOpen={isModalOpen}
+          onClose={() => setIsModalOpen(false)}
+        />
+      )}
     </div>
   );
 }

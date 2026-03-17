@@ -4,6 +4,7 @@ import { ExternalLink, Clock } from 'lucide-react';
 
 interface NewsCardProps {
   news: NewsItem;
+  onDetailClick?: (news: NewsItem) => void;
 }
 
 const categoryColorMap: Record<string, string> = {
@@ -13,7 +14,7 @@ const categoryColorMap: Record<string, string> = {
   amber: 'bg-amber-100 text-amber-700 border-amber-200'
 };
 
-export default function NewsCard({ news }: NewsCardProps) {
+export default function NewsCard({ news, onDetailClick }: NewsCardProps) {
   const categoryConfig = CATEGORY_CONFIG[news.category];
   const colorClass = categoryColorMap[categoryConfig.color];
 
@@ -42,15 +43,13 @@ export default function NewsCard({ news }: NewsCardProps) {
           <Clock className="w-4 h-4" />
           <span>약 {news.readingTime}분 읽기</span>
         </div>
-        <a
-          href={news.link}
-          target="_blank"
-          rel="noopener noreferrer"
+        <button
+          onClick={() => onDetailClick?.(news)}
           className="inline-flex items-center gap-1 text-xs md:text-sm font-medium text-primary hover:text-primary/80 transition-colors"
         >
           자세히 보기
           <ExternalLink className="w-3 h-3" />
-        </a>
+        </button>
       </div>
     </article>
   );

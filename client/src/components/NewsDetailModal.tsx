@@ -1,0 +1,95 @@
+import { NewsItem, CATEGORY_CONFIG } from '@/lib/types';
+import { formatTime } from '@/lib/api';
+import { X, ExternalLink, Clock } from 'lucide-react';
+
+interface NewsDetailModalProps {
+  news: NewsItem;
+  isOpen: boolean;
+  onClose: () => void;
+}
+
+const categoryColorMap: Record<string, string> = {
+  blue: 'bg-blue-100 text-blue-700 border-blue-200',
+  teal: 'bg-teal-100 text-teal-700 border-teal-200',
+  green: 'bg-green-100 text-green-700 border-green-200',
+  amber: 'bg-amber-100 text-amber-700 border-amber-200'
+};
+
+export default function NewsDetailModal({ news, isOpen, onClose }: NewsDetailModalProps) {
+  if (!isOpen) return null;
+
+  const categoryConfig = CATEGORY_CONFIG[news.category];
+  const colorClass = categoryColorMap[categoryConfig.color];
+
+  return (
+    <div className="fixed inset-0 z-50 bg-black/50 flex items-center justify-center p-4 md:p-0">
+      <div className="bg-white rounded-lg max-w-2xl w-full max-h-[90vh] overflow-y-auto">
+        {/* Header */}
+        <div className="sticky top-0 bg-white border-b border-border p-4 md:p-6 flex items-center justify-between">
+          <div className="flex items-center gap-3">
+            <span className={`inline-flex items-center gap-1 px-3 py-1 rounded-full text-sm font-medium border ${colorClass}`}>
+              <span>{categoryConfig.icon}</span>
+              <span>{categoryConfig.label}</span>
+            </span>
+            <span className="text-xs text-muted-foreground">{formatTime(news.publishedAt)}</span>
+          </div>
+          <button
+            onClick={onClose}
+            className="p-2 hover:bg-secondary rounded-lg transition-colors"
+          >
+            <X className="w-5 h-5" />
+          </button>
+        </div>
+
+        {/* Content */}
+        <div className="p-4 md:p-6">
+          {/* Title */}
+          <h2 className="text-2xl md:text-3xl font-bold text-foreground mb-4">
+            {news.title}
+          </h2>
+
+          {/* Source Info */}
+          <div className="flex items-center gap-4 mb-6 pb-6 border-b border-border">
+            <div>
+              <p className="text-xs text-muted-foreground">출처</p>
+              <p className="text-sm font-medium text-foreground">{news.source}</p>
+            </div>
+            <div>
+              <p className="text-xs text-muted-foreground">읽기 시간</p>
+              <p className="text-sm font-medium text-foreground">약 {news.readingTime}분</p>
+            </div>
+          </div>
+
+          {/* Summary */}
+          <div className="mb-6">
+            <h3 className="text-lg font-semibold text-foreground mb-3">📌 간단 요약</h3>
+            <p className="text-base text-muted-foreground leading-relaxed bg-secondary rounded-lg p-4">
+              {news.summary}
+            </p>
+          </div>
+
+          {/* Detailed Explanation */}
+          <div className="mb-6">
+            <h3 className="text-lg font-semibold text-foreground mb-3">📖 자세한 설명</h3>
+            <p className="text-base text-muted-foreground leading-relaxed whitespace-pre-wrap">
+              {news.detailedExplanation}
+            </p>
+          </div>
+
+          {/* Read More Button */}
+          <div className="pt-6 border-t border-border">
+            <a
+              href={news.sourceUrl || news.link}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-flex items-center gap-2 px-6 py-3 bg-primary text-white rounded-lg hover:bg-primary/90 transition-colors font-medium"
+            >
+              <ExternalLink className="w-4 h-4" />
+              원문 기사 보기
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  );
+}

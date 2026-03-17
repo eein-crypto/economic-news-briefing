@@ -3,11 +3,13 @@ export interface NewsItem {
   id: string;
   title: string;
   summary: string;
+  detailedExplanation: string; // 더 자세한 설명
   category: 'domestic' | 'international' | 'investment' | 'market';
   readingTime: number; // in minutes
   link: string;
   publishedAt: string; // ISO date string
   source: string;
+  sourceUrl?: string; // 실제 기사 링크
 }
 
 export interface BriefingData {
