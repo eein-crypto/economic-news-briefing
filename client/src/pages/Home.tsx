@@ -1,135 +1,129 @@
-import { useEffect, useState } from 'react';
+import { useState, useEffect } from 'react';
+import { BriefingData } from '@/lib/types';
+import { fetchBriefingData } from '@/lib/api';
 import { useLocation } from 'wouter';
 import Header from '@/components/Header';
 import NewsCard from '@/components/NewsCard';
-import InvestmentReport from '@/components/InvestmentReport';
 import NewsDetailModal from '@/components/NewsDetailModal';
-import { fetchBriefingData } from '@/lib/api';
-import { BriefingData, NewsItem } from '@/lib/types';
-import { Loader2, Settings } from 'lucide-react';
+import InvestmentReport from '@/components/InvestmentReport';
+import InvestmentTracker from '@/components/InvestmentTracker';
+import { Tabs, TabsContent, TabsList, TabsTrigger } from '@/components/ui/tabs';
+import { Loader2 } from 'lucide-react';
 
 export default function Home() {
-  const [, setLocation] = useLocation();
   const [data, setData] = useState<BriefingData | null>(null);
   const [loading, setLoading] = useState(true);
-  const [error, setError] = useState<string | null>(null);
-  const [selectedNews, setSelectedNews] = useState<NewsItem | null>(null);
+  const [selectedNews, setSelectedNews] = useState<any>(null);
   const [isModalOpen, setIsModalOpen] = useState(false);
+  const [, navigate] = useLocation();
 
   useEffect(() => {
     loadData();
   }, []);
 
   const loadData = async () => {
+    setLoading(true);
     try {
-      setLoading(true);
-      setError(null);
       const briefingData = await fetchBriefingData();
       setData(briefingData);
-    } catch (err) {
-      setError('데이터를 불러올 수 없습니다. 나중에 다시 시도해주세요.');
-      console.error('Error loading briefing data:', err);
+    } catch (error) {
+      console.error('Failed to load briefing data:', error);
     } finally {
       setLoading(false);
     }
   };
 
-  const handleNewsClick = (news: NewsItem) => {
+  const handleNewsClick = (news: any) => {
     setSelectedNews(news);
     setIsModalOpen(true);
   };
 
+  const handleSettings = () => {
+    navigate('/settings');
+  };
+
   if (loading) {
     return (
-      <div className="min-h-screen flex items-center justify-center bg-background">
+      <div className="min-h-screen bg-background flex items-center justify-center">
         <div className="text-center">
-          <Loader2 className="w-12 h-12 text-primary animate-spin mx-auto mb-4" />
-          <p className="text-muted-foreground">뉴스를 불러오는 중입니다...</p>
+          <Loader2 className="w-12 h-12 animate-spin text-primary mx-auto mb-4" />
+          <p className="text-muted-foreground">브리핑을 준비 중입니다...</p>
         </div>
       </div>
     );
   }
 
-  if (error || !data) {
+  if (!data) {
     return (
-      <div className="min-h-screen flex flex-col bg-background">
-        <Header lastUpdated={new Date().toISOString()} onRefresh={loadData} isLoading={loading} />
-        <main className="container py-8 md:py-12">
-          <div className="bg-red-50 border border-red-200 rounded-lg p-6 text-center">
-            <p className="text-red-700 font-medium mb-4">{error || '데이터를 불러올 수 없습니다.'}</p>
-            <button
-              onClick={loadData}
-              className="px-4 py-2 bg-primary text-white rounded-lg hover:bg-primary/90 transition-colors"
-            >
-              다시 시도
-            </button>
-          </div>
-        </main>
+      <div className="min-h-screen bg-background flex items-center justify-center">
+        <div className="text-center">
+          <p className="text-muted-foreground">데이터를 불러올 수 없습니다.</p>
+          <button
+            onClick={loadData}
+            className="mt-4 px-4 py-2 bg-primary text-white rounded-lg hover:bg-primary/90 transition-colors"
+          >
+            다시 시도
+          </button>
+        </div>
       </div>
     );
   }
 
   return (
-    <div className="min-h-screen flex flex-col bg-background">
-      <Header lastUpdated={data.lastUpdated} onRefresh={loadData} isLoading={loading} />
+    <div className="min-h-screen bg-background">
+      <Header onRefresh={loadData} lastUpdated={data.lastUpdated} />
 
-      {/* Settings Button */}
-      <div className="container py-3 md:py-4 flex justify-end">
-        <button
-          onClick={() => setLocation('/settings')}
-          className="inline-flex items-center gap-2 px-4 py-2 bg-secondary text-foreground rounded-lg hover:bg-secondary/80 transition-colors text-sm font-medium"
-        >
-          <Settings className="w-4 h-4" />
-          설정
-        </button>
-      </div>
+      <main className="container py-8">
+        <Tabs defaultValue="news" className="w-full">
+          <TabsList className="grid w-full grid-cols-3 mb-8">
+            <TabsTrigger value="news">📰 뉴스</TabsTrigger>
+            <TabsTrigger value="report">📊 투자 리포트</TabsTrigger>
+            <TabsTrigger value="tracker">📈 예측 추적</TabsTrigger>
+          </TabsList>
 
-      <main className="flex-1">
-        <div className="container py-8 md:py-12">
-          {/* Welcome Section */}
-          <section className="mb-8 md:mb-12">
-            <div className="bg-gradient-to-r from-primary to-accent rounded-lg p-6 md:p-8 text-white">
+          {/* News Tab */}
+          <TabsContent value="news" className="space-y-6">
+            {/* Welcome Banner */}
+            <div className="bg-gradient-to-r from-blue-600 to-teal-500 rounded-lg p-6 md:p-8 text-white">
               <h2 className="text-2xl md:text-3xl font-bold mb-2">좋은 아침입니다! 👋</h2>
-              <p className="text-base md:text-lg opacity-95">
-                오늘의 경제 뉴스를 확인해 보세요. 어렵지 않아요!
-              </p>
+              <p className="text-blue-50">오늘의 경제 뉴스를 확인해 보세요. 어렵지 않아요!</p>
             </div>
-          </section>
 
-          {/* News Grid */}
-          <section className="mb-12 md:mb-16">
-            <h2 className="text-2xl md:text-3xl font-bold text-foreground mb-6">📰 오늘의 경제 뉴스</h2>
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-4 md:gap-6">
-              {data.news.map(news => (
-                <NewsCard 
-                  key={news.id} 
-                  news={news}
-                  onDetailClick={handleNewsClick}
-                />
-              ))}
+            {/* News Grid */}
+            <div className="space-y-4">
+              <h3 className="text-xl font-bold text-foreground flex items-center gap-2">
+                📰 오늘의 경제 뉴스
+              </h3>
+              <div className="grid gap-4 md:grid-cols-2">
+                {data.news.map(news => (
+                  <NewsCard
+                    key={news.id}
+                    news={news}
+                    onDetailClick={() => handleNewsClick(news)}
+                  />
+                ))}
+              </div>
             </div>
-          </section>
+          </TabsContent>
 
-          {/* Investment Report */}
-          <section className="mb-12 md:mb-16">
+          {/* Investment Report Tab */}
+          <TabsContent value="report">
             <InvestmentReport report={data.investmentReport} />
-          </section>
+          </TabsContent>
 
-          {/* Footer Info */}
-          <section className="text-center py-8 border-t border-border">
-            <p className="text-sm text-muted-foreground mb-2">
-              📅 {new Date(data.date).toLocaleDateString('ko-KR', {
-                year: 'numeric',
-                month: 'long',
-                day: 'numeric',
-                weekday: 'long'
-              })}
-            </p>
-            <p className="text-xs text-muted-foreground">
-              뉴스 출처: 한국경제 | 매일 아침 설정된 시간에 자동으로 업데이트됩니다
-            </p>
-          </section>
-        </div>
+          {/* Investment Tracker Tab */}
+          <TabsContent value="tracker">
+            <div className="space-y-4">
+              <h3 className="text-xl font-bold text-foreground flex items-center gap-2">
+                📈 투자 예측 검증 시스템
+              </h3>
+              <p className="text-muted-foreground">
+                매일의 투자 리포트에서 제시된 예측들을 기록하고, 시간이 지난 후 실제 결과와 비교하여 정확도를 확인할 수 있습니다.
+              </p>
+              <InvestmentTracker />
+            </div>
+          </TabsContent>
+        </Tabs>
       </main>
 
       {/* News Detail Modal */}
@@ -137,7 +131,10 @@ export default function Home() {
         <NewsDetailModal
           news={selectedNews}
           isOpen={isModalOpen}
-          onClose={() => setIsModalOpen(false)}
+          onClose={() => {
+            setIsModalOpen(false);
+            setSelectedNews(null);
+          }}
         />
       )}
     </div>
