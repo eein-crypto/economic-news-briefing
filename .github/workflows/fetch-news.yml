@@ -1,0 +1,51 @@
+name: Daily News Fetch
+
+on:
+  schedule:
+    # 매일 아침 8시 (UTC+9 기준 23시 전날)
+    - cron: '0 23 * * *'
+  workflow_dispatch: # 수동 실행 가능
+
+jobs:
+  fetch-news:
+    runs-on: ubuntu-latest
+    
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v3
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: '18'
+
+      - name: Install dependencies
+        run: |
+          npm install xml2js node-fetch
+
+      - name: Fetch news
+        run: |
+          node scripts/fetch-news.mjs
+
+      - name: Commit and push changes
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          
+          if git diff --quiet; then
+            echo "No changes to commit"
+          else
+            git add public/data/news.json
+            git commit -m "📰 Update news data - $(date '+%Y-%m-%d %H:%M:%S')"
+            git push
+          fi
+
+      - name: Upload artifact
+        uses: actions/upload-artifact@v3
+        if: always()
+        with:
+          name: news-data
+          path: public/data/news.json
+          retention-days: 7
