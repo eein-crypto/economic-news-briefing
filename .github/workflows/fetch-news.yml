@@ -25,7 +25,7 @@ jobs:
 
       - name: 뉴스 수집
         run: |
-          mkdir -p public/data
+          mkdir -p client/public/data
           node scripts/fetch-news.mjs
 
       - name: 변경사항 커밋 및 푸시
@@ -34,10 +34,10 @@ jobs:
           git config --local user.name "GitHub Action"
           
           # 변경사항이 있는지 확인
-          if git diff --quiet public/data/; then
+          if git diff --quiet client/public/data/; then
             echo "변경사항이 없습니다."
           else
-            git add public/data/
+            git add client/public/data/
             git commit -m "chore: 경제 뉴스 자동 수집 - $(date +'%Y-%m-%d %H:%M:%S')"
             git push
           fi

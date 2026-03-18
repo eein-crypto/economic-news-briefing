@@ -5,7 +5,7 @@ import path from 'path';
 import { fileURLToPath } from 'url';
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
-const dataDir = path.join(__dirname, '../public/data');
+const dataDir = path.join(__dirname, '../client/public/data');
 
 // 데이터 디렉토리 생성
 if (!fs.existsSync(dataDir)) {
