@@ -52,7 +52,7 @@ export default function NewsDetailModal({ news, isOpen, onClose }: NewsDetailMod
             {/* Meta Info */}
             <div className="flex items-center gap-2 mb-6 pb-6 border-b border-border text-sm text-muted-foreground">
               <Clock className="w-4 h-4" />
-              <span>{news.publishedAt ? new Date(news.publishedAt).toLocaleDateString('ko-KR', { year: 'numeric', month: 'long', day: 'numeric' }) : '날짜 미정'}</span>
+              <span>{news.publishedAt ? new Date(news.publishedAt).toLocaleDateString('ko-KR', { year: 'numeric', month: 'long', day: 'numeric', hour: '2-digit', minute: '2-digit' }) : '날짜 미정'}</span>
             </div>
 
             {/* Summary */}

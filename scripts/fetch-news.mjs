@@ -404,11 +404,17 @@ function generateKoreanExplanation(title, content, category) {
   }
 
   const detailed = `
-**쉽게 이해하기:**
+**이 뉴스가 뭐예요?**
+
 ${summary}
 
-**뉴스 내용:**
-${content.substring(0, 300)}...
+**더 자세히 알아보기**
+
+${content.substring(0, 500)}
+
+**왜 이런 일이 일어났을까요?**
+
+이 뉴스는 우리의 일상생활과 밀접한 관련이 있어요. 경제가 어떻게 움직이는지 이해하면, 앞으로 어떤 일들이 일어날지 예측할 수 있고, 더 똑똑한 결정을 내릴 수 있게 돼요!
   `.trim();
 
   return { summary, detailed };
@@ -474,7 +480,11 @@ async function fetchAndAnalyzeNews() {
       summary: explanation.summary,
       detailedExplanation: explanation.detailed,
       source: news.link,
+      sourceUrl: news.link,
+      link: news.link,
+      publishedAt: news.pubDate.toISOString(),
       date: news.pubDate.toLocaleDateString('ko-KR'),
+      readingTime: Math.ceil(translatedContent.length / 200),
       category: 'economic',
       investmentOpinion: {
         opinion: index % 2 === 0 ? '긍정적' : '중립적',
