@@ -41,7 +41,7 @@ jobs:
           else
             git add client/public/data/
             git commit -m "chore: 경제 뉴스 자동 수집 - $(date +'%Y-%m-%d %H:%M:%S')"
-            git push
+            git push origin main
           fi
 
       - name: 성공 로그
