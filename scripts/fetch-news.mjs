@@ -11,83 +11,8 @@ if (!fs.existsSync(dataDir)) {
   fs.mkdirSync(dataDir, { recursive: true });
 }
 
-/**
- * 경제 뉴스 필터링 - 경제와 관련 없는 뉴스 제외
- */
-function isEconomicNews(title, summary) {
-  const economicKeywords = [
-    '경제', '금리', '환율', '주식', '코스피', '코스닥', '부동산', '아파트', '주택',
-    '기업', '삼성', 'SK', 'LG', '현대', '기아', '투자', '수익', '실적', '배당',
-    '은행', '보험', '금융', '증권', '펀드', '채권', '유가', '유류', '에너지',
-    '반도체', '배터리', '전기차', '자동차', '조선', '철강', '화학', '제약',
-    '통신', '인터넷', '게임', '콘텐츠', '물류', '유통', '소매', '식품',
-    '관광', '호텔', '항공', '해운', '철도', '도로', '건설', '부동산',
-    '정책', '규제', '세금', '관세', '수출', '수입', '무역', '환경',
-    '고용', '실업', '임금', '근로', '노동', '복지', '연금', '보험',
-    '부채', '적자', '흑자', '성장', '침체', '회복', '위기', '호황',
-    '시장', '산업', '섹터', '트렌드', '전망', '예측', '분석', '리포트'
-  ];
-
-  const text = (title + ' ' + summary).toLowerCase();
-  const isEconomic = economicKeywords.some(keyword => text.includes(keyword));
-  
-  // 연예, 스포츠, 정치 등 제외
-  const excludeKeywords = ['연예', '배우', '가수', '영화', '드라마', '스포츠', '축구', '야구', '농구', '정치', '대선', '총선', '의원', '당', '범죄', '사건', '사고'];
-  const isExcluded = excludeKeywords.some(keyword => text.includes(keyword));
-  
-  return isEconomic && !isExcluded;
-}
-
-/**
- * 공개 RSS 피드에서 뉴스 수집
- */
-async function fetchFromRSS(url) {
-  try {
-    const response = await fetch(url, {
-      headers: {
-        'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36'
-      }
-    });
-    
-    if (!response.ok) return [];
-    
-    const text = await response.text();
-    const items = [];
-    
-    // RSS item 파싱
-    const itemRegex = /<item>([\s\S]*?)<\/item>/g;
-    let match;
-    
-    while ((match = itemRegex.exec(text)) !== null) {
-      const itemContent = match[1];
-      
-      const titleMatch = /<title[^>]*>([^<]+)<\/title>/.exec(itemContent);
-      const descMatch = /<description[^>]*>([^<]*)<\/description>/.exec(itemContent);
-      const linkMatch = /<link[^>]*>([^<]+)<\/link>/.exec(itemContent);
-      const pubDateMatch = /<pubDate[^>]*>([^<]+)<\/pubDate>/.exec(itemContent);
-      
-      const title = titleMatch ? titleMatch[1].replace(/&[^;]+;/g, '').trim() : '';
-      const description = descMatch ? descMatch[1].replace(/&[^;]+;/g, '').replace(/<[^>]+>/g, '').trim() : '';
-      const link = linkMatch ? linkMatch[1].trim() : '';
-      const pubDate = pubDateMatch ? new Date(pubDateMatch[1]).toISOString() : new Date().toISOString();
-      
-      if (title && description && isEconomicNews(title, description)) {
-        items.push({
-          title: title.substring(0, 100),
-          summary: description.substring(0, 200),
-          link: link || '#',
-          pubDate,
-          source: new URL(url).hostname
-        });
-      }
-    }
-    
-    return items;
-  } catch (error) {
-    console.error(`❌ RSS 파싱 오류 (${url}):`, error.message);
-    return [];
-  }
-}
+// NewsAPI 키 (환경 변수에서 가져오기)
+const NEWS_API_KEY = process.env.NEWS_API_KEY || '760f56ca65264e2b936a324982b75964';
 
 /**
  * 초등학생 수준의 상세 설명 생성
@@ -149,25 +74,73 @@ function generateDetailedExplanation(title, summary) {
  */
 function generateInvestmentOpinion(title, summary) {
   const titleLower = title.toLowerCase();
+  const summaryLower = summary.toLowerCase();
+  const text = titleLower + ' ' + summaryLower;
   
-  if (titleLower.includes('상승') || titleLower.includes('급등') || titleLower.includes('호조')) {
+  // 긍정적 신호
+  if (text.includes('상승') || text.includes('급등') || text.includes('호조') || 
+      text.includes('증가') || text.includes('강세') || text.includes('최고') ||
+      text.includes('개선') || text.includes('성장') || text.includes('회복')) {
     return {
       sentiment: 'positive',
       opinion: '긍정적 신호입니다. 이 분야에 투자하는 것을 고려해볼 수 있습니다.',
-      riskLevel: 'medium'
+      riskLevel: 'low',
+      confidence: 0.85
     };
-  } else if (titleLower.includes('하락') || titleLower.includes('급락') || titleLower.includes('부진')) {
+  } 
+  // 부정적 신호
+  else if (text.includes('하락') || text.includes('급락') || text.includes('부진') || 
+           text.includes('감소') || text.includes('약세') || text.includes('최저') ||
+           text.includes('악화') || text.includes('위기') || text.includes('침체')) {
     return {
       sentiment: 'negative',
       opinion: '부정적 신호입니다. 신중한 투자 결정이 필요합니다.',
-      riskLevel: 'high'
+      riskLevel: 'high',
+      confidence: 0.80
     };
-  } else {
+  } 
+  // 중립적 신호
+  else {
     return {
       sentiment: 'neutral',
       opinion: '중립적 신호입니다. 추가 정보를 수집한 후 투자 결정을 하세요.',
-      riskLevel: 'medium'
+      riskLevel: 'medium',
+      confidence: 0.75
     };
+  }
+}
+
+/**
+ * NewsAPI에서 뉴스 수집
+ */
+async function fetchFromNewsAPI() {
+  try {
+    console.log('📡 NewsAPI에서 경제 뉴스 수집 중...');
+    
+    // 경제 관련 검색어
+    const queries = ['economy', 'stock market', 'finance', 'cryptocurrency', 'real estate'];
+    let allNews = [];
+    
+    for (const query of queries) {
+      const url = `https://newsapi.org/v2/everything?q=${query}&sortBy=publishedAt&language=en&pageSize=10&apiKey=${NEWS_API_KEY}`;
+      
+      try {
+        const response = await fetch(url);
+        const data = await response.json();
+        
+        if (data.articles) {
+          allNews = allNews.concat(data.articles);
+        }
+      } catch (error) {
+        console.error(`❌ 쿼리 '${query}' 수집 실패:`, error.message);
+      }
+    }
+    
+    console.log(`✅ 총 ${allNews.length}개 뉴스 수집`);
+    return allNews;
+  } catch (error) {
+    console.error('❌ NewsAPI 오류:', error.message);
+    return [];
   }
 }
 
@@ -178,58 +151,51 @@ async function main() {
   try {
     console.log('📰 경제 뉴스 수집 시작...');
     
-    const rssFeeds = [
-      'https://feeds.bloomberg.com/markets/news.rss',
-      'https://feeds.reuters.com/reuters/businessNews',
-      'https://feeds.cnbc.com/id/100003114/rss.html',
-      'https://feeds.finance.naver.com/news/mainnews.xml'
-    ];
+    // NewsAPI에서 뉴스 수집
+    const articles = await fetchFromNewsAPI();
     
-    let allNews = [];
-    
-    for (const feed of rssFeeds) {
-      console.log(`🔍 ${feed}에서 뉴스 수집 중...`);
-      const news = await fetchFromRSS(feed);
-      allNews = allNews.concat(news);
+    if (articles.length === 0) {
+      console.log('⚠️ 뉴스를 수집할 수 없습니다. 샘플 데이터를 사용합니다.');
+      process.exit(0);
     }
     
     // 중복 제거
     const uniqueNews = [];
     const seenTitles = new Set();
     
-    for (const item of allNews) {
-      if (!seenTitles.has(item.title)) {
-        seenTitles.add(item.title);
-        uniqueNews.push(item);
+    for (const article of articles) {
+      if (!seenTitles.has(article.title) && article.title && article.description) {
+        seenTitles.add(article.title);
+        uniqueNews.push(article);
       }
     }
     
     // 최신순 정렬 후 상위 10개
-    const topNews = uniqueNews
-      .sort((a, b) => new Date(b.pubDate) - new Date(a.pubDate))
-      .slice(0, 10);
+    const topNews = uniqueNews.slice(0, 10);
     
-    console.log(`✅ 총 ${topNews.length}개 경제 뉴스 수집 완료`);
+    console.log(`✅ 총 ${topNews.length}개 경제 뉴스 선택`);
     
     // 뉴스에 상세 설명과 투자 의견 추가
-    const newsWithAnalysis = topNews.map((item, idx) => ({
+    const newsWithAnalysis = topNews.map((article, idx) => ({
       id: `news_${idx}`,
-      title: item.title,
-      summary: item.summary,
-      detailedExplanation: generateDetailedExplanation(item.title, item.summary),
-      investmentOpinion: generateInvestmentOpinion(item.title, item.summary),
+      title: article.title,
+      summary: article.description || article.content || '',
+      detailedExplanation: generateDetailedExplanation(article.title, article.description || ''),
+      investmentOpinion: generateInvestmentOpinion(article.title, article.description || ''),
       category: 'economic',
       readingTime: 5,
-      link: item.link,
-      sourceUrl: item.link,
-      publishedAt: item.pubDate,
-      source: item.source
+      link: article.url,
+      sourceUrl: article.url,
+      publishedAt: article.publishedAt,
+      source: article.source.name,
+      urlToImage: article.urlToImage
     }));
     
     // 분석 데이터 생성
     const analysis = {
       timestamp: new Date().toISOString(),
       topNews: newsWithAnalysis,
+      lastUpdated: new Date().toLocaleString('ko-KR'),
       insights: {
         topCategories: [
           {
@@ -268,7 +234,27 @@ async function main() {
             reason: '경제 성장에 따라 개선'
           }
         ]
-      }
+      },
+      investmentReport: {
+        marketSentiment: 'neutral',
+        topRecommendations: newsWithAnalysis
+          .filter(n => n.investmentOpinion.sentiment === 'positive')
+          .slice(0, 3)
+          .map(n => ({
+            title: n.title,
+            opinion: n.investmentOpinion.opinion,
+            riskLevel: n.investmentOpinion.riskLevel
+          })),
+        warnings: newsWithAnalysis
+          .filter(n => n.investmentOpinion.sentiment === 'negative')
+          .slice(0, 3)
+          .map(n => ({
+            title: n.title,
+            opinion: n.investmentOpinion.opinion,
+            riskLevel: n.investmentOpinion.riskLevel
+          }))
+      },
+      news: newsWithAnalysis
     };
     
     // 파일 저장

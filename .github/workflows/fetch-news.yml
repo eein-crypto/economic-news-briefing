@@ -24,6 +24,8 @@ jobs:
           node-version: '22'
 
       - name: 뉴스 수집
+        env:
+          NEWS_API_KEY: ${{ secrets.NEWS_API_KEY }}
         run: |
           mkdir -p client/public/data
           node scripts/fetch-news.mjs
