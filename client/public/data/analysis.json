@@ -1,0 +1,168 @@
+{
+  "timestamp": "2026-03-17T22:12:51.842Z",
+  "topNews": [
+    {
+      "id": "econ_1",
+      "title": "한국은행, 기준금리 현 수준 유지",
+      "summary": "한국은행 금융통화위원회가 기준금리를 현 수준인 3.0%에서 유지하기로 결정했습니다.",
+      "link": "https://www.bok.or.kr",
+      "source": "한국은행",
+      "category": "금리",
+      "importance": 95,
+      "date": "2026-03-17T22:12:51.840Z"
+    },
+    {
+      "id": "econ_2",
+      "title": "코스피, 2,700선 돌파",
+      "summary": "국내 주식시장이 강세를 보이며 코스피가 2,700선을 돌파했습니다.",
+      "link": "https://www.krx.co.kr",
+      "source": "한국거래소",
+      "category": "주식",
+      "importance": 88,
+      "date": "2026-03-17T22:12:51.841Z"
+    },
+    {
+      "id": "econ_5",
+      "title": "삼성전자, 반도체 투자 확대",
+      "summary": "삼성전자가 반도체 생산 능력 강화를 위해 대규모 투자를 단행하기로 결정했습니다.",
+      "link": "https://www.samsung.com",
+      "source": "기업뉴스",
+      "category": "반도체",
+      "importance": 85,
+      "date": "2026-03-17T22:12:51.841Z"
+    },
+    {
+      "id": "econ_3",
+      "title": "원·달러 환율 1,450원대 안정",
+      "summary": "원화 강세가 지속되면서 원·달러 환율이 1,450원대에서 안정적인 모습을 보이고 있습니다.",
+      "link": "https://www.bok.or.kr",
+      "source": "한국은행",
+      "category": "환율",
+      "importance": 82,
+      "date": "2026-03-17T22:12:51.841Z"
+    },
+    {
+      "id": "econ_7",
+      "title": "국제유가, 배럴당 90달러 근처",
+      "summary": "국제유가가 배럴당 90달러 근처에서 거래되고 있습니다.",
+      "link": "https://www.iea.org",
+      "source": "국제에너지기구",
+      "category": "에너지",
+      "importance": 80,
+      "date": "2026-03-17T22:12:51.841Z"
+    },
+    {
+      "id": "econ_6",
+      "title": "2월 실업률 3.2% 기록",
+      "summary": "통계청이 발표한 2월 실업률이 3.2%로 나타났습니다.",
+      "link": "https://kostat.go.kr",
+      "source": "통계청",
+      "category": "고용",
+      "importance": 78,
+      "date": "2026-03-17T22:12:51.841Z"
+    },
+    {
+      "id": "econ_9",
+      "title": "LG전자, 분기 실적 호조",
+      "summary": "LG전자가 최근 분기 실적에서 호조를 보였습니다.",
+      "link": "https://www.lg.com",
+      "source": "기업뉴스",
+      "category": "기업실적",
+      "importance": 76,
+      "date": "2026-03-17T22:12:51.841Z"
+    },
+    {
+      "id": "econ_4",
+      "title": "서울 아파트 매매가 상승세 지속",
+      "summary": "서울 지역 아파트 매매가가 지난달 대비 상승세를 보이고 있습니다.",
+      "link": "https://www.kab.co.kr",
+      "source": "부동산정보",
+      "category": "부동산",
+      "importance": 75,
+      "date": "2026-03-17T22:12:51.841Z"
+    },
+    {
+      "id": "econ_10",
+      "title": "정부, 중소기업 지원 정책 발표",
+      "summary": "정부가 중소기업 지원을 위한 새로운 정책을 발표했습니다.",
+      "link": "https://www.korea.kr",
+      "source": "정부",
+      "category": "정책",
+      "importance": 74,
+      "date": "2026-03-17T22:12:51.841Z"
+    },
+    {
+      "id": "econ_8",
+      "title": "비트코인, 70,000달러 돌파",
+      "summary": "암호화폐 시장에서 비트코인이 70,000달러를 돌파했습니다.",
+      "link": "https://coinmarketcap.com",
+      "source": "암호화폐정보",
+      "category": "암호화폐",
+      "importance": 72,
+      "date": "2026-03-17T22:12:51.841Z"
+    }
+  ],
+  "insights": {
+    "topCategories": [
+      {
+        "category": "금리",
+        "count": 1,
+        "topNews": "한국은행, 기준금리 현 수준 유지",
+        "avgImportance": 95
+      },
+      {
+        "category": "주식",
+        "count": 1,
+        "topNews": "코스피, 2,700선 돌파",
+        "avgImportance": 88
+      },
+      {
+        "category": "반도체",
+        "count": 1,
+        "topNews": "삼성전자, 반도체 투자 확대",
+        "avgImportance": 85
+      },
+      {
+        "category": "환율",
+        "count": 1,
+        "topNews": "원·달러 환율 1,450원대 안정",
+        "avgImportance": 82
+      },
+      {
+        "category": "에너지",
+        "count": 1,
+        "topNews": "국제유가, 배럴당 90달러 근처",
+        "avgImportance": 80
+      }
+    ],
+    "recommendation": "현재 시장 상황을 고려하여 분산 투자를 권장합니다.",
+    "riskLevel": "중간",
+    "sectors": [
+      {
+        "name": "금융",
+        "outlook": "중립",
+        "reason": "기준금리 현 수준 유지"
+      },
+      {
+        "name": "반도체",
+        "outlook": "긍정적",
+        "reason": "기업 투자 확대"
+      },
+      {
+        "name": "에너지",
+        "outlook": "중립",
+        "reason": "국제유가 안정"
+      },
+      {
+        "name": "암호화폐",
+        "outlook": "긍정적",
+        "reason": "가격 상승세"
+      },
+      {
+        "name": "부동산",
+        "outlook": "중립",
+        "reason": "가격 변동성"
+      }
+    ]
+  }
+}
