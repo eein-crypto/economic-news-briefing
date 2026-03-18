@@ -24,14 +24,14 @@ const MOCK_BRIEFING_DATA: BriefingData = {
 
 export async function fetchBriefingData(): Promise<BriefingData> {
   try {
-    // GitHub Raw 콘텐츠에서 수집된 뉴스 데이터 로드
-    const response = await fetch('https://raw.githubusercontent.com/eein-crypto/economic-news-briefing/main/public/data/analysis.json');
+    // 로컬 경로에서 수집된 뉴스 데이터 로드
+    const response = await fetch('/data/analysis.json');
     
     if (response.ok) {
       const data = await response.json();
-      console.log('✅ GitHub에서 뉴스 데이터 로드 성공:', data);
+      console.log('✅ 로컬에서 뉴스 데이터 로드 성공:', data);
       
-      // GitHub에서 수집된 데이터를 BriefingData 형식으로 변환
+      // 수집된 데이터를 BriefingData 형식으로 변환
       if (data.topNews && data.insights) {
         const convertedNews = data.topNews.map((news: any, idx: number) => ({
           id: news.id || `news_${idx}`,
@@ -56,10 +56,10 @@ export async function fetchBriefingData(): Promise<BriefingData> {
         };
       }
     } else {
-      console.warn('GitHub 응답 오류:', response.status);
+      console.warn('로컬 파일 응답 오류:', response.status);
     }
   } catch (error) {
-    console.warn('❌ GitHub에서 뉴스 로드 실패, 더미 데이터 사용:', error);
+    console.warn('❌ 로컬 파일에서 뉴스 로드 실패, 더미 데이터 사용:', error);
   }
   
   // 폴백: 더미 데이터 사용
