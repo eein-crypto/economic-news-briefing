@@ -15,7 +15,7 @@ export async function fetchBriefingData(): Promise<BriefingData> {
     const briefingData: BriefingData = {
       date: new Date(data.timestamp).toISOString().split('T')[0],
       lastUpdated: data.timestamp,
-      news: data.topNews.map((news: any) => ({
+      news: (data.briefings || data.topNews || []).map((news: any) => ({
         id: news.id,
         title: news.title,
         summary: news.summary,
@@ -28,8 +28,8 @@ export async function fetchBriefingData(): Promise<BriefingData> {
         publishedAt: news.publishedAt,
         source: news.source
       })),
-      investmentReport: generateInvestmentReport(data.insights || { sectors: [], recommendation: '', marketSentiment: '긍정적' }),
-      predictions: generatePredictions(data.topNews)
+      investmentReport: generateInvestmentReport(data.investmentReport || data.insights || { sectors: [], recommendation: '', marketSentiment: '긍정적' }),
+      predictions: generatePredictions(data.briefings || data.topNews || [])
     };
     
     return briefingData;
