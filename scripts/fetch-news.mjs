@@ -13,7 +13,56 @@ if (!fs.existsSync(dataDir)) {
 }
 
 /**
- * 뉴스 데이터 수집 - 공개 API 사용
+ * RSS 피드 파싱
+ */
+async function parseRSSFeed(url) {
+  try {
+    const response = await fetch(url);
+    const text = await response.text();
+    
+    // 간단한 XML 파싱 (정규식 사용)
+    const itemRegex = /<item>([\s\S]*?)<\/item>/g;
+    const items = [];
+    let match;
+    
+    while ((match = itemRegex.exec(text)) !== null) {
+      const itemContent = match[1];
+      
+      // 제목 추출
+      const titleMatch = /<title[^>]*>([^<]+)<\/title>/.exec(itemContent);
+      const title = titleMatch ? titleMatch[1].trim() : '';
+      
+      // 설명 추출
+      const descMatch = /<description[^>]*>([^<]+)<\/description>/.exec(itemContent);
+      const description = descMatch ? descMatch[1].trim() : '';
+      
+      // 링크 추출
+      const linkMatch = /<link[^>]*>([^<]+)<\/link>/.exec(itemContent);
+      const link = linkMatch ? linkMatch[1].trim() : '';
+      
+      // pubDate 추출
+      const pubDateMatch = /<pubDate[^>]*>([^<]+)<\/pubDate>/.exec(itemContent);
+      const pubDate = pubDateMatch ? new Date(pubDateMatch[1]).toISOString() : new Date().toISOString();
+      
+      if (title && description) {
+        items.push({
+          title,
+          summary: description,
+          link,
+          pubDate
+        });
+      }
+    }
+    
+    return items;
+  } catch (error) {
+    console.error(`❌ RSS 파싱 오류 (${url}):`, error.message);
+    return [];
+  }
+}
+
+/**
+ * 뉴스 데이터 수집
  */
 async function fetchNews() {
   const news = [];
@@ -21,115 +70,47 @@ async function fetchNews() {
   try {
     console.log('📰 뉴스 수집 시작...');
     
-    // 1. 경제 뉴스 샘플 데이터 (안정성 보장)
-    const economicNews = [
-      {
-        id: 'econ_1',
-        title: '한국은행, 기준금리 현 수준 유지',
-        summary: '한국은행 금융통화위원회가 기준금리를 현 수준인 3.0%에서 유지하기로 결정했습니다.',
-        link: 'https://www.bok.or.kr',
-        source: '한국은행',
-        category: '금리',
-        importance: 95,
-        date: new Date().toISOString()
-      },
-      {
-        id: 'econ_2',
-        title: '코스피, 2,700선 돌파',
-        summary: '국내 주식시장이 강세를 보이며 코스피가 2,700선을 돌파했습니다.',
-        link: 'https://www.krx.co.kr',
-        source: '한국거래소',
-        category: '주식',
-        importance: 88,
-        date: new Date().toISOString()
-      },
-      {
-        id: 'econ_3',
-        title: '원·달러 환율 1,450원대 안정',
-        summary: '원화 강세가 지속되면서 원·달러 환율이 1,450원대에서 안정적인 모습을 보이고 있습니다.',
-        link: 'https://www.bok.or.kr',
-        source: '한국은행',
-        category: '환율',
-        importance: 82,
-        date: new Date().toISOString()
-      },
-      {
-        id: 'econ_4',
-        title: '서울 아파트 매매가 상승세 지속',
-        summary: '서울 지역 아파트 매매가가 지난달 대비 상승세를 보이고 있습니다.',
-        link: 'https://www.kab.co.kr',
-        source: '부동산정보',
-        category: '부동산',
-        importance: 75,
-        date: new Date().toISOString()
-      },
-      {
-        id: 'econ_5',
-        title: '삼성전자, 반도체 투자 확대',
-        summary: '삼성전자가 반도체 생산 능력 강화를 위해 대규모 투자를 단행하기로 결정했습니다.',
-        link: 'https://www.samsung.com',
-        source: '기업뉴스',
-        category: '반도체',
-        importance: 85,
-        date: new Date().toISOString()
-      },
-      {
-        id: 'econ_6',
-        title: '2월 실업률 3.2% 기록',
-        summary: '통계청이 발표한 2월 실업률이 3.2%로 나타났습니다.',
-        link: 'https://kostat.go.kr',
-        source: '통계청',
-        category: '고용',
-        importance: 78,
-        date: new Date().toISOString()
-      },
-      {
-        id: 'econ_7',
-        title: '국제유가, 배럴당 90달러 근처',
-        summary: '국제유가가 배럴당 90달러 근처에서 거래되고 있습니다.',
-        link: 'https://www.iea.org',
-        source: '국제에너지기구',
-        category: '에너지',
-        importance: 80,
-        date: new Date().toISOString()
-      },
-      {
-        id: 'econ_8',
-        title: '비트코인, 70,000달러 돌파',
-        summary: '암호화폐 시장에서 비트코인이 70,000달러를 돌파했습니다.',
-        link: 'https://coinmarketcap.com',
-        source: '암호화폐정보',
-        category: '암호화폐',
-        importance: 72,
-        date: new Date().toISOString()
-      },
-      {
-        id: 'econ_9',
-        title: 'LG전자, 분기 실적 호조',
-        summary: 'LG전자가 최근 분기 실적에서 호조를 보였습니다.',
-        link: 'https://www.lg.com',
-        source: '기업뉴스',
-        category: '기업실적',
-        importance: 76,
-        date: new Date().toISOString()
-      },
-      {
-        id: 'econ_10',
-        title: '정부, 중소기업 지원 정책 발표',
-        summary: '정부가 중소기업 지원을 위한 새로운 정책을 발표했습니다.',
-        link: 'https://www.korea.kr',
-        source: '정부',
-        category: '정책',
-        importance: 74,
-        date: new Date().toISOString()
-      }
+    // 1. 네이버 뉴스 RSS
+    console.log('🔍 네이버 경제 뉴스 수집 중...');
+    const naverUrls = [
+      'https://rss.finance.naver.com/news.xml?mode=LSS&section_id=101', // 금융 뉴스
+      'https://rss.finance.naver.com/news.xml?mode=LSS&section_id=100' // 경제 뉴스
     ];
     
-    news.push(...economicNews);
+    for (const url of naverUrls) {
+      const items = await parseRSSFeed(url);
+      news.push(...items);
+    }
     
-    console.log(`✅ 총 ${news.length}개 뉴스 수집 완료`);
+    // 2. 구글 뉴스 RSS (경제 뉴스)
+    console.log('🔍 구글 경제 뉴스 수집 중...');
+    const googleUrls = [
+      'https://news.google.com/rss/search?q=한국%20경제&hl=ko&gl=KR&ceid=KR:ko', // 한국 경제
+      'https://news.google.com/rss/search?q=주식%20시장&hl=ko&gl=KR&ceid=KR:ko' // 주식 시장
+    ];
     
-    return news;
+    for (const url of googleUrls) {
+      const items = await parseRSSFeed(url);
+      news.push(...items);
+    }
+    
+    // 중복 제거 (제목 기준)
+    const uniqueNews = [];
+    const seenTitles = new Set();
+    
+    for (const item of news) {
+      if (!seenTitles.has(item.title)) {
+        seenTitles.add(item.title);
+        uniqueNews.push(item);
+      }
+    }
+    
+    // 최대 10개만 유지
+    const finalNews = uniqueNews.slice(0, 10);
+    
+    console.log(`✅ 총 ${finalNews.length}개 뉴스 수집 완료`);
+    
+    return finalNews;
   } catch (error) {
     console.error('❌ 뉴스 수집 중 오류:', error.message);
     throw error;
@@ -137,63 +118,94 @@ async function fetchNews() {
 }
 
 /**
+ * AI 스타일 상세 설명 생성 (초등학생 수준)
+ */
+function generateDetailedExplanation(title, summary) {
+  // 주제별 설명 템플릿
+  const templates = {
+    '환율': `환율이란 무엇일까요?\n환율은 한 나라의 화폐를 다른 나라의 화폐로 바꿀 때의 교환 비율을 말합니다.\n\n${title}의 의미\n${summary}\n\n우리 생활에 미치는 영향\n환율이 변하면 외국 제품 가격, 해외 여행 비용, 한국 제품의 수출 경쟁력 등이 영향을 받습니다.`,
+    
+    '금리': `금리란 무엇일까요?\n금리는 은행에서 돈을 빌릴 때 내야 하는 이자의 비율을 말합니다.\n\n${title}의 의미\n${summary}\n\n우리 생활에 미치는 영향\n금리가 올라가면 대출 이자가 많아지고, 내려가면 이자가 적어집니다. 따라서 주택 구입, 자동차 구입 등에 직접 영향을 미칩니다.`,
+    
+    '주식': `주식이란 무엇일까요?\n주식은 회사의 일부를 소유하는 증서입니다. 주식을 사면 그 회사의 주인이 되는 것입니다.\n\n${title}의 의미\n${summary}\n\n우리 생활에 미치는 영향\n주식 시장이 좋아지면 경제가 활성화되고, 회사들이 더 많은 사람을 고용합니다.`,
+    
+    '부동산': `부동산이란 무엇일까요?\n부동산은 땅, 건물 등 움직일 수 없는 재산을 말합니다.\n\n${title}의 의미\n${summary}\n\n우리 생활에 미치는 영향\n부동산 가격이 올라가면 집을 사려는 사람들의 부담이 커집니다.`,
+    
+    '기업': `기업 뉴스란 무엇일까요?\n기업 뉴스는 회사들의 경영 상황, 신제품 출시, 투자 계획 등을 알려주는 소식입니다.\n\n${title}의 의미\n${summary}\n\n우리 생활에 미치는 영향\n큰 기업들의 투자와 고용 계획은 우리 경제 전체에 영향을 미칩니다.`,
+    
+    '에너지': `에너지란 무엇일까요?\n에너지는 우리가 생활하는 데 필요한 전기, 가스, 휘발유 등을 말합니다.\n\n${title}의 의미\n${summary}\n\n우리 생활에 미치는 영향\n에너지 가격이 올라가면 전기료, 난방비, 휘발유 가격 등이 모두 올라갑니다.`,
+    
+    '기술': `기술 뉴스란 무엇일까요?\n기술 뉴스는 새로운 제품, 반도체, AI 등 첨단 기술에 관한 소식입니다.\n\n${title}의 의미\n${summary}\n\n우리 생활에 미치는 영향\n새로운 기술은 우리의 일상을 더 편하게 만들고, 새로운 일자리를 만듭니다.`
+  };
+  
+  // 제목에서 주제 찾기
+  for (const [keyword, template] of Object.entries(templates)) {
+    if (title.includes(keyword) || summary.includes(keyword)) {
+      return template;
+    }
+  }
+  
+  // 기본 설명
+  return `이 뉴스란 무엇일까요?\n${summary}\n\n우리 생활에 미치는 영향\n이 뉴스는 우리의 일상 경제에 영향을 미치는 중요한 소식입니다. 경제 뉴스를 이해하면 앞으로 어떤 변화가 올지 예측할 수 있습니다.`;
+}
+
+/**
  * 분석 데이터 생성
  */
 function generateAnalysis(news) {
-  const categories = {};
-  
-  news.forEach(item => {
-    if (!categories[item.category]) {
-      categories[item.category] = [];
-    }
-    categories[item.category].push(item);
-  });
-  
-  // 중요도 순으로 정렬
-  const sortedNews = [...news].sort((a, b) => b.importance - a.importance);
-  
-  const topCategories = Object.entries(categories)
-    .map(([category, items]) => ({
-      category,
-      count: items.length,
-      topNews: items[0]?.title || '',
-      avgImportance: items.reduce((sum, item) => sum + item.importance, 0) / items.length
-    }))
-    .sort((a, b) => b.avgImportance - a.avgImportance)
-    .slice(0, 5);
+  // 뉴스에 상세 설명 추가
+  const newsWithExplanations = news.map((item, idx) => ({
+    id: `news_${idx}`,
+    title: item.title,
+    summary: item.summary,
+    detailedExplanation: generateDetailedExplanation(item.title, item.summary),
+    category: 'domestic',
+    readingTime: 5,
+    link: item.link,
+    sourceUrl: item.link,
+    publishedAt: item.pubDate,
+    source: '네이버/구글 뉴스'
+  }));
   
   return {
     timestamp: new Date().toISOString(),
-    topNews: sortedNews.slice(0, 15),
+    topNews: newsWithExplanations,
     insights: {
-      topCategories,
-      recommendation: '현재 시장 상황을 고려하여 분산 투자를 권장합니다.',
+      topCategories: [
+        {
+          category: '경제',
+          count: newsWithExplanations.length,
+          topNews: newsWithExplanations[0]?.title || '',
+          avgImportance: 80
+        }
+      ],
+      recommendation: '다양한 경제 뉴스를 읽으며 경제 감각을 키워보세요!',
       riskLevel: '중간',
       sectors: [
         {
           name: '금융',
           outlook: '중립',
-          reason: '기준금리 현 수준 유지'
+          reason: '경제 상황에 따라 변동'
         },
         {
-          name: '반도체',
+          name: '기술',
           outlook: '긍정적',
-          reason: '기업 투자 확대'
+          reason: '지속적인 혁신'
         },
         {
           name: '에너지',
           outlook: '중립',
-          reason: '국제유가 안정'
-        },
-        {
-          name: '암호화폐',
-          outlook: '긍정적',
-          reason: '가격 상승세'
+          reason: '국제 정세에 따라 변동'
         },
         {
           name: '부동산',
           outlook: '중립',
-          reason: '가격 변동성'
+          reason: '금리와 수급에 따라 변동'
+        },
+        {
+          name: '기업',
+          outlook: '긍정적',
+          reason: '경제 성장에 따라 개선'
         }
       ]
     }
@@ -207,6 +219,17 @@ async function main() {
   try {
     // 뉴스 수집
     const news = await fetchNews();
+    
+    if (news.length === 0) {
+      console.warn('⚠️ 수집된 뉴스가 없습니다. 테스트 데이터를 사용합니다.');
+      // 테스트 데이터 사용
+      news.push({
+        title: '경제 뉴스를 수집 중입니다',
+        summary: '실시간 경제 뉴스 수집이 진행 중입니다. 잠시 후 다시 시도해주세요.',
+        link: '#',
+        pubDate: new Date().toISOString()
+      });
+    }
     
     // 분석 데이터 생성
     const analysis = generateAnalysis(news);

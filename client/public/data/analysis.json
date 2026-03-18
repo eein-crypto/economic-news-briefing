@@ -1,167 +1,163 @@
 {
-  "timestamp": "2026-03-17T22:12:51.842Z",
+  "timestamp": "2026-03-18T10:50:06.213Z",
   "topNews": [
     {
-      "id": "econ_1",
-      "title": "한국은행, 기준금리 현 수준 유지",
-      "summary": "한국은행 금융통화위원회가 기준금리를 현 수준인 3.0%에서 유지하기로 결정했습니다.",
-      "link": "https://www.bok.or.kr",
-      "source": "한국은행",
-      "category": "금리",
-      "importance": 95,
-      "date": "2026-03-17T22:12:51.840Z"
+      "id": "news_0",
+      "title": "어쩐지 한국男·일본女 커플 많이 보이더라…'역대급 상황' - v.daum.net",
+      "summary": "&lt;a href=\"https://news.google.com/rss/articles/CBMiT0FVX3lxTE80ZWw0OVBsSHZCZHpaTk1hZXNrdUdMY2h5UWh6VHlER3RnR2IyYkQzMy1LS0I5T3R1aG9EUGFVdE5LMmp6R2V6cEo1WVYySWc?oc=5\" target=\"_blank\"&gt;어쩐지 한국男·일본女 커플 많이 보이더라…'역대급 상황'&lt;/a&gt;&amp;nbsp;&amp;nbsp;&lt;font color=\"#6f6f6f\"&gt;v.daum.net&lt;/font&gt;",
+      "detailedExplanation": "이 뉴스란 무엇일까요?\n&lt;a href=\"https://news.google.com/rss/articles/CBMiT0FVX3lxTE80ZWw0OVBsSHZCZHpaTk1hZXNrdUdMY2h5UWh6VHlER3RnR2IyYkQzMy1LS0I5T3R1aG9EUGFVdE5LMmp6R2V6cEo1WVYySWc?oc=5\" target=\"_blank\"&gt;어쩐지 한국男·일본女 커플 많이 보이더라…'역대급 상황'&lt;/a&gt;&amp;nbsp;&amp;nbsp;&lt;font color=\"#6f6f6f\"&gt;v.daum.net&lt;/font&gt;\n\n우리 생활에 미치는 영향\n이 뉴스는 우리의 일상 경제에 영향을 미치는 중요한 소식입니다. 경제 뉴스를 이해하면 앞으로 어떤 변화가 올지 예측할 수 있습니다.",
+      "category": "domestic",
+      "readingTime": 5,
+      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE80ZWw0OVBsSHZCZHpaTk1hZXNrdUdMY2h5UWh6VHlER3RnR2IyYkQzMy1LS0I5T3R1aG9EUGFVdE5LMmp6R2V6cEo1WVYySWc?oc=5",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE80ZWw0OVBsSHZCZHpaTk1hZXNrdUdMY2h5UWh6VHlER3RnR2IyYkQzMy1LS0I5T3R1aG9EUGFVdE5LMmp6R2V6cEo1WVYySWc?oc=5",
+      "publishedAt": "2026-03-17T08:21:49.000Z",
+      "source": "네이버/구글 뉴스"
     },
     {
-      "id": "econ_2",
-      "title": "코스피, 2,700선 돌파",
-      "summary": "국내 주식시장이 강세를 보이며 코스피가 2,700선을 돌파했습니다.",
-      "link": "https://www.krx.co.kr",
-      "source": "한국거래소",
-      "category": "주식",
-      "importance": 88,
-      "date": "2026-03-17T22:12:51.841Z"
+      "id": "news_1",
+      "title": "美국방차관, 한국 내 사드 반출 우려에 \"재배치 능력은 우리 강점\" - v.daum.net",
+      "summary": "&lt;a href=\"https://news.google.com/rss/articles/CBMiRkFVX3lxTE5tamdzR01ZWV9Xc3phZzRjeEgtRlJkek9sWUQxR3RDcFhQWTFZLUlRTDB5X1pOeGxPRWtDbDJMOXdMQkdtRnc?oc=5\" target=\"_blank\"&gt;美국방차관, 한국 내 사드 반출 우려에 \"재배치 능력은 우리 강점\"&lt;/a&gt;&amp;nbsp;&amp;nbsp;&lt;font color=\"#6f6f6f\"&gt;v.daum.net&lt;/font&gt;",
+      "detailedExplanation": "이 뉴스란 무엇일까요?\n&lt;a href=\"https://news.google.com/rss/articles/CBMiRkFVX3lxTE5tamdzR01ZWV9Xc3phZzRjeEgtRlJkek9sWUQxR3RDcFhQWTFZLUlRTDB5X1pOeGxPRWtDbDJMOXdMQkdtRnc?oc=5\" target=\"_blank\"&gt;美국방차관, 한국 내 사드 반출 우려에 \"재배치 능력은 우리 강점\"&lt;/a&gt;&amp;nbsp;&amp;nbsp;&lt;font color=\"#6f6f6f\"&gt;v.daum.net&lt;/font&gt;\n\n우리 생활에 미치는 영향\n이 뉴스는 우리의 일상 경제에 영향을 미치는 중요한 소식입니다. 경제 뉴스를 이해하면 앞으로 어떤 변화가 올지 예측할 수 있습니다.",
+      "category": "domestic",
+      "readingTime": 5,
+      "link": "https://news.google.com/rss/articles/CBMiRkFVX3lxTE5tamdzR01ZWV9Xc3phZzRjeEgtRlJkek9sWUQxR3RDcFhQWTFZLUlRTDB5X1pOeGxPRWtDbDJMOXdMQkdtRnc?oc=5",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiRkFVX3lxTE5tamdzR01ZWV9Xc3phZzRjeEgtRlJkek9sWUQxR3RDcFhQWTFZLUlRTDB5X1pOeGxPRWtDbDJMOXdMQkdtRnc?oc=5",
+      "publishedAt": "2026-03-17T21:47:00.000Z",
+      "source": "네이버/구글 뉴스"
     },
     {
-      "id": "econ_5",
-      "title": "삼성전자, 반도체 투자 확대",
-      "summary": "삼성전자가 반도체 생산 능력 강화를 위해 대규모 투자를 단행하기로 결정했습니다.",
-      "link": "https://www.samsung.com",
-      "source": "기업뉴스",
-      "category": "반도체",
-      "importance": 85,
-      "date": "2026-03-17T22:12:51.841Z"
+      "id": "news_2",
+      "title": "대출 갚느라 허덕여도 '외식은 포기안해'…뒤로 가는 한국 - v.daum.net",
+      "summary": "&lt;a href=\"https://news.google.com/rss/articles/CBMiT0FVX3lxTE1ZLWxvUGVGbzk3c3NkV0VpaDAtZjN6QldTaDBFcEh2R1ZaU3hMalhKamx1RGxENE1GN19LOFc4MWdOWVpQSVRsZHJzR1c1eDA?oc=5\" target=\"_blank\"&gt;대출 갚느라 허덕여도 '외식은 포기안해'…뒤로 가는 한국&lt;/a&gt;&amp;nbsp;&amp;nbsp;&lt;font color=\"#6f6f6f\"&gt;v.daum.net&lt;/font&gt;",
+      "detailedExplanation": "이 뉴스란 무엇일까요?\n&lt;a href=\"https://news.google.com/rss/articles/CBMiT0FVX3lxTE1ZLWxvUGVGbzk3c3NkV0VpaDAtZjN6QldTaDBFcEh2R1ZaU3hMalhKamx1RGxENE1GN19LOFc4MWdOWVpQSVRsZHJzR1c1eDA?oc=5\" target=\"_blank\"&gt;대출 갚느라 허덕여도 '외식은 포기안해'…뒤로 가는 한국&lt;/a&gt;&amp;nbsp;&amp;nbsp;&lt;font color=\"#6f6f6f\"&gt;v.daum.net&lt;/font&gt;\n\n우리 생활에 미치는 영향\n이 뉴스는 우리의 일상 경제에 영향을 미치는 중요한 소식입니다. 경제 뉴스를 이해하면 앞으로 어떤 변화가 올지 예측할 수 있습니다.",
+      "category": "domestic",
+      "readingTime": 5,
+      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE1ZLWxvUGVGbzk3c3NkV0VpaDAtZjN6QldTaDBFcEh2R1ZaU3hMalhKamx1RGxENE1GN19LOFc4MWdOWVpQSVRsZHJzR1c1eDA?oc=5",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE1ZLWxvUGVGbzk3c3NkV0VpaDAtZjN6QldTaDBFcEh2R1ZaU3hMalhKamx1RGxENE1GN19LOFc4MWdOWVpQSVRsZHJzR1c1eDA?oc=5",
+      "publishedAt": "2026-03-18T08:48:45.000Z",
+      "source": "네이버/구글 뉴스"
     },
     {
-      "id": "econ_3",
-      "title": "원·달러 환율 1,450원대 안정",
-      "summary": "원화 강세가 지속되면서 원·달러 환율이 1,450원대에서 안정적인 모습을 보이고 있습니다.",
-      "link": "https://www.bok.or.kr",
-      "source": "한국은행",
-      "category": "환율",
-      "importance": 82,
-      "date": "2026-03-17T22:12:51.841Z"
+      "id": "news_3",
+      "title": "펜타곤 홀린 중소 K배터리, 美 드론·미사일 시장 뚫었다 - v.daum.net",
+      "summary": "&lt;a href=\"https://news.google.com/rss/articles/CBMiT0FVX3lxTE80NHV1cUU3WjkzU093V0NzRVdCQXlRWkx4S18tTGswcVYzREdHNkQzQnhwd0ZHay1pakwtNmVFZ3hySE5qdkJTcnJEYWZiLTA?oc=5\" target=\"_blank\"&gt;펜타곤 홀린 중소 K배터리, 美 드론·미사일 시장 뚫었다&lt;/a&gt;&amp;nbsp;&amp;nbsp;&lt;font color=\"#6f6f6f\"&gt;v.daum.net&lt;/font&gt;",
+      "detailedExplanation": "이 뉴스란 무엇일까요?\n&lt;a href=\"https://news.google.com/rss/articles/CBMiT0FVX3lxTE80NHV1cUU3WjkzU093V0NzRVdCQXlRWkx4S18tTGswcVYzREdHNkQzQnhwd0ZHay1pakwtNmVFZ3hySE5qdkJTcnJEYWZiLTA?oc=5\" target=\"_blank\"&gt;펜타곤 홀린 중소 K배터리, 美 드론·미사일 시장 뚫었다&lt;/a&gt;&amp;nbsp;&amp;nbsp;&lt;font color=\"#6f6f6f\"&gt;v.daum.net&lt;/font&gt;\n\n우리 생활에 미치는 영향\n이 뉴스는 우리의 일상 경제에 영향을 미치는 중요한 소식입니다. 경제 뉴스를 이해하면 앞으로 어떤 변화가 올지 예측할 수 있습니다.",
+      "category": "domestic",
+      "readingTime": 5,
+      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE80NHV1cUU3WjkzU093V0NzRVdCQXlRWkx4S18tTGswcVYzREdHNkQzQnhwd0ZHay1pakwtNmVFZ3hySE5qdkJTcnJEYWZiLTA?oc=5",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE80NHV1cUU3WjkzU093V0NzRVdCQXlRWkx4S18tTGswcVYzREdHNkQzQnhwd0ZHay1pakwtNmVFZ3hySE5qdkJTcnJEYWZiLTA?oc=5",
+      "publishedAt": "2026-03-17T08:45:00.000Z",
+      "source": "네이버/구글 뉴스"
     },
     {
-      "id": "econ_7",
-      "title": "국제유가, 배럴당 90달러 근처",
-      "summary": "국제유가가 배럴당 90달러 근처에서 거래되고 있습니다.",
-      "link": "https://www.iea.org",
-      "source": "국제에너지기구",
-      "category": "에너지",
-      "importance": 80,
-      "date": "2026-03-17T22:12:51.841Z"
+      "id": "news_4",
+      "title": "\"택배 시킨 게 죄인가요\"…상자 20개로 현관문 막아버렸다 - v.daum.net",
+      "summary": "&lt;a href=\"https://news.google.com/rss/articles/CBMiT0FVX3lxTFBYUUFZbEdIclJtSHNGTmlZNHA4NG1JekxqbVZCbE92OFFLaFl3YkwtTS1jLTVjOXZYVExwN2Y5RUJ6cl9GQ3hNYVJkRUFCS0k?oc=5\" target=\"_blank\"&gt;\"택배 시킨 게 죄인가요\"…상자 20개로 현관문 막아버렸다&lt;/a&gt;&amp;nbsp;&amp;nbsp;&lt;font color=\"#6f6f6f\"&gt;v.daum.net&lt;/font&gt;",
+      "detailedExplanation": "이 뉴스란 무엇일까요?\n&lt;a href=\"https://news.google.com/rss/articles/CBMiT0FVX3lxTFBYUUFZbEdIclJtSHNGTmlZNHA4NG1JekxqbVZCbE92OFFLaFl3YkwtTS1jLTVjOXZYVExwN2Y5RUJ6cl9GQ3hNYVJkRUFCS0k?oc=5\" target=\"_blank\"&gt;\"택배 시킨 게 죄인가요\"…상자 20개로 현관문 막아버렸다&lt;/a&gt;&amp;nbsp;&amp;nbsp;&lt;font color=\"#6f6f6f\"&gt;v.daum.net&lt;/font&gt;\n\n우리 생활에 미치는 영향\n이 뉴스는 우리의 일상 경제에 영향을 미치는 중요한 소식입니다. 경제 뉴스를 이해하면 앞으로 어떤 변화가 올지 예측할 수 있습니다.",
+      "category": "domestic",
+      "readingTime": 5,
+      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFBYUUFZbEdIclJtSHNGTmlZNHA4NG1JekxqbVZCbE92OFFLaFl3YkwtTS1jLTVjOXZYVExwN2Y5RUJ6cl9GQ3hNYVJkRUFCS0k?oc=5",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFBYUUFZbEdIclJtSHNGTmlZNHA4NG1JekxqbVZCbE92OFFLaFl3YkwtTS1jLTVjOXZYVExwN2Y5RUJ6cl9GQ3hNYVJkRUFCS0k?oc=5",
+      "publishedAt": "2026-03-17T05:36:59.000Z",
+      "source": "네이버/구글 뉴스"
     },
     {
-      "id": "econ_6",
-      "title": "2월 실업률 3.2% 기록",
-      "summary": "통계청이 발표한 2월 실업률이 3.2%로 나타났습니다.",
-      "link": "https://kostat.go.kr",
-      "source": "통계청",
-      "category": "고용",
-      "importance": 78,
-      "date": "2026-03-17T22:12:51.841Z"
+      "id": "news_5",
+      "title": "'중국, 이 정도였나' 전세계 충격받은 이유가…'무서운 경고' [더 머니이스트-조평규의 중국 본색] - v.daum.net",
+      "summary": "&lt;a href=\"https://news.google.com/rss/articles/CBMiRkFVX3lxTFBJTDZKamFPcDJwU05mcWt2M25xZjg0RXM5Sm1rbElWT2xpbnFES3hYVWFpQVJIblpwR0t4VGxjX1hqcFVHeXc?oc=5\" target=\"_blank\"&gt;'중국, 이 정도였나' 전세계 충격받은 이유가…'무서운 경고' [더 머니이스트-조평규의 중국 본색]&lt;/a&gt;&amp;nbsp;&amp;nbsp;&lt;font color=\"#6f6f6f\"&gt;v.daum.net&lt;/font&gt;",
+      "detailedExplanation": "이 뉴스란 무엇일까요?\n&lt;a href=\"https://news.google.com/rss/articles/CBMiRkFVX3lxTFBJTDZKamFPcDJwU05mcWt2M25xZjg0RXM5Sm1rbElWT2xpbnFES3hYVWFpQVJIblpwR0t4VGxjX1hqcFVHeXc?oc=5\" target=\"_blank\"&gt;'중국, 이 정도였나' 전세계 충격받은 이유가…'무서운 경고' [더 머니이스트-조평규의 중국 본색]&lt;/a&gt;&amp;nbsp;&amp;nbsp;&lt;font color=\"#6f6f6f\"&gt;v.daum.net&lt;/font&gt;\n\n우리 생활에 미치는 영향\n이 뉴스는 우리의 일상 경제에 영향을 미치는 중요한 소식입니다. 경제 뉴스를 이해하면 앞으로 어떤 변화가 올지 예측할 수 있습니다.",
+      "category": "domestic",
+      "readingTime": 5,
+      "link": "https://news.google.com/rss/articles/CBMiRkFVX3lxTFBJTDZKamFPcDJwU05mcWt2M25xZjg0RXM5Sm1rbElWT2xpbnFES3hYVWFpQVJIblpwR0t4VGxjX1hqcFVHeXc?oc=5",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiRkFVX3lxTFBJTDZKamFPcDJwU05mcWt2M25xZjg0RXM5Sm1rbElWT2xpbnFES3hYVWFpQVJIblpwR0t4VGxjX1hqcFVHeXc?oc=5",
+      "publishedAt": "2026-03-15T21:33:02.000Z",
+      "source": "네이버/구글 뉴스"
     },
     {
-      "id": "econ_9",
-      "title": "LG전자, 분기 실적 호조",
-      "summary": "LG전자가 최근 분기 실적에서 호조를 보였습니다.",
-      "link": "https://www.lg.com",
-      "source": "기업뉴스",
-      "category": "기업실적",
-      "importance": 76,
-      "date": "2026-03-17T22:12:51.841Z"
+      "id": "news_6",
+      "title": "월가 \"유가 100달러 훨씬 웃돌 것…2008년 수준 간다\" - v.daum.net",
+      "summary": "&lt;a href=\"https://news.google.com/rss/articles/CBMiT0FVX3lxTFBVUVBKWkhGVTZPYjRsMjhTczNMNVFFSllpc2ZvSlRwZHR1UTJ1cDg1bmdVc3JTY3BtdWFRRy0zX2Ezc19xWkptMVFMbWlNcDQ?oc=5\" target=\"_blank\"&gt;월가 \"유가 100달러 훨씬 웃돌 것…2008년 수준 간다\"&lt;/a&gt;&amp;nbsp;&amp;nbsp;&lt;font color=\"#6f6f6f\"&gt;v.daum.net&lt;/font&gt;",
+      "detailedExplanation": "이 뉴스란 무엇일까요?\n&lt;a href=\"https://news.google.com/rss/articles/CBMiT0FVX3lxTFBVUVBKWkhGVTZPYjRsMjhTczNMNVFFSllpc2ZvSlRwZHR1UTJ1cDg1bmdVc3JTY3BtdWFRRy0zX2Ezc19xWkptMVFMbWlNcDQ?oc=5\" target=\"_blank\"&gt;월가 \"유가 100달러 훨씬 웃돌 것…2008년 수준 간다\"&lt;/a&gt;&amp;nbsp;&amp;nbsp;&lt;font color=\"#6f6f6f\"&gt;v.daum.net&lt;/font&gt;\n\n우리 생활에 미치는 영향\n이 뉴스는 우리의 일상 경제에 영향을 미치는 중요한 소식입니다. 경제 뉴스를 이해하면 앞으로 어떤 변화가 올지 예측할 수 있습니다.",
+      "category": "domestic",
+      "readingTime": 5,
+      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFBVUVBKWkhGVTZPYjRsMjhTczNMNVFFSllpc2ZvSlRwZHR1UTJ1cDg1bmdVc3JTY3BtdWFRRy0zX2Ezc19xWkptMVFMbWlNcDQ?oc=5",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFBVUVBKWkhGVTZPYjRsMjhTczNMNVFFSllpc2ZvSlRwZHR1UTJ1cDg1bmdVc3JTY3BtdWFRRy0zX2Ezc19xWkptMVFMbWlNcDQ?oc=5",
+      "publishedAt": "2026-03-15T04:17:44.000Z",
+      "source": "네이버/구글 뉴스"
     },
     {
-      "id": "econ_4",
-      "title": "서울 아파트 매매가 상승세 지속",
-      "summary": "서울 지역 아파트 매매가가 지난달 대비 상승세를 보이고 있습니다.",
-      "link": "https://www.kab.co.kr",
-      "source": "부동산정보",
-      "category": "부동산",
-      "importance": 75,
-      "date": "2026-03-17T22:12:51.841Z"
+      "id": "news_7",
+      "title": "마켓인사이트 - 한국경제TV",
+      "summary": "&lt;a href=\"https://news.google.com/rss/articles/CBMiowFBVV95cUxNWm0zYWJmUTlsa3k1T0V2Q3ZFbXByeFZXb2l0bk1OUUdUeE5nNlpMUWdFN3BibWg3amppeEpNZU5Yb014M3BjTW1qWmVkMlk0YjdCZ3dlU3N5YUV5bVZIR3BzNzRKMnhWcjVxb1JmdVQtSmFYN1J5bThSak9aOWRKSGdnZjM3UUtiNU43MDlrcXNhcllaa3hreURMOE9BZ1Z4ZUtZ?oc=5\" target=\"_blank\"&gt;마켓인사이트&lt;/a&gt;&amp;nbsp;&amp;nbsp;&lt;font color=\"#6f6f6f\"&gt;한국경제TV&lt;/font&gt;",
+      "detailedExplanation": "이 뉴스란 무엇일까요?\n&lt;a href=\"https://news.google.com/rss/articles/CBMiowFBVV95cUxNWm0zYWJmUTlsa3k1T0V2Q3ZFbXByeFZXb2l0bk1OUUdUeE5nNlpMUWdFN3BibWg3amppeEpNZU5Yb014M3BjTW1qWmVkMlk0YjdCZ3dlU3N5YUV5bVZIR3BzNzRKMnhWcjVxb1JmdVQtSmFYN1J5bThSak9aOWRKSGdnZjM3UUtiNU43MDlrcXNhcllaa3hreURMOE9BZ1Z4ZUtZ?oc=5\" target=\"_blank\"&gt;마켓인사이트&lt;/a&gt;&amp;nbsp;&amp;nbsp;&lt;font color=\"#6f6f6f\"&gt;한국경제TV&lt;/font&gt;\n\n우리 생활에 미치는 영향\n이 뉴스는 우리의 일상 경제에 영향을 미치는 중요한 소식입니다. 경제 뉴스를 이해하면 앞으로 어떤 변화가 올지 예측할 수 있습니다.",
+      "category": "domestic",
+      "readingTime": 5,
+      "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNWm0zYWJmUTlsa3k1T0V2Q3ZFbXByeFZXb2l0bk1OUUdUeE5nNlpMUWdFN3BibWg3amppeEpNZU5Yb014M3BjTW1qWmVkMlk0YjdCZ3dlU3N5YUV5bVZIR3BzNzRKMnhWcjVxb1JmdVQtSmFYN1J5bThSak9aOWRKSGdnZjM3UUtiNU43MDlrcXNhcllaa3hreURMOE9BZ1Z4ZUtZ?oc=5",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNWm0zYWJmUTlsa3k1T0V2Q3ZFbXByeFZXb2l0bk1OUUdUeE5nNlpMUWdFN3BibWg3amppeEpNZU5Yb014M3BjTW1qWmVkMlk0YjdCZ3dlU3N5YUV5bVZIR3BzNzRKMnhWcjVxb1JmdVQtSmFYN1J5bThSak9aOWRKSGdnZjM3UUtiNU43MDlrcXNhcllaa3hreURMOE9BZ1Z4ZUtZ?oc=5",
+      "publishedAt": "2026-03-18T04:03:24.000Z",
+      "source": "네이버/구글 뉴스"
     },
     {
-      "id": "econ_10",
-      "title": "정부, 중소기업 지원 정책 발표",
-      "summary": "정부가 중소기업 지원을 위한 새로운 정책을 발표했습니다.",
-      "link": "https://www.korea.kr",
-      "source": "정부",
-      "category": "정책",
-      "importance": 74,
-      "date": "2026-03-17T22:12:51.841Z"
+      "id": "news_8",
+      "title": "한경 '액티브 시니어 아카데미' 개설 - 한국경제",
+      "summary": "&lt;a href=\"https://news.google.com/rss/articles/CBMiWkFVX3lxTE1KTE5jR3Q0VE9QWDlJZ0pmNC1XZTd3TTNnWjE0N0J1S0tWalF5RGMzQjRPVTR3WWRaVHpkU2Y4V1IwQ1JFQUtzOEF6c0g3N0pEVHdBMmk3NVVzQdIBVEFVX3lxTE5nWWRuVjUwUEF5RlZKRjdFSXNjSzFteE4yR3pZTGN4M01fVGw2cTdkVmRVR2lmSHB6S1FaX2RNNHVTcFZVZ0N5bV9KU0hES0RGU2prMQ?oc=5\" target=\"_blank\"&gt;한경 '액티브 시니어 아카데미' 개설&lt;/a&gt;&amp;nbsp;&amp;nbsp;&lt;font color=\"#6f6f6f\"&gt;한국경제&lt;/font&gt;",
+      "detailedExplanation": "이 뉴스란 무엇일까요?\n&lt;a href=\"https://news.google.com/rss/articles/CBMiWkFVX3lxTE1KTE5jR3Q0VE9QWDlJZ0pmNC1XZTd3TTNnWjE0N0J1S0tWalF5RGMzQjRPVTR3WWRaVHpkU2Y4V1IwQ1JFQUtzOEF6c0g3N0pEVHdBMmk3NVVzQdIBVEFVX3lxTE5nWWRuVjUwUEF5RlZKRjdFSXNjSzFteE4yR3pZTGN4M01fVGw2cTdkVmRVR2lmSHB6S1FaX2RNNHVTcFZVZ0N5bV9KU0hES0RGU2prMQ?oc=5\" target=\"_blank\"&gt;한경 '액티브 시니어 아카데미' 개설&lt;/a&gt;&amp;nbsp;&amp;nbsp;&lt;font color=\"#6f6f6f\"&gt;한국경제&lt;/font&gt;\n\n우리 생활에 미치는 영향\n이 뉴스는 우리의 일상 경제에 영향을 미치는 중요한 소식입니다. 경제 뉴스를 이해하면 앞으로 어떤 변화가 올지 예측할 수 있습니다.",
+      "category": "domestic",
+      "readingTime": 5,
+      "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1KTE5jR3Q0VE9QWDlJZ0pmNC1XZTd3TTNnWjE0N0J1S0tWalF5RGMzQjRPVTR3WWRaVHpkU2Y4V1IwQ1JFQUtzOEF6c0g3N0pEVHdBMmk3NVVzQdIBVEFVX3lxTE5nWWRuVjUwUEF5RlZKRjdFSXNjSzFteE4yR3pZTGN4M01fVGw2cTdkVmRVR2lmSHB6S1FaX2RNNHVTcFZVZ0N5bV9KU0hES0RGU2prMQ?oc=5",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1KTE5jR3Q0VE9QWDlJZ0pmNC1XZTd3TTNnWjE0N0J1S0tWalF5RGMzQjRPVTR3WWRaVHpkU2Y4V1IwQ1JFQUtzOEF6c0g3N0pEVHdBMmk3NVVzQdIBVEFVX3lxTE5nWWRuVjUwUEF5RlZKRjdFSXNjSzFteE4yR3pZTGN4M01fVGw2cTdkVmRVR2lmSHB6S1FaX2RNNHVTcFZVZ0N5bV9KU0hES0RGU2prMQ?oc=5",
+      "publishedAt": "2026-03-18T08:27:41.000Z",
+      "source": "네이버/구글 뉴스"
     },
     {
-      "id": "econ_8",
-      "title": "비트코인, 70,000달러 돌파",
-      "summary": "암호화폐 시장에서 비트코인이 70,000달러를 돌파했습니다.",
-      "link": "https://coinmarketcap.com",
-      "source": "암호화폐정보",
-      "category": "암호화폐",
-      "importance": 72,
-      "date": "2026-03-17T22:12:51.841Z"
+      "id": "news_9",
+      "title": "[속보] 한국경제신문 내일(19일)부터 기자 ‘개별 주식 매매’ 원천 금지 - v.daum.net",
+      "summary": "&lt;a href=\"https://news.google.com/rss/articles/CBMifEFVX3lxTE5ROFh0OEJpVTROdlNYMVNoZEIxaXFPR0h6MXpZcG9sVVFzSVd2SkFWaC1YRDY3VnBxbHQzR0VBT0NrMnhCRXZwem1tTXE4TlM0Z1lsR3NOLWFiUnFIdkkyQWVOOFVSQnBMVjlCdFp1MHlUWW5TbUV2V3NMS0c?oc=5\" target=\"_blank\"&gt;[속보] 한국경제신문 내일(19일)부터 기자 ‘개별 주식 매매’ 원천 금지&lt;/a&gt;&amp;nbsp;&amp;nbsp;&lt;font color=\"#6f6f6f\"&gt;v.daum.net&lt;/font&gt;",
+      "detailedExplanation": "주식이란 무엇일까요?\n주식은 회사의 일부를 소유하는 증서입니다. 주식을 사면 그 회사의 주인이 되는 것입니다.\n\n[속보] 한국경제신문 내일(19일)부터 기자 ‘개별 주식 매매’ 원천 금지 - v.daum.net의 의미\n&lt;a href=\"https://news.google.com/rss/articles/CBMifEFVX3lxTE5ROFh0OEJpVTROdlNYMVNoZEIxaXFPR0h6MXpZcG9sVVFzSVd2SkFWaC1YRDY3VnBxbHQzR0VBT0NrMnhCRXZwem1tTXE4TlM0Z1lsR3NOLWFiUnFIdkkyQWVOOFVSQnBMVjlCdFp1MHlUWW5TbUV2V3NMS0c?oc=5\" target=\"_blank\"&gt;[속보] 한국경제신문 내일(19일)부터 기자 ‘개별 주식 매매’ 원천 금지&lt;/a&gt;&amp;nbsp;&amp;nbsp;&lt;font color=\"#6f6f6f\"&gt;v.daum.net&lt;/font&gt;\n\n우리 생활에 미치는 영향\n주식 시장이 좋아지면 경제가 활성화되고, 회사들이 더 많은 사람을 고용합니다.",
+      "category": "domestic",
+      "readingTime": 5,
+      "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTE5ROFh0OEJpVTROdlNYMVNoZEIxaXFPR0h6MXpZcG9sVVFzSVd2SkFWaC1YRDY3VnBxbHQzR0VBT0NrMnhCRXZwem1tTXE4TlM0Z1lsR3NOLWFiUnFIdkkyQWVOOFVSQnBMVjlCdFp1MHlUWW5TbUV2V3NMS0c?oc=5",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMifEFVX3lxTE5ROFh0OEJpVTROdlNYMVNoZEIxaXFPR0h6MXpZcG9sVVFzSVd2SkFWaC1YRDY3VnBxbHQzR0VBT0NrMnhCRXZwem1tTXE4TlM0Z1lsR3NOLWFiUnFIdkkyQWVOOFVSQnBMVjlCdFp1MHlUWW5TbUV2V3NMS0c?oc=5",
+      "publishedAt": "2026-03-18T09:04:06.000Z",
+      "source": "네이버/구글 뉴스"
     }
   ],
   "insights": {
     "topCategories": [
       {
-        "category": "금리",
-        "count": 1,
-        "topNews": "한국은행, 기준금리 현 수준 유지",
-        "avgImportance": 95
-      },
-      {
-        "category": "주식",
-        "count": 1,
-        "topNews": "코스피, 2,700선 돌파",
-        "avgImportance": 88
-      },
-      {
-        "category": "반도체",
-        "count": 1,
-        "topNews": "삼성전자, 반도체 투자 확대",
-        "avgImportance": 85
-      },
-      {
-        "category": "환율",
-        "count": 1,
-        "topNews": "원·달러 환율 1,450원대 안정",
-        "avgImportance": 82
-      },
-      {
-        "category": "에너지",
-        "count": 1,
-        "topNews": "국제유가, 배럴당 90달러 근처",
+        "category": "경제",
+        "count": 10,
+        "topNews": "어쩐지 한국男·일본女 커플 많이 보이더라…'역대급 상황' - v.daum.net",
         "avgImportance": 80
       }
     ],
-    "recommendation": "현재 시장 상황을 고려하여 분산 투자를 권장합니다.",
+    "recommendation": "다양한 경제 뉴스를 읽으며 경제 감각을 키워보세요!",
     "riskLevel": "중간",
     "sectors": [
       {
         "name": "금융",
         "outlook": "중립",
-        "reason": "기준금리 현 수준 유지"
+        "reason": "경제 상황에 따라 변동"
       },
       {
-        "name": "반도체",
+        "name": "기술",
         "outlook": "긍정적",
-        "reason": "기업 투자 확대"
+        "reason": "지속적인 혁신"
       },
       {
         "name": "에너지",
         "outlook": "중립",
-        "reason": "국제유가 안정"
-      },
-      {
-        "name": "암호화폐",
-        "outlook": "긍정적",
-        "reason": "가격 상승세"
+        "reason": "국제 정세에 따라 변동"
       },
       {
         "name": "부동산",
         "outlook": "중립",
-        "reason": "가격 변동성"
+        "reason": "금리와 수급에 따라 변동"
+      },
+      {
+        "name": "기업",
+        "outlook": "긍정적",
+        "reason": "경제 성장에 따라 개선"
       }
     ]
   }
