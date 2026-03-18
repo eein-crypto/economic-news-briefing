@@ -13,8 +13,8 @@ export async function fetchBriefingData(): Promise<BriefingData> {
     
     // Transform the data to match BriefingData interface
     const briefingData: BriefingData = {
-      date: new Date(data.timestamp).toISOString().split('T')[0],
-      lastUpdated: data.timestamp,
+      date: new Date(data.lastUpdated || data.timestamp).toISOString().split('T')[0],
+      lastUpdated: data.lastUpdated || data.timestamp,
       news: (data.briefings || data.topNews || []).map((news: any) => ({
         id: news.id,
         title: news.title,
