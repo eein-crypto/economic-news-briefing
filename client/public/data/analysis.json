@@ -1,204 +1,278 @@
 {
-  "timestamp": "2026-03-18T11:47:43.690Z",
+  "timestamp": "2026-03-18T12:54:29.191Z",
   "topNews": [
     {
       "id": "news_0",
-      "title": "A market correction of 10% could be on the cards as consumer psychology shifts due to gas prices, says top economist",
-      "summary": "\"The key issue is not simply crude oil itself. It is gasoline, the most visible price in the economy for consumers, and when that price jumps it hits psychology immediately.\"",
-      "detailedExplanation": "이 뉴스란 무엇일까요?\n\"The key issue is not simply crude oil itself. It is gasoline, the most visible price in the economy for consumers, and when that price jumps it hits psychology immediately.\"\n\n우리 생활에 미치는 영향\n이 뉴스는 우리의 경제 생활에 영향을 미치는 중요한 소식입니다. 경제 뉴스를 이해하면 앞으로 어떤 변화가 올지 예측할 수 있습니다.",
+      "title": "Quote of the day by William Butler Yeats, \"Do not wait to strike till the iron is hot; but make it hot by striking.\" — How Yeats proves action beats timing",
+      "originalTitle": "Quote of the day by William Butler Yeats, \"Do not wait to strike till the iron is hot; but make it hot by striking.\" — How Yeats proves action beats timing",
+      "summary": "Quote of the day by William Butler Yeats: 83% of top performers in 2026 share one habit: they start before they feel ready. W.B. Yeats said it first. Success does not wait for perfect conditions. You create them — by moving early, acting now, and building mom…",
+      "originalSummary": "Quote of the day by William Butler Yeats: 83% of top performers in 2026 share one habit: they start before they feel ready. W.B. Yeats said it first. Success does not wait for perfect conditions. You create them — by moving early, acting now, and building mom…",
+      "detailedExplanation": {
+        "title": "📰 이 뉴스란 무엇일까요?",
+        "content": "Quote of the day by William Butler Yeats: 83% of top performers in 2026 share one habit: they start before they feel ready. W.B. Yeats said it first. Success does not wait for perfect conditions. You create them — by moving early, acting now, and building mom…",
+        "meaning": "📊 우리 생활에 미치는 영향",
+        "meaningContent": "이 뉴스는 우리의 경제 생활에 영향을 미치는 중요한 소식입니다. 경제 뉴스를 이해하면 앞으로 어떤 변화가 올지 예측할 수 있습니다."
+      },
       "investmentOpinion": {
         "sentiment": "neutral",
-        "opinion": "중립적 신호입니다. 추가 정보를 수집한 후 투자 결정을 하세요.",
+        "opinion": "➡️ 중립적 신호입니다. 추가 정보를 수집한 후 투자 결정을 하세요.",
         "riskLevel": "medium",
         "confidence": 0.75
       },
       "category": "economic",
       "readingTime": 5,
-      "link": "https://fortune.com/2026/03/17/market-correction-consumer-gas-prices-oil-iran-perception/",
-      "sourceUrl": "https://fortune.com/2026/03/17/market-correction-consumer-gas-prices-oil-iran-perception/",
-      "publishedAt": "2026-03-17T11:46:18Z",
-      "source": "Fortune",
-      "urlToImage": "https://fortune.com/img-assets/wp-content/uploads/2026/03/GettyImages-102369973-e1773746614310.jpg?resize=1200,600"
+      "link": "https://economictimes.indiatimes.com/news/international/us/quote-of-the-day-by-william-butler-yeats-do-not-wait-to-strike-till-the-iron-is-hot-but-make-it-hot-by-striking-how-yeats-proves-action-beats-timing/articleshow/129632754.cms",
+      "sourceUrl": "https://economictimes.indiatimes.com/news/international/us/quote-of-the-day-by-william-butler-yeats-do-not-wait-to-strike-till-the-iron-is-hot-but-make-it-hot-by-striking-how-yeats-proves-action-beats-timing/articleshow/129632754.cms",
+      "publishedAt": "2026-03-17T12:50:56Z",
+      "source": "The Times of India",
+      "urlToImage": "https://img.etimg.com/thumb/msid-129632916,width-1200,height-630,imgsize-11488,overlay-economictimes/articleshow.jpg"
     },
     {
       "id": "news_1",
-      "title": "Vietnam shortlists firms for first regulated crypto platforms",
-      "summary": "Vietnam's move to regulate crypto exchanges could enhance domestic economic control, reduce capital outflows, and challenge foreign dominance.\nThe post Vietnam shortlists firms for first regulated crypto platforms appeared first on Crypto Briefing.",
-      "detailedExplanation": "이 뉴스란 무엇일까요?\nVietnam's move to regulate crypto exchanges could enhance domestic economic control, reduce capital outflows, and challenge foreign dominance.\nThe post Vietnam shortlists firms for first regulated crypto platforms appeared first on Crypto Briefing.\n\n우리 생활에 미치는 영향\n이 뉴스는 우리의 경제 생활에 영향을 미치는 중요한 소식입니다. 경제 뉴스를 이해하면 앞으로 어떤 변화가 올지 예측할 수 있습니다.",
+      "title": "석유, 가스 가격 jump as Trump flirts with striking Iranian 석유 infrastructure",
+      "originalTitle": "Oil, gas prices jump as Trump flirts with striking Iranian oil infrastructure",
+      "summary": "President Donald Trump targets Iran's Kharg Island 석유 hub, which handles 90% of Iranian crude exports to China and India, raising fears of broader Persian Gulf supply disruptions.",
+      "originalSummary": "President Donald Trump targets Iran's Kharg Island oil hub, which handles 90% of Iranian crude exports to China and India, raising fears of broader Persian Gulf supply disruptions.",
+      "detailedExplanation": {
+        "title": "📰 이 뉴스란 무엇일까요?",
+        "content": "President Donald Trump targets Iran's Kharg Island 석유 hub, which handles 90% of Iranian crude exports to China and India, raising fears of broader Persian Gulf supply disruptions.",
+        "meaning": "📊 우리 생활에 미치는 영향",
+        "meaningContent": "이 뉴스는 우리의 경제 생활에 영향을 미치는 중요한 소식입니다. 경제 뉴스를 이해하면 앞으로 어떤 변화가 올지 예측할 수 있습니다."
+      },
       "investmentOpinion": {
         "sentiment": "neutral",
-        "opinion": "중립적 신호입니다. 추가 정보를 수집한 후 투자 결정을 하세요.",
+        "opinion": "➡️ 중립적 신호입니다. 추가 정보를 수집한 후 투자 결정을 하세요.",
         "riskLevel": "medium",
         "confidence": 0.75
       },
       "category": "economic",
       "readingTime": 5,
-      "link": "https://cryptobriefing.com/vietnam-regulated-crypto-platforms/",
-      "sourceUrl": "https://cryptobriefing.com/vietnam-regulated-crypto-platforms/",
-      "publishedAt": "2026-03-17T11:45:46Z",
-      "source": "Crypto Briefing",
-      "urlToImage": "https://static.cryptobriefing.com/wp-content/uploads/2026/03/17073209/189fce94-4351-431a-8657-47faeeaf9899-800x420.jpg"
+      "link": "https://www.foxnews.com/politics/oil-gas-prices-jump-trump-flirts-striking-iranian-oil-infrastructure",
+      "sourceUrl": "https://www.foxnews.com/politics/oil-gas-prices-jump-trump-flirts-striking-iranian-oil-infrastructure",
+      "publishedAt": "2026-03-17T12:48:21Z",
+      "source": "Fox News",
+      "urlToImage": "https://static.foxnews.com/foxnews.com/content/uploads/2026/03/tanker-us-flag-california.png"
     },
     {
       "id": "news_2",
-      "title": "Nepal faces no major gas or fuel shortages, officials confirm",
-      "summary": "KATHMANDU: More than two weeks after the United States and Israel launched strikes on Iran, the resulting retaliatory actions and geopolitical tensions in West Asia are affecting global energy supply chains, with a noticeable impact even in Nepal. Nepali hous…",
-      "detailedExplanation": "이 뉴스란 무엇일까요?\nKATHMANDU: More than two weeks after the United States and Israel launched strikes on Iran, the resulting retaliatory actions and geopolitical tensions in West Asia are affecting global energy supply chains, with a noticeable impact even in Nepal. Nepali hous…\n\n우리 생활에 미치는 영향\n이 뉴스는 우리의 경제 생활에 영향을 미치는 중요한 소식입니다. 경제 뉴스를 이해하면 앞으로 어떤 변화가 올지 예측할 수 있습니다.",
+      "title": "Argentina joins growing list of countries blocking Polymarket access",
+      "originalTitle": "Argentina joins growing list of countries blocking Polymarket access",
+      "summary": "The ruling directs internet providers to block access to the site, and 애플 and 구글 to remove or restrict Polymarket's mobile apps.",
+      "originalSummary": "The ruling directs internet providers to block access to the site, and Apple and Google to remove or restrict Polymarket's mobile apps.",
+      "detailedExplanation": {
+        "title": "📰 이 뉴스란 무엇일까요?",
+        "content": "The ruling directs internet providers to block access to the site, and 애플 and 구글 to remove or restrict Polymarket's mobile apps.",
+        "meaning": "📊 우리 생활에 미치는 영향",
+        "meaningContent": "이 뉴스는 우리의 경제 생활에 영향을 미치는 중요한 소식입니다. 경제 뉴스를 이해하면 앞으로 어떤 변화가 올지 예측할 수 있습니다."
+      },
       "investmentOpinion": {
         "sentiment": "neutral",
-        "opinion": "중립적 신호입니다. 추가 정보를 수집한 후 투자 결정을 하세요.",
+        "opinion": "➡️ 중립적 신호입니다. 추가 정보를 수집한 후 투자 결정을 하세요.",
         "riskLevel": "medium",
         "confidence": 0.75
       },
       "category": "economic",
       "readingTime": 5,
-      "link": "https://english.khabarhub.com/2026/17/539737/",
-      "sourceUrl": "https://english.khabarhub.com/2026/17/539737/",
-      "publishedAt": "2026-03-17T11:45:09Z",
-      "source": "Khabarhub.com",
-      "urlToImage": "https://english.khabarhub.com/wp-content/uploads/2026/03/petrol-1-.png.png"
+      "link": "https://www.coindesk.com/policy/2026/03/17/argentina-joins-growing-list-of-countries-blocking-polymarket-access",
+      "sourceUrl": "https://www.coindesk.com/policy/2026/03/17/argentina-joins-growing-list-of-countries-blocking-polymarket-access",
+      "publishedAt": "2026-03-17T12:44:59Z",
+      "source": "CoinDesk",
+      "urlToImage": "https://cdn.sanity.io/images/s3y3vcno/production/abc95773d45a37745ac5e832927f5c25c1ec3332-1920x1079.jpg?auto=format&w=960&h=540&crop=focalpoint&fit=clip&q=75&fm=jpg"
     },
     {
       "id": "news_3",
-      "title": "Frustrations in Cannaland",
-      "summary": "Building a profitable business is hard; building one in Cannaland is almost impossible. We are all handcuffed on multiple levels. I was watching an advertisement pre-Knick game on Molson Ale. The advertisement essentially sang about Molson times, from lunch t…",
-      "detailedExplanation": "이 뉴스란 무엇일까요?\nBuilding a profitable business is hard; building one in Cannaland is almost impossible. We are all handcuffed on multiple levels. I was watching an advertisement pre-Knick game on Molson Ale. The advertisement essentially sang about Molson times, from lunch t…\n\n우리 생활에 미치는 영향\n이 뉴스는 우리의 경제 생활에 영향을 미치는 중요한 소식입니다. 경제 뉴스를 이해하면 앞으로 어떤 변화가 올지 예측할 수 있습니다.",
+      "title": "One and One Green Technologies. INC Taps into Metro Manila’s Billion-달러 E-Waste Stream, Securing Key Local Supply for Metals Recycling",
+      "originalTitle": "One and One Green Technologies. INC Taps into Metro Manila’s Billion-Dollar E-Waste Stream, Securing Key Local Supply for Metals Recycling",
+      "summary": "San Rafael, Bulacan, Philippines, March 17, 2026 (GLOBE NEWSWIRE) -- One and One Green Technologies. INC (“One and One” or the “Company”) (나스닥: YDDL), a Philippines-based recycler holding a government-issued license in the Philippines to import and process…",
+      "originalSummary": "San Rafael, Bulacan, Philippines, March 17, 2026 (GLOBE NEWSWIRE) -- One and One Green Technologies. INC (“One and One” or the “Company”) (NASDAQ: YDDL), a Philippines-based recycler holding a government-issued license in the Philippines to import and process…",
+      "detailedExplanation": {
+        "title": "📰 이 뉴스란 무엇일까요?",
+        "content": "San Rafael, Bulacan, Philippines, March 17, 2026 (GLOBE NEWSWIRE) -- One and One Green Technologies. INC (“One and One” or the “Company”) (나스닥: YDDL), a Philippines-based recycler holding a government-issued license in the Philippines to import and process…",
+        "meaning": "📊 우리 생활에 미치는 영향",
+        "meaningContent": "이 뉴스는 우리의 경제 생활에 영향을 미치는 중요한 소식입니다. 경제 뉴스를 이해하면 앞으로 어떤 변화가 올지 예측할 수 있습니다."
+      },
       "investmentOpinion": {
         "sentiment": "neutral",
-        "opinion": "중립적 신호입니다. 추가 정보를 수집한 후 투자 결정을 하세요.",
+        "opinion": "➡️ 중립적 신호입니다. 추가 정보를 수집한 후 투자 결정을 하세요.",
         "riskLevel": "medium",
         "confidence": 0.75
       },
       "category": "economic",
       "readingTime": 5,
-      "link": "https://gothamgal.com/2026/03/frustrations-in-cannaland/",
-      "sourceUrl": "https://gothamgal.com/2026/03/frustrations-in-cannaland/",
-      "publishedAt": "2026-03-17T11:44:54Z",
-      "source": "Gothamgal.com",
-      "urlToImage": "https://gothamgal.com/content/uploads/2026/03/download-2-1.jpg"
+      "link": "https://www.globenewswire.com/news-release/2026/03/17/3257175/0/en/One-and-One-Green-Technologies-INC-Taps-into-Metro-Manila-s-Billion-Dollar-E-Waste-Stream-Securing-Key-Local-Supply-for-Metals-Recycling.html",
+      "sourceUrl": "https://www.globenewswire.com/news-release/2026/03/17/3257175/0/en/One-and-One-Green-Technologies-INC-Taps-into-Metro-Manila-s-Billion-Dollar-E-Waste-Stream-Securing-Key-Local-Supply-for-Metals-Recycling.html",
+      "publishedAt": "2026-03-17T12:30:00Z",
+      "source": "GlobeNewswire",
+      "urlToImage": "https://ml.globenewswire.com/Resource/Download/b8197b6d-0f95-4eb2-bf27-d286d3f8c8f0"
     },
     {
       "id": "news_4",
-      "title": "Ukrainian Terror Attacks on Russian Soil Up by 40% in 2025 — Shoigu",
-      "summary": "YEKATERINBURG, Russia (Sputnik) — Terrorist attacks orchestrated by Ukrainian intelligence services inside Russia were up 40% by late 2025 to 1,830, Russian Security Council Secretary Sergei Shoigu said on Tuesday.",
-      "detailedExplanation": "이 뉴스란 무엇일까요?\nYEKATERINBURG, Russia (Sputnik) — Terrorist attacks orchestrated by Ukrainian intelligence services inside Russia were up 40% by late 2025 to 1,830, Russian Security Council Secretary Sergei Shoigu said on Tuesday.\n\n우리 생활에 미치는 영향\n이 뉴스는 우리의 경제 생활에 영향을 미치는 중요한 소식입니다. 경제 뉴스를 이해하면 앞으로 어떤 변화가 올지 예측할 수 있습니다.",
+      "title": "Dubai 'Was Supposed to Be Safe.' It's Not",
+      "originalTitle": "Dubai 'Was Supposed to Be Safe.' It's Not",
+      "summary": "Like many cities in the Mideast at the moment, Dubai finds itself under attack. The city in the United Arab Emirates has been fending off Iranian missile and drone attacks, and explosions have struck near the city's airport—one of the world's busiest for inte…",
+      "originalSummary": "Like many cities in the Mideast at the moment, Dubai finds itself under attack. The city in the United Arab Emirates has been fending off Iranian missile and drone attacks, and explosions have struck near the city's airport—one of the world's busiest for inte…",
+      "detailedExplanation": {
+        "title": "📰 이 뉴스란 무엇일까요?",
+        "content": "Like many cities in the Mideast at the moment, Dubai finds itself under attack. The city in the United Arab Emirates has been fending off Iranian missile and drone attacks, and explosions have struck near the city's airport—one of the world's busiest for inte…",
+        "meaning": "📊 우리 생활에 미치는 영향",
+        "meaningContent": "이 뉴스는 우리의 경제 생활에 영향을 미치는 중요한 소식입니다. 경제 뉴스를 이해하면 앞으로 어떤 변화가 올지 예측할 수 있습니다."
+      },
       "investmentOpinion": {
         "sentiment": "neutral",
-        "opinion": "중립적 신호입니다. 추가 정보를 수집한 후 투자 결정을 하세요.",
+        "opinion": "➡️ 중립적 신호입니다. 추가 정보를 수집한 후 투자 결정을 하세요.",
         "riskLevel": "medium",
         "confidence": 0.75
       },
       "category": "economic",
       "readingTime": 5,
-      "link": "https://sputnikglobe.com/20260317/ukrainian-terror-attacks-on-russian-soil-up-by-40-in-2025--shoigu-1123838103.html",
-      "sourceUrl": "https://sputnikglobe.com/20260317/ukrainian-terror-attacks-on-russian-soil-up-by-40-in-2025--shoigu-1123838103.html",
-      "publishedAt": "2026-03-17T11:41:45Z",
-      "source": "Sputnikglobe.com",
-      "urlToImage": "https://cdn1.img.sputnikglobe.com/images/sharing/article/eng/1123838103.jpg?11212034531773747705"
+      "link": "https://www.newser.com/story/385550/dubai-was-supposed-to-be-safe-its-not.html",
+      "sourceUrl": "https://www.newser.com/story/385550/dubai-was-supposed-to-be-safe-its-not.html",
+      "publishedAt": "2026-03-17T12:30:00Z",
+      "source": "Newser",
+      "urlToImage": "https://img2-azrcdn.newser.com/image/1671693-12-20260317074347.jpeg"
     },
     {
       "id": "news_5",
-      "title": "Infineon executive urges Europe to build larger, automated fabs",
-      "summary": "European chipmakers face intense competition from China in power and analog chips. An Infineon executive urges investment in larger, automated 300mm wafer fabs to boost competitiveness. Europe must scale up and consolidate operations to increase efficiency an…",
-      "detailedExplanation": "이 뉴스란 무엇일까요?\nEuropean chipmakers face intense competition from China in power and analog chips. An Infineon executive urges investment in larger, automated 300mm wafer fabs to boost competitiveness. Europe must scale up and consolidate operations to increase efficiency an…\n\n우리 생활에 미치는 영향\n이 뉴스는 우리의 경제 생활에 영향을 미치는 중요한 소식입니다. 경제 뉴스를 이해하면 앞으로 어떤 변화가 올지 예측할 수 있습니다.",
+      "title": "Why developing nations could be the first to suffer as the Middle East conflict raises food 가격",
+      "originalTitle": "Why developing nations could be the first to suffer as the Middle East conflict raises food prices",
+      "summary": "에너지 가격 spikes will force up the cost of grain imports.",
+      "originalSummary": "Energy price spikes will force up the cost of grain imports.",
+      "detailedExplanation": {
+        "title": "⚡ 에너지란 무엇일까요?",
+        "content": "에너지는 우리가 생활하는 데 필요한 전기, 가스, 휘발유 등을 말합니다. 에너지 가격은 우리 생활비에 큰 영향을 미칩니다.",
+        "meaning": "📊 이 뉴스의 의미",
+        "meaningContent": "유가가 올라간다는 것은 석유 가격이 비싸진다는 뜻입니다. 이는 전 세계의 경제 상황과 밀접한 관련이 있습니다.",
+        "impact": "🚗 우리 생활에 미치는 영향",
+        "impactContent": "에너지 가격이 올라가면 휘발유, 경유, 전기료, 난방비 등이 모두 올라갑니다. 따라서 물건을 배송하는 비용이 늘어나고, 결국 우리가 사는 물건의 가격도 올라갑니다."
+      },
       "investmentOpinion": {
         "sentiment": "neutral",
-        "opinion": "중립적 신호입니다. 추가 정보를 수집한 후 투자 결정을 하세요.",
+        "opinion": "➡️ 중립적 신호입니다. 추가 정보를 수집한 후 투자 결정을 하세요.",
         "riskLevel": "medium",
         "confidence": 0.75
       },
       "category": "economic",
       "readingTime": 5,
-      "link": "https://economictimes.indiatimes.com/tech/artificial-intelligence/infineon-executive-urges-europe-to-build-larger-automated-fabs/articleshow/129631664.cms",
-      "sourceUrl": "https://economictimes.indiatimes.com/tech/artificial-intelligence/infineon-executive-urges-europe-to-build-larger-automated-fabs/articleshow/129631664.cms",
-      "publishedAt": "2026-03-17T11:40:44Z",
-      "source": "The Times of India",
-      "urlToImage": "https://img.etimg.com/thumb/width-1200,height-900,imgsize-284638,resizemode-75,msid-129631664/tech/artificial-intelligence/infineon-executive-urges-europe-to-build-larger-automated-fabs.jpg"
+      "link": "https://theconversation.com/why-developing-nations-could-be-the-first-to-suffer-as-the-middle-east-conflict-raises-food-prices-278164",
+      "sourceUrl": "https://theconversation.com/why-developing-nations-could-be-the-first-to-suffer-as-the-middle-east-conflict-raises-food-prices-278164",
+      "publishedAt": "2026-03-17T12:26:50Z",
+      "source": "The Conversation Africa",
+      "urlToImage": "https://images.theconversation.com/files/723775/original/file-20260313-73-5kr6y5.jpg?ixlib=rb-4.1.0&rect=0%2C275%2C5402%2C2701&q=45&auto=format&w=1356&h=668&fit=crop"
     },
     {
       "id": "news_6",
-      "title": "Al Jazeera op-ed praises US-Israel operation against Iran, says Dems, media critics are wrong",
-      "summary": "Al Jazeera is offering praise to US and Israel's Operation Epic Fury and its effectiveness against the Iranian regime in an op-ed from Doha Institute associate professor Muhanad Seloom.",
-      "detailedExplanation": "이 뉴스란 무엇일까요?\nAl Jazeera is offering praise to US and Israel's Operation Epic Fury and its effectiveness against the Iranian regime in an op-ed from Doha Institute associate professor Muhanad Seloom.\n\n우리 생활에 미치는 영향\n이 뉴스는 우리의 경제 생활에 영향을 미치는 중요한 소식입니다. 경제 뉴스를 이해하면 앞으로 어떤 변화가 올지 예측할 수 있습니다.",
+      "title": "Enabling sustainable and inclusive 성장: Standard Chartered’s strategic commitment to India’s ambitious agenda",
+      "originalTitle": "Enabling sustainable and inclusive growth: Standard Chartered’s strategic commitment to India’s ambitious agenda",
+      "summary": "Standard Chartered has mobilised over USD1 billion for India's microfinance and NBFC sectors. P.D. Singh, CEO for India and South Asia, explains how the bank is leveraging its global expertise to help accelerate India's transition to a more sustainable, inclu…",
+      "originalSummary": "Standard Chartered has mobilised over USD1 billion for India's microfinance and NBFC sectors. P.D. Singh, CEO for India and South Asia, explains how the bank is leveraging its global expertise to help accelerate India's transition to a more sustainable, inclu…",
+      "detailedExplanation": {
+        "title": "📰 이 뉴스란 무엇일까요?",
+        "content": "Standard Chartered has mobilised over USD1 billion for India's microfinance and NBFC sectors. P.D. Singh, CEO for India and South Asia, explains how the bank is leveraging its global expertise to help accelerate India's transition to a more sustainable, inclu…",
+        "meaning": "📊 우리 생활에 미치는 영향",
+        "meaningContent": "이 뉴스는 우리의 경제 생활에 영향을 미치는 중요한 소식입니다. 경제 뉴스를 이해하면 앞으로 어떤 변화가 올지 예측할 수 있습니다."
+      },
       "investmentOpinion": {
-        "sentiment": "neutral",
-        "opinion": "중립적 신호입니다. 추가 정보를 수집한 후 투자 결정을 하세요.",
-        "riskLevel": "medium",
-        "confidence": 0.75
+        "sentiment": "positive",
+        "opinion": "👍 긍정적 신호입니다. 이 분야에 투자하는 것을 고려해볼 수 있습니다.",
+        "riskLevel": "low",
+        "confidence": 0.85
       },
       "category": "economic",
       "readingTime": 5,
-      "link": "https://www.foxnews.com/media/al-jazeera-op-ed-praises-us-israel-operation-against-iran-says-dems-media-critics-wrong",
-      "sourceUrl": "https://www.foxnews.com/media/al-jazeera-op-ed-praises-us-israel-operation-against-iran-says-dems-media-critics-wrong",
-      "publishedAt": "2026-03-17T11:40:26Z",
-      "source": "Fox News",
-      "urlToImage": "https://static.foxnews.com/foxnews.com/content/uploads/2026/03/trump-netanyahu-thumbs-up.jpg"
+      "link": "https://economictimes.indiatimes.com/industry/banking/finance/enabling-sustainable-and-inclusive-growth-standard-chartereds-strategic-commitment-to-indias-ambitious-agenda/articleshow/129632492.cms",
+      "sourceUrl": "https://economictimes.indiatimes.com/industry/banking/finance/enabling-sustainable-and-inclusive-growth-standard-chartereds-strategic-commitment-to-indias-ambitious-agenda/articleshow/129632492.cms",
+      "publishedAt": "2026-03-17T12:21:52Z",
+      "source": "The Times of India",
+      "urlToImage": "https://img.etimg.com/thumb/msid-129632490,width-1200,height-630,imgsize-1029462,overlay-economictimes/articleshow.jpg"
     },
     {
       "id": "news_7",
-      "title": "Adani commits Rs 2 lakh crore to fortify India’s energy, trade networks against global shocks",
-      "summary": "Facing global uncertainty, the Adani Group is investing ₹2 lakh crore annually for five years to bolster India's infrastructure. This expansion focuses on energy security, aiming for 50 GW of renewable capacity and robust transmission networks, alongside a di…",
-      "detailedExplanation": "이 뉴스란 무엇일까요?\nFacing global uncertainty, the Adani Group is investing ₹2 lakh crore annually for five years to bolster India's infrastructure. This expansion focuses on energy security, aiming for 50 GW of renewable capacity and robust transmission networks, alongside a di…\n\n우리 생활에 미치는 영향\n이 뉴스는 우리의 경제 생활에 영향을 미치는 중요한 소식입니다. 경제 뉴스를 이해하면 앞으로 어떤 변화가 올지 예측할 수 있습니다.",
+      "title": "Rupee: Outflows, 강한 달러 weigh on the rupee",
+      "originalTitle": "Rupee: Outflows, strong dollar weigh on the rupee",
+      "summary": "Weekly Rupee View: The rupee faces pressure from outflows and a 강한 달러, with future trends hinging on 미국 중앙은행 policy.",
+      "originalSummary": "Weekly Rupee View: The rupee faces pressure from outflows and a strong dollar, with future trends hinging on Fed policy.",
+      "detailedExplanation": {
+        "title": "📰 이 뉴스란 무엇일까요?",
+        "content": "Weekly Rupee View: The rupee faces pressure from outflows and a 강한 달러, with future trends hinging on 미국 중앙은행 policy.",
+        "meaning": "📊 우리 생활에 미치는 영향",
+        "meaningContent": "이 뉴스는 우리의 경제 생활에 영향을 미치는 중요한 소식입니다. 경제 뉴스를 이해하면 앞으로 어떤 변화가 올지 예측할 수 있습니다."
+      },
       "investmentOpinion": {
         "sentiment": "neutral",
-        "opinion": "중립적 신호입니다. 추가 정보를 수집한 후 투자 결정을 하세요.",
+        "opinion": "➡️ 중립적 신호입니다. 추가 정보를 수집한 후 투자 결정을 하세요.",
         "riskLevel": "medium",
         "confidence": 0.75
       },
       "category": "economic",
       "readingTime": 5,
-      "link": "https://economictimes.indiatimes.com/news/company/corporate-trends/adani-commits-rs-2-lakh-crore-to-fortify-indias-energy-trade-networks-against-global-shocks/articleshow/129631646.cms",
-      "sourceUrl": "https://economictimes.indiatimes.com/news/company/corporate-trends/adani-commits-rs-2-lakh-crore-to-fortify-indias-energy-trade-networks-against-global-shocks/articleshow/129631646.cms",
-      "publishedAt": "2026-03-17T11:38:04Z",
-      "source": "The Times of India",
-      "urlToImage": "https://img.etimg.com/thumb/msid-129631655,width-1200,height-630,imgsize-33626,overlay-economictimes/articleshow.jpg"
+      "link": "https://www.thehindubusinessline.com/portfolio/technical-analysis/rupeeoutflows-strong-dollar-weigh-on-the-rupee/article70753594.ece",
+      "sourceUrl": "https://www.thehindubusinessline.com/portfolio/technical-analysis/rupeeoutflows-strong-dollar-weigh-on-the-rupee/article70753594.ece",
+      "publishedAt": "2026-03-17T12:20:32Z",
+      "source": "BusinessLine",
+      "urlToImage": "https://bl-i.thgim.com/public/incoming/d1c8j5/article70753940.ece/alternates/LANDSCAPE_1200/iStock-1246765325.jpg"
     },
     {
       "id": "news_8",
-      "title": "Cycurion, Inc. Statement Regarding Unauthorized Press Release, Fabrication of Investor Relations Contact, and Related Market Activity – Litigation Counsel Engaged to Address Short Selling and Manipulation",
-      "summary": "Cycurion, Inc. Statement Regarding Unauthorized Press Release, Fabrication of Investor Relations Contact, and Related Market Activity – Litigation Counsel...",
-      "detailedExplanation": "이 뉴스란 무엇일까요?\nCycurion, Inc. Statement Regarding Unauthorized Press Release, Fabrication of Investor Relations Contact, and Related Market Activity – Litigation Counsel...\n\n우리 생활에 미치는 영향\n이 뉴스는 우리의 경제 생활에 영향을 미치는 중요한 소식입니다. 경제 뉴스를 이해하면 앞으로 어떤 변화가 올지 예측할 수 있습니다.",
+      "title": "India Glycols announces Rs 7.5/share dividend. Check smallcap's record date, dividend yield",
+      "originalTitle": "India Glycols announces Rs 7.5/share dividend. Check smallcap's record date, dividend yield",
+      "summary": "India Glycols declared an interim dividend of Rs 7.5 per share for FY2025-26, with March 23 set as the record date. According to Trendlyne, the company has issued 23 dividends so far. Over the past year, it paid Rs 5 per share, translating to a dividend yield…",
+      "originalSummary": "India Glycols declared an interim dividend of Rs 7.5 per share for FY2025-26, with March 23 set as the record date. According to Trendlyne, the company has issued 23 dividends so far. Over the past year, it paid Rs 5 per share, translating to a dividend yield…",
+      "detailedExplanation": {
+        "title": "📰 이 뉴스란 무엇일까요?",
+        "content": "India Glycols declared an interim dividend of Rs 7.5 per share for FY2025-26, with March 23 set as the record date. According to Trendlyne, the company has issued 23 dividends so far. Over the past year, it paid Rs 5 per share, translating to a dividend yield…",
+        "meaning": "📊 우리 생활에 미치는 영향",
+        "meaningContent": "이 뉴스는 우리의 경제 생활에 영향을 미치는 중요한 소식입니다. 경제 뉴스를 이해하면 앞으로 어떤 변화가 올지 예측할 수 있습니다."
+      },
       "investmentOpinion": {
         "sentiment": "neutral",
-        "opinion": "중립적 신호입니다. 추가 정보를 수집한 후 투자 결정을 하세요.",
+        "opinion": "➡️ 중립적 신호입니다. 추가 정보를 수집한 후 투자 결정을 하세요.",
         "riskLevel": "medium",
         "confidence": 0.75
       },
       "category": "economic",
       "readingTime": 5,
-      "link": "https://www.globenewswire.com/news-release/2026/03/17/3257051/0/en/Cycurion-Inc-Statement-Regarding-Unauthorized-Press-Release-Fabrication-of-Investor-Relations-Contact-and-Related-Market-Activity-Litigation-Counsel-Engaged-to-Address-Short-Sellin.html",
-      "sourceUrl": "https://www.globenewswire.com/news-release/2026/03/17/3257051/0/en/Cycurion-Inc-Statement-Regarding-Unauthorized-Press-Release-Fabrication-of-Investor-Relations-Contact-and-Related-Market-Activity-Litigation-Counsel-Engaged-to-Address-Short-Sellin.html",
-      "publishedAt": "2026-03-17T11:45:00Z",
-      "source": "GlobeNewswire",
-      "urlToImage": null
+      "link": "https://economictimes.indiatimes.com/markets/stocks/news/india-glycols-announces-rs-7-5/share-dividend-check-smallcaps-record-date-dividend-yield/articleshow/129633370.cms",
+      "sourceUrl": "https://economictimes.indiatimes.com/markets/stocks/news/india-glycols-announces-rs-7-5/share-dividend-check-smallcaps-record-date-dividend-yield/articleshow/129633370.cms",
+      "publishedAt": "2026-03-17T12:50:36Z",
+      "source": "The Times of India",
+      "urlToImage": "https://img.etimg.com/thumb/msid-129633356,width-1200,height-630,imgsize-8806,overlay-etmarkets/articleshow.jpg"
     },
     {
       "id": "news_9",
-      "title": "Neuronetics Appoints Dan Reuvers as President and Chief Executive Officer",
-      "summary": "Seasoned leader brings more than 30 years of medical device experience, with a proven track record of growing revenue, earnings, and cash flow across multiple publicly traded healthcare companies Seasoned leader brings more than 30 years of medical device exp…",
-      "detailedExplanation": "이 뉴스란 무엇일까요?\nSeasoned leader brings more than 30 years of medical device experience, with a proven track record of growing revenue, earnings, and cash flow across multiple publicly traded healthcare companies Seasoned leader brings more than 30 years of medical device exp…\n\n우리 생활에 미치는 영향\n이 뉴스는 우리의 경제 생활에 영향을 미치는 중요한 소식입니다. 경제 뉴스를 이해하면 앞으로 어떤 변화가 올지 예측할 수 있습니다.",
+      "title": "US 주식 시장 Today | 다우존스 | 나스닥 Live: US 주식 futures slip as 석유 jump fuels 물가 상승 worries before 미국 중앙은행 meet",
+      "originalTitle": "US Stock Market Today | Dow Jones | Nasdaq Live: US stock futures slip as oil jump fuels inflation worries before Fed meet",
+      "summary": "다우존스 Today | US 주식 시장 Live Updates: U.S. 주식 지수 futures slipped on Tuesday as the Middle East conflict kept 석유 가격 pinned near $100 a barrel, putting 물가 상승 risks back in focus ahead of the 미국 중앙은행's two-day meeting starting la…",
+      "originalSummary": "Dow Jones Today | US Stock Market Live Updates: U.S. stock index futures slipped on Tuesday as the Middle East conflict kept oil prices pinned near $100 a barrel, putting inflation risks back in focus ahead of the Federal Reserve's two-day meeting starting la…",
+      "detailedExplanation": {
+        "title": "📈 주식이란 무엇일까요?",
+        "content": "주식은 회사의 일부를 소유하는 증서입니다. 주식을 사면 그 회사의 주인이 되는 것입니다. 회사가 잘되면 주식 가격도 올라갑니다.",
+        "meaning": "📊 이 뉴스의 의미",
+        "meaningContent": "주식 시장이 좋아진다는 것은 많은 회사들의 실적이 좋아지고 있다는 뜻입니다. 이는 경제가 잘 돌아가고 있다는 신호입니다.",
+        "impact": "🏢 우리 생활에 미치는 영향",
+        "impactContent": "주식 시장이 좋으면 회사들이 더 많은 사람을 고용하고, 임금도 올려줍니다. 따라서 일자리가 많아지고 경제가 활성화됩니다. 반대로 주식 시장이 나쁘면 회사들이 어려워져서 구조조정을 하고 일자리가 줄어듭니다."
+      },
       "investmentOpinion": {
-        "sentiment": "neutral",
-        "opinion": "중립적 신호입니다. 추가 정보를 수집한 후 투자 결정을 하세요.",
-        "riskLevel": "medium",
-        "confidence": 0.75
+        "sentiment": "positive",
+        "opinion": "👍 긍정적 신호입니다. 이 분야에 투자하는 것을 고려해볼 수 있습니다.",
+        "riskLevel": "low",
+        "confidence": 0.85
       },
       "category": "economic",
       "readingTime": 5,
-      "link": "https://www.globenewswire.com/news-release/2026/03/17/3257052/0/en/Neuronetics-Appoints-Dan-Reuvers-as-President-and-Chief-Executive-Officer.html",
-      "sourceUrl": "https://www.globenewswire.com/news-release/2026/03/17/3257052/0/en/Neuronetics-Appoints-Dan-Reuvers-as-President-and-Chief-Executive-Officer.html",
-      "publishedAt": "2026-03-17T11:45:00Z",
-      "source": "GlobeNewswire",
-      "urlToImage": "https://ml.globenewswire.com/Resource/Download/12db9039-d4bf-41a0-8b4a-324398e392b4"
+      "link": "https://m.economictimes.com/markets/us-stocks/news/us-stock-market-live-dow-jones-sp-500-nasdaq-trump-us-iran-israel-war-crude-brent-oil-meta-google-mu-stock-price-news/liveblog/129633090.cms",
+      "sourceUrl": "https://m.economictimes.com/markets/us-stocks/news/us-stock-market-live-dow-jones-sp-500-nasdaq-trump-us-iran-israel-war-crude-brent-oil-meta-google-mu-stock-price-news/liveblog/129633090.cms",
+      "publishedAt": "2026-03-17T12:37:03Z",
+      "source": "Economictimes.com",
+      "urlToImage": "https://economictimes.indiatimes.com/thumb/msid-129633090,width-1200,height-900,resizemode-4,imglength-278212/markets/us-stocks/news/us-stock-market-live-dow-jones-sp-500-nasdaq-trump-us-iran-israel-war-crude-brent-oil-meta-google-mu-stock-price-news.jpg"
     }
   ],
-  "lastUpdated": "2026. 3. 18. 오전 7:47:43",
+  "lastUpdated": "2026. 3. 18. 오전 8:54:29",
   "insights": {
     "topCategories": [
       {
         "category": "경제",
         "count": 10,
-        "topNews": "A market correction of 10% could be on the cards as consumer psychology shifts due to gas prices, says top economist",
+        "topNews": "Quote of the day by William Butler Yeats, \"Do not wait to strike till the iron is hot; but make it hot by striking.\" — How Yeats proves action beats timing",
         "avgImportance": 80
       }
     ],
@@ -234,199 +308,284 @@
   },
   "investmentReport": {
     "marketSentiment": "neutral",
-    "topRecommendations": [],
+    "topRecommendations": [
+      {
+        "title": "Enabling sustainable and inclusive 성장: Standard Chartered’s strategic commitment to India’s ambitious agenda",
+        "opinion": "👍 긍정적 신호입니다. 이 분야에 투자하는 것을 고려해볼 수 있습니다.",
+        "riskLevel": "low"
+      },
+      {
+        "title": "US 주식 시장 Today | 다우존스 | 나스닥 Live: US 주식 futures slip as 석유 jump fuels 물가 상승 worries before 미국 중앙은행 meet",
+        "opinion": "👍 긍정적 신호입니다. 이 분야에 투자하는 것을 고려해볼 수 있습니다.",
+        "riskLevel": "low"
+      }
+    ],
     "warnings": []
   },
   "news": [
     {
       "id": "news_0",
-      "title": "A market correction of 10% could be on the cards as consumer psychology shifts due to gas prices, says top economist",
-      "summary": "\"The key issue is not simply crude oil itself. It is gasoline, the most visible price in the economy for consumers, and when that price jumps it hits psychology immediately.\"",
-      "detailedExplanation": "이 뉴스란 무엇일까요?\n\"The key issue is not simply crude oil itself. It is gasoline, the most visible price in the economy for consumers, and when that price jumps it hits psychology immediately.\"\n\n우리 생활에 미치는 영향\n이 뉴스는 우리의 경제 생활에 영향을 미치는 중요한 소식입니다. 경제 뉴스를 이해하면 앞으로 어떤 변화가 올지 예측할 수 있습니다.",
+      "title": "Quote of the day by William Butler Yeats, \"Do not wait to strike till the iron is hot; but make it hot by striking.\" — How Yeats proves action beats timing",
+      "originalTitle": "Quote of the day by William Butler Yeats, \"Do not wait to strike till the iron is hot; but make it hot by striking.\" — How Yeats proves action beats timing",
+      "summary": "Quote of the day by William Butler Yeats: 83% of top performers in 2026 share one habit: they start before they feel ready. W.B. Yeats said it first. Success does not wait for perfect conditions. You create them — by moving early, acting now, and building mom…",
+      "originalSummary": "Quote of the day by William Butler Yeats: 83% of top performers in 2026 share one habit: they start before they feel ready. W.B. Yeats said it first. Success does not wait for perfect conditions. You create them — by moving early, acting now, and building mom…",
+      "detailedExplanation": {
+        "title": "📰 이 뉴스란 무엇일까요?",
+        "content": "Quote of the day by William Butler Yeats: 83% of top performers in 2026 share one habit: they start before they feel ready. W.B. Yeats said it first. Success does not wait for perfect conditions. You create them — by moving early, acting now, and building mom…",
+        "meaning": "📊 우리 생활에 미치는 영향",
+        "meaningContent": "이 뉴스는 우리의 경제 생활에 영향을 미치는 중요한 소식입니다. 경제 뉴스를 이해하면 앞으로 어떤 변화가 올지 예측할 수 있습니다."
+      },
       "investmentOpinion": {
         "sentiment": "neutral",
-        "opinion": "중립적 신호입니다. 추가 정보를 수집한 후 투자 결정을 하세요.",
+        "opinion": "➡️ 중립적 신호입니다. 추가 정보를 수집한 후 투자 결정을 하세요.",
         "riskLevel": "medium",
         "confidence": 0.75
       },
       "category": "economic",
       "readingTime": 5,
-      "link": "https://fortune.com/2026/03/17/market-correction-consumer-gas-prices-oil-iran-perception/",
-      "sourceUrl": "https://fortune.com/2026/03/17/market-correction-consumer-gas-prices-oil-iran-perception/",
-      "publishedAt": "2026-03-17T11:46:18Z",
-      "source": "Fortune",
-      "urlToImage": "https://fortune.com/img-assets/wp-content/uploads/2026/03/GettyImages-102369973-e1773746614310.jpg?resize=1200,600"
+      "link": "https://economictimes.indiatimes.com/news/international/us/quote-of-the-day-by-william-butler-yeats-do-not-wait-to-strike-till-the-iron-is-hot-but-make-it-hot-by-striking-how-yeats-proves-action-beats-timing/articleshow/129632754.cms",
+      "sourceUrl": "https://economictimes.indiatimes.com/news/international/us/quote-of-the-day-by-william-butler-yeats-do-not-wait-to-strike-till-the-iron-is-hot-but-make-it-hot-by-striking-how-yeats-proves-action-beats-timing/articleshow/129632754.cms",
+      "publishedAt": "2026-03-17T12:50:56Z",
+      "source": "The Times of India",
+      "urlToImage": "https://img.etimg.com/thumb/msid-129632916,width-1200,height-630,imgsize-11488,overlay-economictimes/articleshow.jpg"
     },
     {
       "id": "news_1",
-      "title": "Vietnam shortlists firms for first regulated crypto platforms",
-      "summary": "Vietnam's move to regulate crypto exchanges could enhance domestic economic control, reduce capital outflows, and challenge foreign dominance.\nThe post Vietnam shortlists firms for first regulated crypto platforms appeared first on Crypto Briefing.",
-      "detailedExplanation": "이 뉴스란 무엇일까요?\nVietnam's move to regulate crypto exchanges could enhance domestic economic control, reduce capital outflows, and challenge foreign dominance.\nThe post Vietnam shortlists firms for first regulated crypto platforms appeared first on Crypto Briefing.\n\n우리 생활에 미치는 영향\n이 뉴스는 우리의 경제 생활에 영향을 미치는 중요한 소식입니다. 경제 뉴스를 이해하면 앞으로 어떤 변화가 올지 예측할 수 있습니다.",
+      "title": "석유, 가스 가격 jump as Trump flirts with striking Iranian 석유 infrastructure",
+      "originalTitle": "Oil, gas prices jump as Trump flirts with striking Iranian oil infrastructure",
+      "summary": "President Donald Trump targets Iran's Kharg Island 석유 hub, which handles 90% of Iranian crude exports to China and India, raising fears of broader Persian Gulf supply disruptions.",
+      "originalSummary": "President Donald Trump targets Iran's Kharg Island oil hub, which handles 90% of Iranian crude exports to China and India, raising fears of broader Persian Gulf supply disruptions.",
+      "detailedExplanation": {
+        "title": "📰 이 뉴스란 무엇일까요?",
+        "content": "President Donald Trump targets Iran's Kharg Island 석유 hub, which handles 90% of Iranian crude exports to China and India, raising fears of broader Persian Gulf supply disruptions.",
+        "meaning": "📊 우리 생활에 미치는 영향",
+        "meaningContent": "이 뉴스는 우리의 경제 생활에 영향을 미치는 중요한 소식입니다. 경제 뉴스를 이해하면 앞으로 어떤 변화가 올지 예측할 수 있습니다."
+      },
       "investmentOpinion": {
         "sentiment": "neutral",
-        "opinion": "중립적 신호입니다. 추가 정보를 수집한 후 투자 결정을 하세요.",
+        "opinion": "➡️ 중립적 신호입니다. 추가 정보를 수집한 후 투자 결정을 하세요.",
         "riskLevel": "medium",
         "confidence": 0.75
       },
       "category": "economic",
       "readingTime": 5,
-      "link": "https://cryptobriefing.com/vietnam-regulated-crypto-platforms/",
-      "sourceUrl": "https://cryptobriefing.com/vietnam-regulated-crypto-platforms/",
-      "publishedAt": "2026-03-17T11:45:46Z",
-      "source": "Crypto Briefing",
-      "urlToImage": "https://static.cryptobriefing.com/wp-content/uploads/2026/03/17073209/189fce94-4351-431a-8657-47faeeaf9899-800x420.jpg"
+      "link": "https://www.foxnews.com/politics/oil-gas-prices-jump-trump-flirts-striking-iranian-oil-infrastructure",
+      "sourceUrl": "https://www.foxnews.com/politics/oil-gas-prices-jump-trump-flirts-striking-iranian-oil-infrastructure",
+      "publishedAt": "2026-03-17T12:48:21Z",
+      "source": "Fox News",
+      "urlToImage": "https://static.foxnews.com/foxnews.com/content/uploads/2026/03/tanker-us-flag-california.png"
     },
     {
       "id": "news_2",
-      "title": "Nepal faces no major gas or fuel shortages, officials confirm",
-      "summary": "KATHMANDU: More than two weeks after the United States and Israel launched strikes on Iran, the resulting retaliatory actions and geopolitical tensions in West Asia are affecting global energy supply chains, with a noticeable impact even in Nepal. Nepali hous…",
-      "detailedExplanation": "이 뉴스란 무엇일까요?\nKATHMANDU: More than two weeks after the United States and Israel launched strikes on Iran, the resulting retaliatory actions and geopolitical tensions in West Asia are affecting global energy supply chains, with a noticeable impact even in Nepal. Nepali hous…\n\n우리 생활에 미치는 영향\n이 뉴스는 우리의 경제 생활에 영향을 미치는 중요한 소식입니다. 경제 뉴스를 이해하면 앞으로 어떤 변화가 올지 예측할 수 있습니다.",
+      "title": "Argentina joins growing list of countries blocking Polymarket access",
+      "originalTitle": "Argentina joins growing list of countries blocking Polymarket access",
+      "summary": "The ruling directs internet providers to block access to the site, and 애플 and 구글 to remove or restrict Polymarket's mobile apps.",
+      "originalSummary": "The ruling directs internet providers to block access to the site, and Apple and Google to remove or restrict Polymarket's mobile apps.",
+      "detailedExplanation": {
+        "title": "📰 이 뉴스란 무엇일까요?",
+        "content": "The ruling directs internet providers to block access to the site, and 애플 and 구글 to remove or restrict Polymarket's mobile apps.",
+        "meaning": "📊 우리 생활에 미치는 영향",
+        "meaningContent": "이 뉴스는 우리의 경제 생활에 영향을 미치는 중요한 소식입니다. 경제 뉴스를 이해하면 앞으로 어떤 변화가 올지 예측할 수 있습니다."
+      },
       "investmentOpinion": {
         "sentiment": "neutral",
-        "opinion": "중립적 신호입니다. 추가 정보를 수집한 후 투자 결정을 하세요.",
+        "opinion": "➡️ 중립적 신호입니다. 추가 정보를 수집한 후 투자 결정을 하세요.",
         "riskLevel": "medium",
         "confidence": 0.75
       },
       "category": "economic",
       "readingTime": 5,
-      "link": "https://english.khabarhub.com/2026/17/539737/",
-      "sourceUrl": "https://english.khabarhub.com/2026/17/539737/",
-      "publishedAt": "2026-03-17T11:45:09Z",
-      "source": "Khabarhub.com",
-      "urlToImage": "https://english.khabarhub.com/wp-content/uploads/2026/03/petrol-1-.png.png"
+      "link": "https://www.coindesk.com/policy/2026/03/17/argentina-joins-growing-list-of-countries-blocking-polymarket-access",
+      "sourceUrl": "https://www.coindesk.com/policy/2026/03/17/argentina-joins-growing-list-of-countries-blocking-polymarket-access",
+      "publishedAt": "2026-03-17T12:44:59Z",
+      "source": "CoinDesk",
+      "urlToImage": "https://cdn.sanity.io/images/s3y3vcno/production/abc95773d45a37745ac5e832927f5c25c1ec3332-1920x1079.jpg?auto=format&w=960&h=540&crop=focalpoint&fit=clip&q=75&fm=jpg"
     },
     {
       "id": "news_3",
-      "title": "Frustrations in Cannaland",
-      "summary": "Building a profitable business is hard; building one in Cannaland is almost impossible. We are all handcuffed on multiple levels. I was watching an advertisement pre-Knick game on Molson Ale. The advertisement essentially sang about Molson times, from lunch t…",
-      "detailedExplanation": "이 뉴스란 무엇일까요?\nBuilding a profitable business is hard; building one in Cannaland is almost impossible. We are all handcuffed on multiple levels. I was watching an advertisement pre-Knick game on Molson Ale. The advertisement essentially sang about Molson times, from lunch t…\n\n우리 생활에 미치는 영향\n이 뉴스는 우리의 경제 생활에 영향을 미치는 중요한 소식입니다. 경제 뉴스를 이해하면 앞으로 어떤 변화가 올지 예측할 수 있습니다.",
+      "title": "One and One Green Technologies. INC Taps into Metro Manila’s Billion-달러 E-Waste Stream, Securing Key Local Supply for Metals Recycling",
+      "originalTitle": "One and One Green Technologies. INC Taps into Metro Manila’s Billion-Dollar E-Waste Stream, Securing Key Local Supply for Metals Recycling",
+      "summary": "San Rafael, Bulacan, Philippines, March 17, 2026 (GLOBE NEWSWIRE) -- One and One Green Technologies. INC (“One and One” or the “Company”) (나스닥: YDDL), a Philippines-based recycler holding a government-issued license in the Philippines to import and process…",
+      "originalSummary": "San Rafael, Bulacan, Philippines, March 17, 2026 (GLOBE NEWSWIRE) -- One and One Green Technologies. INC (“One and One” or the “Company”) (NASDAQ: YDDL), a Philippines-based recycler holding a government-issued license in the Philippines to import and process…",
+      "detailedExplanation": {
+        "title": "📰 이 뉴스란 무엇일까요?",
+        "content": "San Rafael, Bulacan, Philippines, March 17, 2026 (GLOBE NEWSWIRE) -- One and One Green Technologies. INC (“One and One” or the “Company”) (나스닥: YDDL), a Philippines-based recycler holding a government-issued license in the Philippines to import and process…",
+        "meaning": "📊 우리 생활에 미치는 영향",
+        "meaningContent": "이 뉴스는 우리의 경제 생활에 영향을 미치는 중요한 소식입니다. 경제 뉴스를 이해하면 앞으로 어떤 변화가 올지 예측할 수 있습니다."
+      },
       "investmentOpinion": {
         "sentiment": "neutral",
-        "opinion": "중립적 신호입니다. 추가 정보를 수집한 후 투자 결정을 하세요.",
+        "opinion": "➡️ 중립적 신호입니다. 추가 정보를 수집한 후 투자 결정을 하세요.",
         "riskLevel": "medium",
         "confidence": 0.75
       },
       "category": "economic",
       "readingTime": 5,
-      "link": "https://gothamgal.com/2026/03/frustrations-in-cannaland/",
-      "sourceUrl": "https://gothamgal.com/2026/03/frustrations-in-cannaland/",
-      "publishedAt": "2026-03-17T11:44:54Z",
-      "source": "Gothamgal.com",
-      "urlToImage": "https://gothamgal.com/content/uploads/2026/03/download-2-1.jpg"
+      "link": "https://www.globenewswire.com/news-release/2026/03/17/3257175/0/en/One-and-One-Green-Technologies-INC-Taps-into-Metro-Manila-s-Billion-Dollar-E-Waste-Stream-Securing-Key-Local-Supply-for-Metals-Recycling.html",
+      "sourceUrl": "https://www.globenewswire.com/news-release/2026/03/17/3257175/0/en/One-and-One-Green-Technologies-INC-Taps-into-Metro-Manila-s-Billion-Dollar-E-Waste-Stream-Securing-Key-Local-Supply-for-Metals-Recycling.html",
+      "publishedAt": "2026-03-17T12:30:00Z",
+      "source": "GlobeNewswire",
+      "urlToImage": "https://ml.globenewswire.com/Resource/Download/b8197b6d-0f95-4eb2-bf27-d286d3f8c8f0"
     },
     {
       "id": "news_4",
-      "title": "Ukrainian Terror Attacks on Russian Soil Up by 40% in 2025 — Shoigu",
-      "summary": "YEKATERINBURG, Russia (Sputnik) — Terrorist attacks orchestrated by Ukrainian intelligence services inside Russia were up 40% by late 2025 to 1,830, Russian Security Council Secretary Sergei Shoigu said on Tuesday.",
-      "detailedExplanation": "이 뉴스란 무엇일까요?\nYEKATERINBURG, Russia (Sputnik) — Terrorist attacks orchestrated by Ukrainian intelligence services inside Russia were up 40% by late 2025 to 1,830, Russian Security Council Secretary Sergei Shoigu said on Tuesday.\n\n우리 생활에 미치는 영향\n이 뉴스는 우리의 경제 생활에 영향을 미치는 중요한 소식입니다. 경제 뉴스를 이해하면 앞으로 어떤 변화가 올지 예측할 수 있습니다.",
+      "title": "Dubai 'Was Supposed to Be Safe.' It's Not",
+      "originalTitle": "Dubai 'Was Supposed to Be Safe.' It's Not",
+      "summary": "Like many cities in the Mideast at the moment, Dubai finds itself under attack. The city in the United Arab Emirates has been fending off Iranian missile and drone attacks, and explosions have struck near the city's airport—one of the world's busiest for inte…",
+      "originalSummary": "Like many cities in the Mideast at the moment, Dubai finds itself under attack. The city in the United Arab Emirates has been fending off Iranian missile and drone attacks, and explosions have struck near the city's airport—one of the world's busiest for inte…",
+      "detailedExplanation": {
+        "title": "📰 이 뉴스란 무엇일까요?",
+        "content": "Like many cities in the Mideast at the moment, Dubai finds itself under attack. The city in the United Arab Emirates has been fending off Iranian missile and drone attacks, and explosions have struck near the city's airport—one of the world's busiest for inte…",
+        "meaning": "📊 우리 생활에 미치는 영향",
+        "meaningContent": "이 뉴스는 우리의 경제 생활에 영향을 미치는 중요한 소식입니다. 경제 뉴스를 이해하면 앞으로 어떤 변화가 올지 예측할 수 있습니다."
+      },
       "investmentOpinion": {
         "sentiment": "neutral",
-        "opinion": "중립적 신호입니다. 추가 정보를 수집한 후 투자 결정을 하세요.",
+        "opinion": "➡️ 중립적 신호입니다. 추가 정보를 수집한 후 투자 결정을 하세요.",
         "riskLevel": "medium",
         "confidence": 0.75
       },
       "category": "economic",
       "readingTime": 5,
-      "link": "https://sputnikglobe.com/20260317/ukrainian-terror-attacks-on-russian-soil-up-by-40-in-2025--shoigu-1123838103.html",
-      "sourceUrl": "https://sputnikglobe.com/20260317/ukrainian-terror-attacks-on-russian-soil-up-by-40-in-2025--shoigu-1123838103.html",
-      "publishedAt": "2026-03-17T11:41:45Z",
-      "source": "Sputnikglobe.com",
-      "urlToImage": "https://cdn1.img.sputnikglobe.com/images/sharing/article/eng/1123838103.jpg?11212034531773747705"
+      "link": "https://www.newser.com/story/385550/dubai-was-supposed-to-be-safe-its-not.html",
+      "sourceUrl": "https://www.newser.com/story/385550/dubai-was-supposed-to-be-safe-its-not.html",
+      "publishedAt": "2026-03-17T12:30:00Z",
+      "source": "Newser",
+      "urlToImage": "https://img2-azrcdn.newser.com/image/1671693-12-20260317074347.jpeg"
     },
     {
       "id": "news_5",
-      "title": "Infineon executive urges Europe to build larger, automated fabs",
-      "summary": "European chipmakers face intense competition from China in power and analog chips. An Infineon executive urges investment in larger, automated 300mm wafer fabs to boost competitiveness. Europe must scale up and consolidate operations to increase efficiency an…",
-      "detailedExplanation": "이 뉴스란 무엇일까요?\nEuropean chipmakers face intense competition from China in power and analog chips. An Infineon executive urges investment in larger, automated 300mm wafer fabs to boost competitiveness. Europe must scale up and consolidate operations to increase efficiency an…\n\n우리 생활에 미치는 영향\n이 뉴스는 우리의 경제 생활에 영향을 미치는 중요한 소식입니다. 경제 뉴스를 이해하면 앞으로 어떤 변화가 올지 예측할 수 있습니다.",
+      "title": "Why developing nations could be the first to suffer as the Middle East conflict raises food 가격",
+      "originalTitle": "Why developing nations could be the first to suffer as the Middle East conflict raises food prices",
+      "summary": "에너지 가격 spikes will force up the cost of grain imports.",
+      "originalSummary": "Energy price spikes will force up the cost of grain imports.",
+      "detailedExplanation": {
+        "title": "⚡ 에너지란 무엇일까요?",
+        "content": "에너지는 우리가 생활하는 데 필요한 전기, 가스, 휘발유 등을 말합니다. 에너지 가격은 우리 생활비에 큰 영향을 미칩니다.",
+        "meaning": "📊 이 뉴스의 의미",
+        "meaningContent": "유가가 올라간다는 것은 석유 가격이 비싸진다는 뜻입니다. 이는 전 세계의 경제 상황과 밀접한 관련이 있습니다.",
+        "impact": "🚗 우리 생활에 미치는 영향",
+        "impactContent": "에너지 가격이 올라가면 휘발유, 경유, 전기료, 난방비 등이 모두 올라갑니다. 따라서 물건을 배송하는 비용이 늘어나고, 결국 우리가 사는 물건의 가격도 올라갑니다."
+      },
       "investmentOpinion": {
         "sentiment": "neutral",
-        "opinion": "중립적 신호입니다. 추가 정보를 수집한 후 투자 결정을 하세요.",
+        "opinion": "➡️ 중립적 신호입니다. 추가 정보를 수집한 후 투자 결정을 하세요.",
         "riskLevel": "medium",
         "confidence": 0.75
       },
       "category": "economic",
       "readingTime": 5,
-      "link": "https://economictimes.indiatimes.com/tech/artificial-intelligence/infineon-executive-urges-europe-to-build-larger-automated-fabs/articleshow/129631664.cms",
-      "sourceUrl": "https://economictimes.indiatimes.com/tech/artificial-intelligence/infineon-executive-urges-europe-to-build-larger-automated-fabs/articleshow/129631664.cms",
-      "publishedAt": "2026-03-17T11:40:44Z",
-      "source": "The Times of India",
-      "urlToImage": "https://img.etimg.com/thumb/width-1200,height-900,imgsize-284638,resizemode-75,msid-129631664/tech/artificial-intelligence/infineon-executive-urges-europe-to-build-larger-automated-fabs.jpg"
+      "link": "https://theconversation.com/why-developing-nations-could-be-the-first-to-suffer-as-the-middle-east-conflict-raises-food-prices-278164",
+      "sourceUrl": "https://theconversation.com/why-developing-nations-could-be-the-first-to-suffer-as-the-middle-east-conflict-raises-food-prices-278164",
+      "publishedAt": "2026-03-17T12:26:50Z",
+      "source": "The Conversation Africa",
+      "urlToImage": "https://images.theconversation.com/files/723775/original/file-20260313-73-5kr6y5.jpg?ixlib=rb-4.1.0&rect=0%2C275%2C5402%2C2701&q=45&auto=format&w=1356&h=668&fit=crop"
     },
     {
       "id": "news_6",
-      "title": "Al Jazeera op-ed praises US-Israel operation against Iran, says Dems, media critics are wrong",
-      "summary": "Al Jazeera is offering praise to US and Israel's Operation Epic Fury and its effectiveness against the Iranian regime in an op-ed from Doha Institute associate professor Muhanad Seloom.",
-      "detailedExplanation": "이 뉴스란 무엇일까요?\nAl Jazeera is offering praise to US and Israel's Operation Epic Fury and its effectiveness against the Iranian regime in an op-ed from Doha Institute associate professor Muhanad Seloom.\n\n우리 생활에 미치는 영향\n이 뉴스는 우리의 경제 생활에 영향을 미치는 중요한 소식입니다. 경제 뉴스를 이해하면 앞으로 어떤 변화가 올지 예측할 수 있습니다.",
+      "title": "Enabling sustainable and inclusive 성장: Standard Chartered’s strategic commitment to India’s ambitious agenda",
+      "originalTitle": "Enabling sustainable and inclusive growth: Standard Chartered’s strategic commitment to India’s ambitious agenda",
+      "summary": "Standard Chartered has mobilised over USD1 billion for India's microfinance and NBFC sectors. P.D. Singh, CEO for India and South Asia, explains how the bank is leveraging its global expertise to help accelerate India's transition to a more sustainable, inclu…",
+      "originalSummary": "Standard Chartered has mobilised over USD1 billion for India's microfinance and NBFC sectors. P.D. Singh, CEO for India and South Asia, explains how the bank is leveraging its global expertise to help accelerate India's transition to a more sustainable, inclu…",
+      "detailedExplanation": {
+        "title": "📰 이 뉴스란 무엇일까요?",
+        "content": "Standard Chartered has mobilised over USD1 billion for India's microfinance and NBFC sectors. P.D. Singh, CEO for India and South Asia, explains how the bank is leveraging its global expertise to help accelerate India's transition to a more sustainable, inclu…",
+        "meaning": "📊 우리 생활에 미치는 영향",
+        "meaningContent": "이 뉴스는 우리의 경제 생활에 영향을 미치는 중요한 소식입니다. 경제 뉴스를 이해하면 앞으로 어떤 변화가 올지 예측할 수 있습니다."
+      },
       "investmentOpinion": {
-        "sentiment": "neutral",
-        "opinion": "중립적 신호입니다. 추가 정보를 수집한 후 투자 결정을 하세요.",
-        "riskLevel": "medium",
-        "confidence": 0.75
+        "sentiment": "positive",
+        "opinion": "👍 긍정적 신호입니다. 이 분야에 투자하는 것을 고려해볼 수 있습니다.",
+        "riskLevel": "low",
+        "confidence": 0.85
       },
       "category": "economic",
       "readingTime": 5,
-      "link": "https://www.foxnews.com/media/al-jazeera-op-ed-praises-us-israel-operation-against-iran-says-dems-media-critics-wrong",
-      "sourceUrl": "https://www.foxnews.com/media/al-jazeera-op-ed-praises-us-israel-operation-against-iran-says-dems-media-critics-wrong",
-      "publishedAt": "2026-03-17T11:40:26Z",
-      "source": "Fox News",
-      "urlToImage": "https://static.foxnews.com/foxnews.com/content/uploads/2026/03/trump-netanyahu-thumbs-up.jpg"
+      "link": "https://economictimes.indiatimes.com/industry/banking/finance/enabling-sustainable-and-inclusive-growth-standard-chartereds-strategic-commitment-to-indias-ambitious-agenda/articleshow/129632492.cms",
+      "sourceUrl": "https://economictimes.indiatimes.com/industry/banking/finance/enabling-sustainable-and-inclusive-growth-standard-chartereds-strategic-commitment-to-indias-ambitious-agenda/articleshow/129632492.cms",
+      "publishedAt": "2026-03-17T12:21:52Z",
+      "source": "The Times of India",
+      "urlToImage": "https://img.etimg.com/thumb/msid-129632490,width-1200,height-630,imgsize-1029462,overlay-economictimes/articleshow.jpg"
     },
     {
       "id": "news_7",
-      "title": "Adani commits Rs 2 lakh crore to fortify India’s energy, trade networks against global shocks",
-      "summary": "Facing global uncertainty, the Adani Group is investing ₹2 lakh crore annually for five years to bolster India's infrastructure. This expansion focuses on energy security, aiming for 50 GW of renewable capacity and robust transmission networks, alongside a di…",
-      "detailedExplanation": "이 뉴스란 무엇일까요?\nFacing global uncertainty, the Adani Group is investing ₹2 lakh crore annually for five years to bolster India's infrastructure. This expansion focuses on energy security, aiming for 50 GW of renewable capacity and robust transmission networks, alongside a di…\n\n우리 생활에 미치는 영향\n이 뉴스는 우리의 경제 생활에 영향을 미치는 중요한 소식입니다. 경제 뉴스를 이해하면 앞으로 어떤 변화가 올지 예측할 수 있습니다.",
+      "title": "Rupee: Outflows, 강한 달러 weigh on the rupee",
+      "originalTitle": "Rupee: Outflows, strong dollar weigh on the rupee",
+      "summary": "Weekly Rupee View: The rupee faces pressure from outflows and a 강한 달러, with future trends hinging on 미국 중앙은행 policy.",
+      "originalSummary": "Weekly Rupee View: The rupee faces pressure from outflows and a strong dollar, with future trends hinging on Fed policy.",
+      "detailedExplanation": {
+        "title": "📰 이 뉴스란 무엇일까요?",
+        "content": "Weekly Rupee View: The rupee faces pressure from outflows and a 강한 달러, with future trends hinging on 미국 중앙은행 policy.",
+        "meaning": "📊 우리 생활에 미치는 영향",
+        "meaningContent": "이 뉴스는 우리의 경제 생활에 영향을 미치는 중요한 소식입니다. 경제 뉴스를 이해하면 앞으로 어떤 변화가 올지 예측할 수 있습니다."
+      },
       "investmentOpinion": {
         "sentiment": "neutral",
-        "opinion": "중립적 신호입니다. 추가 정보를 수집한 후 투자 결정을 하세요.",
+        "opinion": "➡️ 중립적 신호입니다. 추가 정보를 수집한 후 투자 결정을 하세요.",
         "riskLevel": "medium",
         "confidence": 0.75
       },
       "category": "economic",
       "readingTime": 5,
-      "link": "https://economictimes.indiatimes.com/news/company/corporate-trends/adani-commits-rs-2-lakh-crore-to-fortify-indias-energy-trade-networks-against-global-shocks/articleshow/129631646.cms",
-      "sourceUrl": "https://economictimes.indiatimes.com/news/company/corporate-trends/adani-commits-rs-2-lakh-crore-to-fortify-indias-energy-trade-networks-against-global-shocks/articleshow/129631646.cms",
-      "publishedAt": "2026-03-17T11:38:04Z",
-      "source": "The Times of India",
-      "urlToImage": "https://img.etimg.com/thumb/msid-129631655,width-1200,height-630,imgsize-33626,overlay-economictimes/articleshow.jpg"
+      "link": "https://www.thehindubusinessline.com/portfolio/technical-analysis/rupeeoutflows-strong-dollar-weigh-on-the-rupee/article70753594.ece",
+      "sourceUrl": "https://www.thehindubusinessline.com/portfolio/technical-analysis/rupeeoutflows-strong-dollar-weigh-on-the-rupee/article70753594.ece",
+      "publishedAt": "2026-03-17T12:20:32Z",
+      "source": "BusinessLine",
+      "urlToImage": "https://bl-i.thgim.com/public/incoming/d1c8j5/article70753940.ece/alternates/LANDSCAPE_1200/iStock-1246765325.jpg"
     },
     {
       "id": "news_8",
-      "title": "Cycurion, Inc. Statement Regarding Unauthorized Press Release, Fabrication of Investor Relations Contact, and Related Market Activity – Litigation Counsel Engaged to Address Short Selling and Manipulation",
-      "summary": "Cycurion, Inc. Statement Regarding Unauthorized Press Release, Fabrication of Investor Relations Contact, and Related Market Activity – Litigation Counsel...",
-      "detailedExplanation": "이 뉴스란 무엇일까요?\nCycurion, Inc. Statement Regarding Unauthorized Press Release, Fabrication of Investor Relations Contact, and Related Market Activity – Litigation Counsel...\n\n우리 생활에 미치는 영향\n이 뉴스는 우리의 경제 생활에 영향을 미치는 중요한 소식입니다. 경제 뉴스를 이해하면 앞으로 어떤 변화가 올지 예측할 수 있습니다.",
+      "title": "India Glycols announces Rs 7.5/share dividend. Check smallcap's record date, dividend yield",
+      "originalTitle": "India Glycols announces Rs 7.5/share dividend. Check smallcap's record date, dividend yield",
+      "summary": "India Glycols declared an interim dividend of Rs 7.5 per share for FY2025-26, with March 23 set as the record date. According to Trendlyne, the company has issued 23 dividends so far. Over the past year, it paid Rs 5 per share, translating to a dividend yield…",
+      "originalSummary": "India Glycols declared an interim dividend of Rs 7.5 per share for FY2025-26, with March 23 set as the record date. According to Trendlyne, the company has issued 23 dividends so far. Over the past year, it paid Rs 5 per share, translating to a dividend yield…",
+      "detailedExplanation": {
+        "title": "📰 이 뉴스란 무엇일까요?",
+        "content": "India Glycols declared an interim dividend of Rs 7.5 per share for FY2025-26, with March 23 set as the record date. According to Trendlyne, the company has issued 23 dividends so far. Over the past year, it paid Rs 5 per share, translating to a dividend yield…",
+        "meaning": "📊 우리 생활에 미치는 영향",
+        "meaningContent": "이 뉴스는 우리의 경제 생활에 영향을 미치는 중요한 소식입니다. 경제 뉴스를 이해하면 앞으로 어떤 변화가 올지 예측할 수 있습니다."
+      },
       "investmentOpinion": {
         "sentiment": "neutral",
-        "opinion": "중립적 신호입니다. 추가 정보를 수집한 후 투자 결정을 하세요.",
+        "opinion": "➡️ 중립적 신호입니다. 추가 정보를 수집한 후 투자 결정을 하세요.",
         "riskLevel": "medium",
         "confidence": 0.75
       },
       "category": "economic",
       "readingTime": 5,
-      "link": "https://www.globenewswire.com/news-release/2026/03/17/3257051/0/en/Cycurion-Inc-Statement-Regarding-Unauthorized-Press-Release-Fabrication-of-Investor-Relations-Contact-and-Related-Market-Activity-Litigation-Counsel-Engaged-to-Address-Short-Sellin.html",
-      "sourceUrl": "https://www.globenewswire.com/news-release/2026/03/17/3257051/0/en/Cycurion-Inc-Statement-Regarding-Unauthorized-Press-Release-Fabrication-of-Investor-Relations-Contact-and-Related-Market-Activity-Litigation-Counsel-Engaged-to-Address-Short-Sellin.html",
-      "publishedAt": "2026-03-17T11:45:00Z",
-      "source": "GlobeNewswire",
-      "urlToImage": null
+      "link": "https://economictimes.indiatimes.com/markets/stocks/news/india-glycols-announces-rs-7-5/share-dividend-check-smallcaps-record-date-dividend-yield/articleshow/129633370.cms",
+      "sourceUrl": "https://economictimes.indiatimes.com/markets/stocks/news/india-glycols-announces-rs-7-5/share-dividend-check-smallcaps-record-date-dividend-yield/articleshow/129633370.cms",
+      "publishedAt": "2026-03-17T12:50:36Z",
+      "source": "The Times of India",
+      "urlToImage": "https://img.etimg.com/thumb/msid-129633356,width-1200,height-630,imgsize-8806,overlay-etmarkets/articleshow.jpg"
     },
     {
       "id": "news_9",
-      "title": "Neuronetics Appoints Dan Reuvers as President and Chief Executive Officer",
-      "summary": "Seasoned leader brings more than 30 years of medical device experience, with a proven track record of growing revenue, earnings, and cash flow across multiple publicly traded healthcare companies Seasoned leader brings more than 30 years of medical device exp…",
-      "detailedExplanation": "이 뉴스란 무엇일까요?\nSeasoned leader brings more than 30 years of medical device experience, with a proven track record of growing revenue, earnings, and cash flow across multiple publicly traded healthcare companies Seasoned leader brings more than 30 years of medical device exp…\n\n우리 생활에 미치는 영향\n이 뉴스는 우리의 경제 생활에 영향을 미치는 중요한 소식입니다. 경제 뉴스를 이해하면 앞으로 어떤 변화가 올지 예측할 수 있습니다.",
+      "title": "US 주식 시장 Today | 다우존스 | 나스닥 Live: US 주식 futures slip as 석유 jump fuels 물가 상승 worries before 미국 중앙은행 meet",
+      "originalTitle": "US Stock Market Today | Dow Jones | Nasdaq Live: US stock futures slip as oil jump fuels inflation worries before Fed meet",
+      "summary": "다우존스 Today | US 주식 시장 Live Updates: U.S. 주식 지수 futures slipped on Tuesday as the Middle East conflict kept 석유 가격 pinned near $100 a barrel, putting 물가 상승 risks back in focus ahead of the 미국 중앙은행's two-day meeting starting la…",
+      "originalSummary": "Dow Jones Today | US Stock Market Live Updates: U.S. stock index futures slipped on Tuesday as the Middle East conflict kept oil prices pinned near $100 a barrel, putting inflation risks back in focus ahead of the Federal Reserve's two-day meeting starting la…",
+      "detailedExplanation": {
+        "title": "📈 주식이란 무엇일까요?",
+        "content": "주식은 회사의 일부를 소유하는 증서입니다. 주식을 사면 그 회사의 주인이 되는 것입니다. 회사가 잘되면 주식 가격도 올라갑니다.",
+        "meaning": "📊 이 뉴스의 의미",
+        "meaningContent": "주식 시장이 좋아진다는 것은 많은 회사들의 실적이 좋아지고 있다는 뜻입니다. 이는 경제가 잘 돌아가고 있다는 신호입니다.",
+        "impact": "🏢 우리 생활에 미치는 영향",
+        "impactContent": "주식 시장이 좋으면 회사들이 더 많은 사람을 고용하고, 임금도 올려줍니다. 따라서 일자리가 많아지고 경제가 활성화됩니다. 반대로 주식 시장이 나쁘면 회사들이 어려워져서 구조조정을 하고 일자리가 줄어듭니다."
+      },
       "investmentOpinion": {
-        "sentiment": "neutral",
-        "opinion": "중립적 신호입니다. 추가 정보를 수집한 후 투자 결정을 하세요.",
-        "riskLevel": "medium",
-        "confidence": 0.75
+        "sentiment": "positive",
+        "opinion": "👍 긍정적 신호입니다. 이 분야에 투자하는 것을 고려해볼 수 있습니다.",
+        "riskLevel": "low",
+        "confidence": 0.85
       },
       "category": "economic",
       "readingTime": 5,
-      "link": "https://www.globenewswire.com/news-release/2026/03/17/3257052/0/en/Neuronetics-Appoints-Dan-Reuvers-as-President-and-Chief-Executive-Officer.html",
-      "sourceUrl": "https://www.globenewswire.com/news-release/2026/03/17/3257052/0/en/Neuronetics-Appoints-Dan-Reuvers-as-President-and-Chief-Executive-Officer.html",
-      "publishedAt": "2026-03-17T11:45:00Z",
-      "source": "GlobeNewswire",
-      "urlToImage": "https://ml.globenewswire.com/Resource/Download/12db9039-d4bf-41a0-8b4a-324398e392b4"
+      "link": "https://m.economictimes.com/markets/us-stocks/news/us-stock-market-live-dow-jones-sp-500-nasdaq-trump-us-iran-israel-war-crude-brent-oil-meta-google-mu-stock-price-news/liveblog/129633090.cms",
+      "sourceUrl": "https://m.economictimes.com/markets/us-stocks/news/us-stock-market-live-dow-jones-sp-500-nasdaq-trump-us-iran-israel-war-crude-brent-oil-meta-google-mu-stock-price-news/liveblog/129633090.cms",
+      "publishedAt": "2026-03-17T12:37:03Z",
+      "source": "Economictimes.com",
+      "urlToImage": "https://economictimes.indiatimes.com/thumb/msid-129633090,width-1200,height-900,resizemode-4,imglength-278212/markets/us-stocks/news/us-stock-market-live-dow-jones-sp-500-nasdaq-trump-us-iran-israel-war-crude-brent-oil-meta-google-mu-stock-price-news.jpg"
     }
   ]
 }

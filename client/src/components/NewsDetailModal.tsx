@@ -73,11 +73,28 @@ export default function NewsDetailModal({ news, isOpen, onClose }: NewsDetailMod
             <div className="mb-8">
               <h3 className="text-lg font-semibold text-foreground mb-3">📖 자세한 설명</h3>
               <div className="text-base text-muted-foreground leading-relaxed space-y-4">
-                {news.detailedExplanation.split('\n').map((paragraph, idx) => (
-                  <p key={idx} className="whitespace-pre-wrap">
-                    {paragraph}
-                  </p>
-                ))}
+                {typeof news.detailedExplanation === 'string' ? (
+                  news.detailedExplanation.split('\n').map((paragraph, idx) => (
+                    <p key={idx} className="whitespace-pre-wrap">
+                      {paragraph}
+                    </p>
+                  ))
+                ) : (
+                  <>
+                    <div className="bg-blue-50 border border-blue-200 rounded-lg p-4">
+                      <h4 className="font-semibold text-blue-900 mb-2">{news.detailedExplanation.title}</h4>
+                      <p className="text-blue-800">{news.detailedExplanation.content}</p>
+                    </div>
+                    <div className="bg-green-50 border border-green-200 rounded-lg p-4">
+                      <h4 className="font-semibold text-green-900 mb-2">{news.detailedExplanation.meaning}</h4>
+                      <p className="text-green-800">{news.detailedExplanation.meaningContent}</p>
+                    </div>
+                    <div className="bg-amber-50 border border-amber-200 rounded-lg p-4">
+                      <h4 className="font-semibold text-amber-900 mb-2">{news.detailedExplanation.impact}</h4>
+                      <p className="text-amber-800">{news.detailedExplanation.impactContent}</p>
+                    </div>
+                  </>
+                )}
               </div>
             </div>
 
