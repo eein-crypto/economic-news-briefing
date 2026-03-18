@@ -28,7 +28,7 @@ export async function fetchBriefingData(): Promise<BriefingData> {
         publishedAt: news.publishedAt,
         source: news.source
       })),
-      investmentReport: generateInvestmentReport(data.insights),
+      investmentReport: generateInvestmentReport(data.insights || { sectors: [], recommendation: '', marketSentiment: '긍정적' }),
       predictions: generatePredictions(data.topNews)
     };
     

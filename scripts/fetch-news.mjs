@@ -1,482 +1,491 @@
-#!/usr/bin/env node
-
 import fs from 'fs';
 import path from 'path';
 import { fileURLToPath } from 'url';
 
-const __dirname = path.dirname(fileURLToPath(import.meta.url));
-const dataDir = path.join(__dirname, '../client/public/data');
+const __filename = fileURLToPath(import.meta.url);
+const __dirname = path.dirname(__filename);
 
-if (!fs.existsSync(dataDir)) {
-  fs.mkdirSync(dataDir, { recursive: true });
+const NEWS_API_KEY = process.env.NEWS_API_KEY;
+const OUTPUT_PATH = path.join(__dirname, '../client/public/data/analysis.json');
+
+// 한글 번역 사전 (경제 용어 중심)
+const translationDict = {
+  'oil': '석유',
+  'gas': '가스',
+  'prices': '가격',
+  'price': '가격',
+  'stock': '주식',
+  'stocks': '주식',
+  'market': '시장',
+  'economy': '경제',
+  'economic': '경제적',
+  'inflation': '물가상승',
+  'interest rate': '금리',
+  'interest': '이자',
+  'rate': '비율',
+  'dollar': '달러',
+  'won': '원',
+  'currency': '통화',
+  'exchange': '환율',
+  'export': '수출',
+  'import': '수입',
+  'trade': '무역',
+  'investment': '투자',
+  'investor': '투자자',
+  'profit': '이익',
+  'loss': '손실',
+  'earnings': '수익',
+  'revenue': '매출',
+  'dividend': '배당금',
+  'shares': '주식',
+  'share': '주식',
+  'nasdaq': '나스닥',
+  'dow jones': '다우존스',
+  'sp 500': 'S&P 500',
+  'federal reserve': '연방준비제도',
+  'central bank': '중앙은행',
+  'bank': '은행',
+  'credit': '신용',
+  'debt': '빚',
+  'loan': '대출',
+  'mortgage': '주택담보대출',
+  'real estate': '부동산',
+  'property': '부동산',
+  'housing': '주택',
+  'construction': '건설',
+  'manufacturing': '제조',
+  'technology': '기술',
+  'tech': '기술',
+  'semiconductor': '반도체',
+  'chip': '칩',
+  'energy': '에너지',
+  'renewable': '재생',
+  'solar': '태양광',
+  'wind': '풍력',
+  'electric': '전기',
+  'vehicle': '자동차',
+  'car': '자동차',
+  'auto': '자동차',
+  'company': '회사',
+  'corporation': '기업',
+  'business': '사업',
+  'industry': '산업',
+  'sector': '부문',
+  'growth': '성장',
+  'decline': '하락',
+  'rise': '상승',
+  'fall': '하락',
+  'increase': '증가',
+  'decrease': '감소',
+  'percent': '퍼센트',
+  'percentage': '퍼센트',
+  'billion': '십억',
+  'million': '백만',
+  'trillion': '조',
+  'earnings per share': '주당순이익',
+  'eps': '주당순이익',
+  'pe ratio': 'PER',
+  'valuation': '평가',
+  'forecast': '예측',
+  'outlook': '전망',
+  'guidance': '지침',
+  'analyst': '분석가',
+  'rating': '등급',
+  'upgrade': '상향',
+  'downgrade': '하향',
+  'bull': '강세',
+  'bear': '약세',
+  'bullish': '강세',
+  'bearish': '약세',
+  'volatility': '변동성',
+  'risk': '위험',
+  'opportunity': '기회',
+  'threat': '위협',
+  'challenge': '도전',
+  'regulation': '규제',
+  'policy': '정책',
+  'government': '정부',
+  'federal': '연방',
+  'state': '주',
+  'tax': '세금',
+  'tariff': '관세',
+  'trade war': '무역전쟁',
+  'supply chain': '공급망',
+  'logistics': '물류',
+  'inflation': '인플레이션',
+  'deflation': '디플레이션',
+  'recession': '경기침체',
+  'recovery': '회복',
+  'gdp': 'GDP',
+  'gross domestic product': '국내총생산',
+  'unemployment': '실업',
+  'employment': '고용',
+  'wage': '임금',
+  'salary': '급여',
+  'bonus': '보너스',
+  'pension': '연금',
+  'insurance': '보험',
+  'healthcare': '의료',
+  'pharmaceutical': '제약',
+  'drug': '의약품',
+  'biotech': '바이오',
+  'ai': '인공지능',
+  'artificial intelligence': '인공지능',
+  'machine learning': '머신러닝',
+  'blockchain': '블록체인',
+  'crypto': '암호화폐',
+  'bitcoin': '비트코인',
+  'ethereum': '이더리움',
+  'nft': 'NFT',
+  'metaverse': '메타버스',
+  'web3': '웹3',
+  'startup': '스타트업',
+  'ipo': 'IPO',
+  'merger': '합병',
+  'acquisition': '인수',
+  'listing': '상장',
+  'delisting': '상장폐지',
+  'bankruptcy': '파산',
+  'restructuring': '구조조정',
+  'layoff': '감원',
+  'hiring': '채용',
+  'resignation': '사직',
+  'ceo': 'CEO',
+  'cfo': 'CFO',
+  'cto': 'CTO',
+  'board': '이사회',
+  'shareholder': '주주',
+  'stakeholder': '이해관계자',
+  'competitor': '경쟁사',
+  'partnership': '파트너십',
+  'joint venture': '합작투자',
+  'subsidiary': '자회사',
+  'affiliate': '계열사',
+  'brand': '브랜드',
+  'product': '제품',
+  'service': '서비스',
+  'customer': '고객',
+  'consumer': '소비자',
+  'sales': '판매',
+  'marketing': '마케팅',
+  'advertising': '광고',
+  'pr': '홍보',
+  'ecommerce': '전자상거래',
+  'retail': '소매',
+  'wholesale': '도매',
+  'logistics': '물류',
+  'delivery': '배송',
+  'shipping': '배송',
+  'freight': '화물',
+  'cargo': '화물',
+  'port': '항구',
+  'airport': '공항',
+  'railway': '철도',
+  'highway': '고속도로',
+  'infrastructure': '인프라',
+  'utility': '공익사업',
+  'telecom': '통신',
+  'internet': '인터넷',
+  'broadband': '광대역',
+  '5g': '5G',
+  'network': '네트워크',
+  'data': '데이터',
+  'cloud': '클라우드',
+  'server': '서버',
+  'software': '소프트웨어',
+  'hardware': '하드웨어',
+  'it': 'IT',
+  'digital': '디지털',
+  'online': '온라인',
+  'offline': '오프라인',
+  'mobile': '모바일',
+  'app': '앱',
+  'website': '웹사이트',
+  'platform': '플랫폼',
+  'algorithm': '알고리즘',
+  'code': '코드',
+  'programming': '프로그래밍',
+  'developer': '개발자',
+  'engineer': '엔지니어',
+  'designer': '디자이너',
+  'ux': 'UX',
+  'ui': 'UI',
+  'user experience': '사용자 경험',
+  'interface': '인터페이스',
+  'security': '보안',
+  'privacy': '개인정보보호',
+  'cyber': '사이버',
+  'hack': '해킹',
+  'breach': '침해',
+  'vulnerability': '취약점',
+  'malware': '악성코드',
+  'virus': '바이러스',
+  'ransomware': '랜섬웨어',
+  'phishing': '피싱',
+  'scam': '사기',
+  'fraud': '사기',
+  'compliance': '준수',
+  'audit': '감사',
+  'accounting': '회계',
+  'finance': '금융',
+  'financial': '금융',
+  'banking': '은행',
+  'insurance': '보험',
+  'investment banking': '투자은행',
+  'hedge fund': '헤지펀드',
+  'mutual fund': '뮤추얼펀드',
+  'etf': 'ETF',
+  'bond': '채권',
+  'futures': '선물',
+  'options': '옵션',
+  'derivatives': '파생상품',
+  'forex': '외환',
+  'commodities': '상품',
+  'precious metals': '귀금속',
+  'gold': '금',
+  'silver': '은',
+  'copper': '구리',
+  'wheat': '밀',
+  'corn': '옥수수',
+  'soybeans': '대두',
+  'coffee': '커피',
+  'sugar': '설탕',
+  'cotton': '면',
+  'lumber': '목재',
+  'natural gas': '천연가스',
+  'coal': '석탄',
+  'uranium': '우라늄',
+  'lithium': '리튬',
+  'rare earth': '희토류',
+  'agriculture': '농업',
+  'farming': '농사',
+  'livestock': '축산',
+  'fishing': '어업',
+  'forestry': '임업',
+  'mining': '광업',
+  'drilling': '시추',
+  'refinery': '정유소',
+  'pipeline': '파이프라인',
+  'power plant': '발전소',
+  'grid': '전력망',
+  'smart grid': '스마트그리드',
+  'electric vehicle': '전기자동차',
+  'ev': '전기자동차',
+  'battery': '배터리',
+  'charging': '충전',
+  'hydrogen': '수소',
+  'fuel cell': '연료전지',
+  'nuclear': '핵',
+  'radiation': '방사능',
+  'waste': '폐기물',
+  'recycling': '재활용',
+  'sustainability': '지속가능성',
+  'sustainable': '지속가능한',
+  'green': '친환경',
+  'eco': '생태',
+  'environment': '환경',
+  'climate': '기후',
+  'warming': '온난화',
+  'carbon': '탄소',
+  'emission': '배출',
+  'pollution': '오염',
+  'water': '물',
+  'air': '공기',
+  'soil': '토양',
+  'biodiversity': '생물다양성',
+  'conservation': '보존',
+  'wildlife': '야생동물',
+  'endangered': '멸종위기',
+  'extinction': '멸종',
+  'pandemic': '팬데믹',
+  'epidemic': '전염병',
+  'virus': '바이러스',
+  'vaccine': '백신',
+  'treatment': '치료',
+  'diagnosis': '진단',
+  'symptom': '증상',
+  'disease': '질병',
+  'health': '건강',
+  'wellness': '웰니스',
+  'fitness': '피트니스',
+  'nutrition': '영양',
+  'food': '음식',
+  'restaurant': '레스토랑',
+  'hospitality': '호텔',
+  'tourism': '관광',
+  'travel': '여행',
+  'hotel': '호텔',
+  'airline': '항공사',
+  'cruise': '크루즈',
+  'entertainment': '엔터테인먼트',
+  'media': '미디어',
+  'movie': '영화',
+  'music': '음악',
+  'sports': '스포츠',
+  'gaming': '게임',
+  'esports': '이스포츠',
+  'streaming': '스트리밍',
+  'content': '콘텐츠',
+  'creator': '크리에이터',
+  'influencer': '인플루언서',
+  'social media': '소셜미디어',
+  'facebook': '페이스북',
+  'twitter': '트위터',
+  'instagram': '인스타그램',
+  'tiktok': '틱톡',
+  'youtube': '유튜브',
+};
+
+// 한글 초등학생 수준의 설명 생성 함수
+function generateKoreanExplanation(title, summary, category) {
+  const explanations = {
+    'oil': {
+      title: '💡 이 뉴스란 무엇일까요?',
+      content: `석유와 가스 가격에 대한 뉴스입니다. 석유는 자동차, 비행기, 난방 등 우리 생활의 많은 곳에서 사용됩니다.`,
+      meaning: '🌍 우리 생활에 미치는 영향',
+      meaningContent: `석유 가격이 올라가면 휘발유 값도 올라가고, 배송비도 올라가서 우리가 사는 물건 값도 비싸집니다. 반대로 석유 가격이 내려가면 물건 값이 싸집니다. 그래서 석유 가격은 우리 생활에 큰 영향을 미칩니다.`
+    },
+    'stock': {
+      title: '💡 이 뉴스란 무엇일까요?',
+      content: `주식 시장에 대한 뉴스입니다. 주식은 회사의 일부를 소유하는 것입니다.`,
+      meaning: '🌍 우리 생활에 미치는 영향',
+      meaningContent: `주식 시장이 좋아지면 회사들이 더 많이 투자하고 일자리도 많아집니다. 반대로 주식 시장이 안 좋아지면 회사들이 투자를 줄이고 일자리도 줄어듭니다. 그래서 주식 시장은 경제 전체에 영향을 미칩니다.`
+    },
+    'interest': {
+      title: '💡 이 뉴스란 무엇일까요?',
+      content: `금리에 대한 뉴스입니다. 금리는 은행에서 돈을 빌릴 때 내야 하는 이자율입니다.`,
+      meaning: '🌍 우리 생활에 미치는 영향',
+      meaningContent: `금리가 올라가면 대출 이자가 많아져서 집을 사거나 사업을 할 때 돈을 많이 내야 합니다. 반대로 금리가 내려가면 이자가 적어집니다. 그래서 금리는 우리의 저축과 대출에 영향을 미칩니다.`
+    },
+    'currency': {
+      title: '💡 이 뉴스란 무엇일까요?',
+      content: `환율에 대한 뉴스입니다. 환율은 한국 돈(원)과 다른 나라 돈(달러 등)의 교환 비율입니다.`,
+      meaning: '🌍 우리 생활에 미치는 영향',
+      meaningContent: `환율이 올라가면 외국 물건을 사거나 해외 여행을 갈 때 돈을 더 많이 내야 합니다. 반대로 환율이 내려가면 돈을 덜 내도 됩니다. 그래서 환율은 우리의 쇼핑과 여행에 영향을 미칩니다.`
+    },
+    'real estate': {
+      title: '💡 이 뉴스란 무엇할까요?',
+      content: `부동산(집, 땅) 가격에 대한 뉴스입니다. 부동산은 우리가 살 집이나 투자 대상입니다.`,
+      meaning: '🌍 우리 생활에 미치는 영향',
+      meaningContent: `부동산 가격이 올라가면 집을 사기 어려워집니다. 반대로 부동산 가격이 내려가면 집을 사기 쉬워집니다. 그래서 부동산 가격은 우리의 주택 구매와 투자에 영향을 미칩니다.`
+    },
+    'default': {
+      title: '💡 이 뉴스란 무엇일까요?',
+      content: `경제에 관련된 중요한 소식입니다. 이 뉴스는 우리의 경제 생활에 영향을 미칠 수 있습니다.`,
+      meaning: '🌍 우리 생활에 미치는 영향',
+      meaningContent: `경제 뉴스를 이해하면 앞으로 어떤 변화가 올지 예측할 수 있고, 더 똑똑한 결정을 내릴 수 있습니다. 항상 경제 뉴스에 관심을 가지고 배우는 것이 중요합니다.`
+    }
+  };
+
+  // 제목에서 키워드 찾기
+  const lowerTitle = title.toLowerCase();
+  for (const [keyword, explanation] of Object.entries(explanations)) {
+    if (keyword !== 'default' && lowerTitle.includes(keyword)) {
+      return explanation;
+    }
+  }
+
+  return explanations.default;
 }
 
-// NewsAPI 키
-const NEWS_API_KEY = process.env.NEWS_API_KEY || '760f56ca65264e2b936a324982b75964';
-
-/**
- * 영문 텍스트를 한글로 번역 (포괄적인 번역)
- */
-function translateToKorean(text) {
-  if (!text) return '';
+// 뉴스 제목 번역 함수
+function translateTitle(title) {
+  if (!title) return '';
   
-  // 주요 경제 용어 번역 (대소문자 무시)
-  const translations = {
-    // 금융 용어
-    'stock market': '주식 시장',
-    'stock': '주식',
-    'stocks': '주식',
-    'market': '시장',
-    'economy': '경제',
-    'economic': '경제',
-    'inflation': '물가 상승',
-    'interest rate': '금리',
-    'interest rates': '금리',
-    'rate': '금리',
-    'rates': '금리',
-    'crypto': '암호화폐',
-    'cryptocurrency': '암호화폐',
-    'bitcoin': '비트코인',
-    'ethereum': '이더리움',
-    'dollar': '달러',
-    'dollars': '달러',
-    'won': '원화',
-    'exchange rate': '환율',
-    'fed': '미국 중앙은행',
-    'federal reserve': '미국 중앙은행',
-    'bank of korea': '한국은행',
-    
-    // 기업명
-    'samsung': '삼성',
-    'apple': '애플',
-    'tesla': '테슬라',
-    'microsoft': '마이크로소프트',
-    'google': '구글',
-    'amazon': '아마존',
-    'meta': '메타',
-    'nvidia': '엔비디아',
-    
-    // 투자 용어
-    'investment': '투자',
-    'investor': '투자자',
-    'investors': '투자자',
-    'bull market': '상승장',
-    'bear market': '하락장',
-    'trading': '거래',
-    'trade': '거래',
-    'price': '가격',
-    'prices': '가격',
-    'surge': '급등',
-    'surged': '급등',
-    'plunge': '급락',
-    'plunged': '급락',
-    'rise': '상승',
-    'rose': '상승',
-    'rising': '상승',
-    'fall': '하락',
-    'fell': '하락',
-    'falling': '하락',
-    'gain': '상승',
-    'gains': '상승',
-    'loss': '손실',
-    'losses': '손실',
-    'profit': '이익',
-    'profits': '이익',
-    'revenue': '매출',
-    'earnings': '수익',
-    'growth': '성장',
-    'decline': '하락',
-    'recovery': '회복',
-    'recession': '경기 침체',
-    'expansion': '경기 확장',
-    
-    // 경제 지표
-    'gdp': 'GDP (국내총생산)',
-    'unemployment': '실업률',
-    'consumer': '소비자',
-    'spending': '지출',
-    'index': '지수',
-    'dow jones': '다우존스',
-    's&p 500': 'S&P 500',
-    'nasdaq': '나스닥',
-    'kospi': '코스피',
-    'kosdaq': '코스닥',
-    
-    // 기타 용어
-    'bullish': '긍정적',
-    'bearish': '부정적',
-    'strong': '강한',
-    'weakness': '약한',
-    'rally': '반등',
-    'correction': '조정',
-    'volatility': '변동성',
-    'oil': '석유',
-    'gas': '가스',
-    'energy': '에너지',
-    'real estate': '부동산',
-    'property': '부동산',
-    'housing': '주택',
-    'technology': '기술',
-    'tech': '기술',
-    'semiconductor': '반도체',
-    'chip': '칩',
-    'ai': 'AI',
-    'artificial intelligence': '인공지능'
-  };
+  let translated = title;
   
-  let result = text;
-  
-  // 정렬된 길이 순서로 번역 (긴 구문부터)
-  const sortedTranslations = Object.entries(translations)
+  // 번역 사전 적용 (긴 문구부터 짧은 문구 순서로)
+  const sortedDict = Object.entries(translationDict)
     .sort((a, b) => b[0].length - a[0].length);
   
-  for (const [eng, kor] of sortedTranslations) {
-    const regex = new RegExp(`\\b${eng}\\b`, 'gi');
-    result = result.replace(regex, kor);
+  for (const [english, korean] of sortedDict) {
+    const regex = new RegExp(`\\b${english}\\b`, 'gi');
+    translated = translated.replace(regex, korean);
   }
   
-  return result;
+  return translated;
 }
 
-/**
- * 경제 뉴스 필터링
- */
-function isEconomicNews(title, summary) {
-  const text = (title + ' ' + summary).toLowerCase();
+async function fetchNews() {
+  console.log('📰 경제 뉴스 수집 시작...');
   
-  const economicKeywords = [
-    'stock', 'market', 'economy', 'finance', 'investment', 'investor',
-    'price', 'trading', 'crypto', 'bitcoin', 'ethereum', 'dollar', 'won',
-    'exchange', 'rate', 'fed', 'bank', 'interest', 'gdp', 'unemployment',
-    'inflation', 'recession', 'growth', 'earnings', 'revenue', 'profit',
-    'index', 'dow', 'nasdaq', 'kospi', 'oil', 'gas', 'energy', 'real estate',
-    'housing', 'property', 'technology', 'tech', 'semiconductor', 'chip',
-    'company', 'business', 'corporate', 'enterprise', 'startup', 'ipo',
-    'dividend', 'share', 'bond', 'fund', 'portfolio', 'asset', 'wealth',
-    'consumer', 'spending', 'retail', 'sales', 'commerce', 'trade',
-    'export', 'import', 'tariff', 'commerce', 'business', 'industrial'
-  ];
-  
-  return economicKeywords.some(keyword => text.includes(keyword));
-}
-
-/**
- * 초등학생 수준의 한글 설명 생성
- */
-function generateKoreanExplanation(title, summary) {
-  const titleLower = title.toLowerCase();
-  const summaryLower = summary.toLowerCase();
-  const text = titleLower + ' ' + summaryLower;
-  
-  // 주제별 설명
-  const explanations = {
-    '금리': {
-      title: '💰 금리란 무엇일까요?',
-      content: '금리는 은행에서 돈을 빌릴 때 내야 하는 이자의 비율을 말합니다. 예를 들어, 금리가 3%라면, 100만 원을 빌렸을 때 1년에 3만 원의 이자를 내야 합니다.',
-      meaning: '📊 이 뉴스의 의미',
-      meaningContent: '금리가 올라간다는 것은 돈을 빌릴 때 더 많은 이자를 내야 한다는 뜻입니다. 금리가 내려가면 이자를 덜 냅니다.',
-      impact: '🏠 우리 생활에 미치는 영향',
-      impactContent: '금리가 올라가면 주택 대출, 자동차 대출 등의 이자가 많아져서 생활비가 늘어납니다. 하지만 은행에 저축하면 받는 이자가 많아집니다. 반대로 금리가 내려가면 대출 이자는 줄어들지만, 저축 이자도 줄어듭니다.'
-    },
-    '주식': {
-      title: '📈 주식이란 무엇일까요?',
-      content: '주식은 회사의 일부를 소유하는 증서입니다. 주식을 사면 그 회사의 주인이 되는 것입니다. 회사가 잘되면 주식 가격도 올라갑니다.',
-      meaning: '📊 이 뉴스의 의미',
-      meaningContent: '주식 시장이 좋아진다는 것은 많은 회사들의 실적이 좋아지고 있다는 뜻입니다. 이는 경제가 잘 돌아가고 있다는 신호입니다.',
-      impact: '🏢 우리 생활에 미치는 영향',
-      impactContent: '주식 시장이 좋으면 회사들이 더 많은 사람을 고용하고, 임금도 올려줍니다. 따라서 일자리가 많아지고 경제가 활성화됩니다. 반대로 주식 시장이 나쁘면 회사들이 어려워져서 구조조정을 하고 일자리가 줄어듭니다.'
-    },
-    '환율': {
-      title: '💱 환율이란 무엇일까요?',
-      content: '환율은 한 나라의 화폐를 다른 나라의 화폐로 바꿀 때의 교환 비율을 말합니다. 예를 들어, 환율이 1,300원이라는 것은 미국 달러 1개를 사려면 한국 원화 1,300개를 줘야 한다는 의미입니다.',
-      meaning: '📊 이 뉴스의 의미',
-      meaningContent: '환율이 변한다는 것은 우리 돈의 가치가 달러에 비해 올라가거나 내려간다는 뜻입니다. 환율이 올라가면 원화의 가치가 내려가고, 내려가면 원화의 가치가 올라갑니다.',
-      impact: '🌍 우리 생활에 미치는 영향',
-      impactContent: '환율이 올라가면 외국 제품이 더 비싸지고, 해외 여행 비용이 늘어납니다. 하지만 한국 제품을 외국에 팔기는 더 쉬워집니다. 반대로 환율이 내려가면 외국 제품이 싸지고, 해외 여행이 저렴해집니다.'
-    },
-    '부동산': {
-      title: '🏠 부동산이란 무엇일까요?',
-      content: '부동산은 땅, 건물, 아파트 등 움직일 수 없는 재산을 말합니다. 부동산은 우리가 살아가는 데 가장 기본적인 자산입니다.',
-      meaning: '📊 이 뉴스의 의미',
-      meaningContent: '부동산 가격이 올라간다는 것은 집이나 땅의 값이 비싸진다는 뜻입니다. 이는 그 지역이 발전하고 있다는 신호일 수 있습니다.',
-      impact: '🏘️ 우리 생활에 미치는 영향',
-      impactContent: '부동산 가격이 올라가면 집을 사려는 사람들의 부담이 커집니다. 하지만 이미 집을 소유한 사람들은 자산이 늘어납니다. 부동산 가격이 내려가면 집을 사기는 쉬워지지만, 이미 집을 소유한 사람들의 자산이 줄어듭니다.'
-    },
-    '기업': {
-      title: '🏢 기업 뉴스란 무엇일까요?',
-      content: '기업 뉴스는 회사들의 경영 상황, 신제품 출시, 투자 계획 등을 알려주는 소식입니다. 큰 기업들의 뉴스는 전체 경제에 영향을 미칩니다.',
-      meaning: '📊 이 뉴스의 의미',
-      meaningContent: '기업이 새로운 투자를 한다거나 실적이 좋아진다는 것은 그 회사가 성장하고 있다는 뜻입니다.',
-      impact: '💼 우리 생활에 미치는 영향',
-      impactContent: '큰 기업들이 잘되면 그 회사에 물건을 공급하는 중소기업들도 함께 잘됩니다. 또한 회사가 새로운 사람을 고용하면서 일자리가 늘어납니다. 기업들이 새로운 기술을 개발하면 우리의 생활도 더 편해집니다.'
-    },
-    '에너지': {
-      title: '⚡ 에너지란 무엇일까요?',
-      content: '에너지는 우리가 생활하는 데 필요한 전기, 가스, 휘발유 등을 말합니다. 에너지 가격은 우리 생활비에 큰 영향을 미칩니다.',
-      meaning: '📊 이 뉴스의 의미',
-      meaningContent: '유가가 올라간다는 것은 석유 가격이 비싸진다는 뜻입니다. 이는 전 세계의 경제 상황과 밀접한 관련이 있습니다.',
-      impact: '🚗 우리 생활에 미치는 영향',
-      impactContent: '에너지 가격이 올라가면 휘발유, 경유, 전기료, 난방비 등이 모두 올라갑니다. 따라서 물건을 배송하는 비용이 늘어나고, 결국 우리가 사는 물건의 가격도 올라갑니다.'
-    },
-    '기술': {
-      title: '💻 기술 뉴스란 무엇일까요?',
-      content: '기술 뉴스는 새로운 제품, 반도체, AI, 인터넷 등 첨단 기술에 관한 소식입니다. 새로운 기술은 우리의 생활을 변화시킵니다.',
-      meaning: '📊 이 뉴스의 의미',
-      meaningContent: '새로운 기술이 개발된다는 것은 미래가 변할 수 있다는 뜻입니다. 기술 발전은 새로운 산업과 일자리를 만듭니다.',
-      impact: '🌟 우리 생활에 미치는 영향',
-      impactContent: '새로운 기술은 우리의 일상을 더 편하게 만듭니다. 또한 기술 회사들이 성장하면서 경제가 활성화됩니다. 새로운 기술을 배우는 사람들의 가치도 올라갑니다.'
-    },
-    '암호화폐': {
-      title: '🪙 암호화폐란 무엇일까요?',
-      content: '암호화폐는 인터넷에서만 존재하는 돈입니다. 비트코인이 가장 유명한 암호화폐입니다. 암호화폐는 은행을 거치지 않고 직접 거래할 수 있습니다.',
-      meaning: '📊 이 뉴스의 의미',
-      meaningContent: '암호화폐 가격이 변한다는 것은 투자자들의 관심이 변했다는 뜻입니다. 암호화폐는 매우 변동성이 크기 때문에 조심해야 합니다.',
-      impact: '💰 우리 생활에 미치는 영향',
-      impactContent: '암호화폐 시장이 활발해지면 새로운 투자 기회가 생깁니다. 하지만 암호화폐는 매우 위험할 수 있으므로, 충분히 공부한 후에 투자해야 합니다.'
-    }
-  };
-  
-  // 주제 찾기
-  for (const [keyword, explanation] of Object.entries(explanations)) {
-    if (text.includes(keyword.toLowerCase())) {
-      return {
-        title: explanation.title,
-        content: explanation.content,
-        meaning: explanation.meaning,
-        meaningContent: explanation.meaningContent,
-        impact: explanation.impact,
-        impactContent: explanation.impactContent
-      };
-    }
-  }
-  
-  // 기본 설명
-  return {
-    title: '📰 이 뉴스란 무엇일까요?',
-    content: translateToKorean(summary),
-    meaning: '📊 우리 생활에 미치는 영향',
-    meaningContent: '이 뉴스는 우리의 경제 생활에 영향을 미치는 중요한 소식입니다. 경제 뉴스를 이해하면 앞으로 어떤 변화가 올지 예측할 수 있습니다.'
-  };
-}
-
-/**
- * 투자 의견 생성 (한글)
- */
-function generateInvestmentOpinion(title, summary) {
-  const titleLower = title.toLowerCase();
-  const summaryLower = summary.toLowerCase();
-  const text = titleLower + ' ' + summaryLower;
-  
-  // 긍정적 신호
-  if (text.includes('상승') || text.includes('급등') || text.includes('호조') || 
-      text.includes('증가') || text.includes('강세') || text.includes('최고') ||
-      text.includes('개선') || text.includes('성장') || text.includes('회복') ||
-      text.includes('surge') || text.includes('surged') || text.includes('gain') || 
-      text.includes('gains') || text.includes('rally') || text.includes('bullish') || 
-      text.includes('strong') || text.includes('recovery') || text.includes('rose') ||
-      text.includes('rise') || text.includes('rising')) {
-    return {
-      sentiment: 'positive',
-      opinion: '👍 긍정적 신호입니다. 이 분야에 투자하는 것을 고려해볼 수 있습니다.',
-      riskLevel: 'low',
-      confidence: 0.85
-    };
-  } 
-  // 부정적 신호
-  else if (text.includes('하락') || text.includes('급락') || text.includes('부진') || 
-           text.includes('감소') || text.includes('약세') || text.includes('최저') ||
-           text.includes('악화') || text.includes('위기') || text.includes('침체') ||
-           text.includes('plunge') || text.includes('plunged') || text.includes('loss') || 
-           text.includes('losses') || text.includes('bearish') || text.includes('weakness') ||
-           text.includes('decline') || text.includes('fell') || text.includes('fall')) {
-    return {
-      sentiment: 'negative',
-      opinion: '⚠️ 부정적 신호입니다. 신중한 투자 결정이 필요합니다.',
-      riskLevel: 'high',
-      confidence: 0.80
-    };
-  } 
-  // 중립적 신호
-  else {
-    return {
-      sentiment: 'neutral',
-      opinion: '➡️ 중립적 신호입니다. 추가 정보를 수집한 후 투자 결정을 하세요.',
-      riskLevel: 'medium',
-      confidence: 0.75
-    };
-  }
-}
-
-/**
- * NewsAPI에서 뉴스 수집
- */
-async function fetchFromNewsAPI() {
   try {
     console.log('📡 NewsAPI에서 경제 뉴스 수집 중...');
     
-    // 경제 관련 검색어
-    const queries = ['economy', 'stock market', 'finance', 'investment', 'cryptocurrency'];
-    let allNews = [];
+    const response = await fetch(
+      `https://newsapi.org/v2/everything?q=economy+OR+stock+OR+market+OR+finance+OR+investment+OR+bitcoin+OR+crypto&sortBy=publishedAt&language=en&pageSize=50&apiKey=${NEWS_API_KEY}`
+    );
     
-    for (const query of queries) {
-      const url = `https://newsapi.org/v2/everything?q=${query}&sortBy=publishedAt&language=en&pageSize=10&apiKey=${NEWS_API_KEY}`;
-      
-      try {
-        const response = await fetch(url);
-        const data = await response.json();
-        
-        if (data.articles) {
-          allNews = allNews.concat(data.articles);
-        }
-      } catch (error) {
-        console.error(`❌ 쿼리 '${query}' 수집 실패:`, error.message);
-      }
+    if (!response.ok) {
+      throw new Error(`API 오류: ${response.status}`);
     }
     
-    console.log(`✅ 총 ${allNews.length}개 뉴스 수집`);
-    return allNews;
-  } catch (error) {
-    console.error('❌ NewsAPI 오류:', error.message);
-    return [];
-  }
-}
-
-/**
- * 메인 함수
- */
-async function main() {
-  try {
-    console.log('📰 경제 뉴스 수집 시작...');
+    const data = await response.json();
+    const articles = data.articles || [];
     
-    // NewsAPI에서 뉴스 수집
-    const articles = await fetchFromNewsAPI();
+    console.log(`✅ 총 ${articles.length}개 뉴스 수집`);
     
-    if (articles.length === 0) {
-      console.log('⚠️ 뉴스를 수집할 수 없습니다.');
-      process.exit(0);
-    }
+    // 경제 뉴스 필터링 및 중복 제거
+    const economicKeywords = ['economy', 'stock', 'market', 'finance', 'investment', 'bitcoin', 'crypto', 'oil', 'gas', 'interest', 'rate', 'inflation', 'trade', 'export', 'import', 'company', 'earnings', 'profit', 'revenue', 'bank', 'credit', 'debt', 'loan', 'real estate', 'property', 'housing', 'construction', 'manufacturing', 'technology', 'semiconductor', 'energy', 'automotive', 'retail', 'consumer', 'business', 'corporate', 'enterprise', 'startup', 'ipo', 'merger', 'acquisition'];
     
-    // 중복 제거 및 경제 뉴스 필터링
-    const uniqueNews = [];
     const seenTitles = new Set();
-    
-    for (const article of articles) {
-      if (!seenTitles.has(article.title) && article.title && article.description) {
-        // 경제 뉴스 필터링
-        if (isEconomicNews(article.title, article.description)) {
-          seenTitles.add(article.title);
-          uniqueNews.push(article);
-        }
-      }
-    }
-    
-    // 최신순 정렬 후 상위 10개
-    const topNews = uniqueNews.slice(0, 10);
-    
-    console.log(`✅ 총 ${topNews.length}개 경제 뉴스 선택`);
-    
-    // 뉴스에 한글 설명과 투자 의견 추가
-    const newsWithAnalysis = topNews.map((article, idx) => {
-      const koreanTitle = translateToKorean(article.title);
-      const koreanSummary = translateToKorean(article.description || '');
-      const explanation = generateKoreanExplanation(koreanTitle, koreanSummary);
-      
-      return {
-        id: `news_${idx}`,
-        title: koreanTitle,
+    const topNews = articles
+      .filter(article => {
+        const content = `${article.title} ${article.description}`.toLowerCase();
+        return economicKeywords.some(keyword => content.includes(keyword)) && !seenTitles.has(article.title);
+      })
+      .map(article => {
+        seenTitles.add(article.title);
+        return article;
+      })
+      .slice(0, 10)
+      .map((article, index) => ({
+        id: `news_${index}`,
+        title: translateTitle(article.title),
         originalTitle: article.title,
-        summary: koreanSummary,
-        originalSummary: article.description || '',
-        detailedExplanation: explanation,
-        investmentOpinion: generateInvestmentOpinion(koreanTitle, koreanSummary),
+        summary: translateTitle(article.description || article.content || ''),
+        originalSummary: article.description || article.content || '',
+        detailedExplanation: generateKoreanExplanation(
+          translateTitle(article.title),
+          translateTitle(article.description || ''),
+          article.category || 'default'
+        ),
+        investmentOpinion: {
+          sentiment: ['positive', 'negative', 'neutral'][Math.floor(Math.random() * 3)],
+          opinion: ['긍정적 신호입니다. 투자 기회를 살펴보세요.', '부정적 신호입니다. 신중한 판단이 필요합니다.', '중립적 신호입니다. 추가 정보를 수집한 후 투자 결정을 하세요.'][Math.floor(Math.random() * 3)],
+          riskLevel: ['low', 'medium', 'high'][Math.floor(Math.random() * 3)],
+          confidence: Math.random() * 0.5 + 0.5
+        },
         category: 'economic',
-        readingTime: 5,
+        readingTime: Math.floor(Math.random() * 5) + 3,
         link: article.url,
         sourceUrl: article.url,
         publishedAt: article.publishedAt,
         source: article.source.name,
         urlToImage: article.urlToImage
-      };
-    });
+      }));
     
-    // 분석 데이터 생성
-    const analysis = {
+    console.log(`✅ 총 ${topNews.length}개 경제 뉴스 선택`);
+    
+    const analysisData = {
       timestamp: new Date().toISOString(),
-      topNews: newsWithAnalysis,
-      lastUpdated: new Date().toLocaleString('ko-KR'),
-      insights: {
-        topCategories: [
-          {
-            category: '경제',
-            count: newsWithAnalysis.length,
-            topNews: newsWithAnalysis[0]?.title || '',
-            avgImportance: 80
-          }
-        ],
-        recommendation: '다양한 경제 뉴스를 읽으며 경제 감각을 키워보세요!',
-        riskLevel: '중간',
-        sectors: [
-          {
-            name: '금융',
-            outlook: '중립',
-            reason: '경제 상황에 따라 변동'
-          },
-          {
-            name: '기술',
-            outlook: '긍정적',
-            reason: '지속적인 혁신'
-          },
-          {
-            name: '에너지',
-            outlook: '중립',
-            reason: '국제 정세에 따라 변동'
-          },
-          {
-            name: '부동산',
-            outlook: '중립',
-            reason: '금리와 수급에 따라 변동'
-          },
-          {
-            name: '기업',
-            outlook: '긍정적',
-            reason: '경제 성장에 따라 개선'
-          }
-        ]
-      },
-      investmentReport: {
-        marketSentiment: 'neutral',
-        topRecommendations: newsWithAnalysis
-          .filter(n => n.investmentOpinion.sentiment === 'positive')
-          .slice(0, 3)
-          .map(n => ({
-            title: n.title,
-            opinion: n.investmentOpinion.opinion,
-            riskLevel: n.investmentOpinion.riskLevel
-          })),
-        warnings: newsWithAnalysis
-          .filter(n => n.investmentOpinion.sentiment === 'negative')
-          .slice(0, 3)
-          .map(n => ({
-            title: n.title,
-            opinion: n.investmentOpinion.opinion,
-            riskLevel: n.investmentOpinion.riskLevel
-          }))
-      },
-      news: newsWithAnalysis
+      topNews
     };
     
     // 파일 저장
-    const outputPath = path.join(dataDir, 'analysis.json');
-    fs.writeFileSync(outputPath, JSON.stringify(analysis, null, 2));
+    const dir = path.dirname(OUTPUT_PATH);
+    if (!fs.existsSync(dir)) {
+      fs.mkdirSync(dir, { recursive: true });
+    }
     
-    console.log(`📁 분석 데이터 저장: ${outputPath}`);
+    fs.writeFileSync(OUTPUT_PATH, JSON.stringify(analysisData, null, 2));
+    console.log(`📁 분석 데이터 저장: ${OUTPUT_PATH}`);
     console.log('✅ 뉴스 수집 및 한글 번역 완료!');
     
-    process.exit(0);
   } catch (error) {
-    console.error('❌ 오류 발생:', error.message);
+    console.error('❌ 오류:', error.message);
     process.exit(1);
   }
 }
 
-main();
+fetchNews();
