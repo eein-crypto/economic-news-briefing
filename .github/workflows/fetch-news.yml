@@ -25,7 +25,8 @@ jobs:
 
       - name: 뉴스 수집
         env:
-          NEWS_API_KEY: ${{ secrets.NEWS_API_KEY }}
+          NAVER_CLIENT_ID: ${{ secrets.NAVER_CLIENT_ID }}
+          NAVER_CLIENT_SECRET: ${{ secrets.NAVER_CLIENT_SECRET }}
         run: |
           mkdir -p client/public/data
           node scripts/fetch-news.mjs

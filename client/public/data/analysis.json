@@ -1,265 +1,192 @@
 {
-  "timestamp": "2026-03-18T14:27:29.006Z",
-  "topNews": [
+  "timestamp": "2026-03-18T15:30:04.166Z",
+  "briefings": [
     {
-      "id": "news_0",
-      "title": "Cathie Wood predicts 인공지능 will drive productivity gains in the next decade",
-      "originalTitle": "Cathie Wood predicts AI will drive productivity gains in the next decade",
-      "summary": "Cathie Wood, CEO of ARK 투자 Management, asserts that 인공지능 is already enhancing labor productivity and is poised to deliver even greater improvements in the upcoming years. She emphasizes the transformative potential of 인공지능 across vari…",
-      "originalSummary": "Cathie Wood, CEO of ARK Investment Management, asserts that artificial intelligence is already enhancing labor productivity and is poised to deliver even greater improvements in the upcoming years. She emphasizes the transformative potential of AI across vari…",
-      "detailedExplanation": {
-        "title": "💡 이 뉴스란 무엇일까요?",
-        "content": "경제에 관련된 중요한 소식입니다. 이 뉴스는 우리의 경제 생활에 영향을 미칠 수 있습니다.",
-        "meaning": "🌍 우리 생활에 미치는 영향",
-        "meaningContent": "경제 뉴스를 이해하면 앞으로 어떤 변화가 올지 예측할 수 있고, 더 똑똑한 결정을 내릴 수 있습니다. 항상 경제 뉴스에 관심을 가지고 배우는 것이 중요합니다."
-      },
-      "investmentOpinion": {
-        "sentiment": "positive",
-        "opinion": "중립적 신호입니다. 추가 정보를 수집한 후 투자 결정을 하세요.",
-        "riskLevel": "low",
-        "confidence": 0.7306943255885612
-      },
+      "id": 1,
+      "title": "유가 하락에 국고채 금리 동반 하락… 외국인 매수세 활발",
+      "content": "국고채 금리가 18일 유가 하락 등의 영향으로 전반적으로 내렸다. 이는 미국 국채 금리의 하락과 국내 증시의 급등이라는 두 가지 요인이 주요한 배경으로 작용했다. 서울 채권시장에서 3년 만기 국고채 금리는 전... ",
+      "summary": "은행에서 돈을 빌릴 때 내야 하는 이자 비율이야. 금리가 높으면 빌리기 어렵고, 낮으면 쉬워.",
+      "detailedExplanation": "이 뉴스는 경제 분야의 중요한 소식입니다.\n\n**핵심 내용:**\n국고채 금리가 18일 유가 하락 등의 영향으로 전반적으로 내렸다. 이는 미국 국채 금리의 하락과 국내 증시의 급등이라는 두 가지 요인이 주요한 배경으로 작용했다. 서울 채권시장에서 3년 만기 국고채 금리는 전... ...\n\n**초등학생을 위한 설명:**\n은행에서 돈을 빌릴 때 내야 하는 이자 비율이야. 금리가 높으면 빌리기 어렵고, 낮으면 쉬워.\n\n**왜 중요할까요?**\n이런 경제 뉴스는 우리의 일상생활에 영향을 미칩니다. 예를 들어, 물가가 올라가면 우리가 사는 물건이 비싸지고, 회사들이 잘되면 더 많은 사람들이 일자리를 얻을 수 있어요.",
+      "source": "https://www.tokenpost.kr/news/economy/340924",
+      "date": "2026. 3. 18.",
       "category": "economic",
-      "readingTime": 4,
-      "link": "https://nextbigwhat.com/cathie-wood-predicts-ai-will-drive-productivity-gains-in-the-next-decade/",
-      "sourceUrl": "https://nextbigwhat.com/cathie-wood-predicts-ai-will-drive-productivity-gains-in-the-next-decade/",
-      "publishedAt": "2026-03-17T14:26:14Z",
-      "source": "Nextbigwhat.com",
-      "urlToImage": "https://s0.wp.com/_si/?t=eyJpbWciOiJodHRwczpcL1wvaTAud3AuY29tXC9uZXh0Ymlnd2hhdC5jb21cL3dwLWNvbnRlbnRcL3VwbG9hZHNcLzIwMjRcLzAyXC82OTc0Yy1uZXh0Ymlnd2hhdC1sb2dvLnBuZz9maXQ9MTA2OCUyQzMwMSZzc2w9MSIsInR4dCI6Ik5leHRCaWdXaGF0IiwidGVtcGxhdGUiOiJlZGdlIiwiZm9udCI6IiIsImJsb2dfaWQiOjIxMzc5NDAxM30.vQKvxzKickmO33DelB2jg4vHNf7Tipk9MGSbojqVuT4MQ"
+      "investmentOpinion": {
+        "opinion": "긍정적",
+        "confidence": 73.02500134995007,
+        "reason": "경제 지표 분석 기반"
+      }
     },
     {
-      "id": "news_1",
-      "title": "India’s garment exports slip in February, but April–February 성장 stays positive",
-      "originalTitle": "India’s garment exports slip in February, but April–February growth stays positive",
-      "summary": "산업 leaders cite subdued demand, rising 화물 costs, and higher input 가격 as key challenges, while expressing confidence in long-term 성장 through diversification and innovation",
-      "originalSummary": "Industry leaders cite subdued demand, rising freight costs, and higher input prices as key challenges, while expressing confidence in long-term growth through diversification and innovation",
-      "detailedExplanation": {
-        "title": "💡 이 뉴스란 무엇일까요?",
-        "content": "경제에 관련된 중요한 소식입니다. 이 뉴스는 우리의 경제 생활에 영향을 미칠 수 있습니다.",
-        "meaning": "🌍 우리 생활에 미치는 영향",
-        "meaningContent": "경제 뉴스를 이해하면 앞으로 어떤 변화가 올지 예측할 수 있고, 더 똑똑한 결정을 내릴 수 있습니다. 항상 경제 뉴스에 관심을 가지고 배우는 것이 중요합니다."
-      },
-      "investmentOpinion": {
-        "sentiment": "neutral",
-        "opinion": "부정적 신호입니다. 신중한 판단이 필요합니다.",
-        "riskLevel": "high",
-        "confidence": 0.9448565034536194
-      },
+      "id": 2,
+      "title": "비트코인, FOMC 앞두고 숨 고르기…파월 발언에 7만 달러 지지 시험대",
+      "content": "금리 자체보다 제롬 파월 의장의 발언이 향방을 좌우할 핵심 변수로 주목된다. 현재 비트코인은 하루 기준 약 0.4% 상승에 그치며 관망 흐름을 보이고 있다. 시장은 이미 금리 3.50~3.75% 동결을 기정사실로 반영한 상태다.... ",
+      "summary": "은행에서 돈을 빌릴 때 내야 하는 이자 비율이야. 금리가 높으면 빌리기 어렵고, 낮으면 쉬워.",
+      "detailedExplanation": "이 뉴스는 경제 분야의 중요한 소식입니다.\n\n**핵심 내용:**\n금리 자체보다 제롬 파월 의장의 발언이 향방을 좌우할 핵심 변수로 주목된다. 현재 비트코인은 하루 기준 약 0.4% 상승에 그치며 관망 흐름을 보이고 있다. 시장은 이미 금리 3.50~3.75% 동결을 기정사실로 반영한 상태다.... ...\n\n**초등학생을 위한 설명:**\n은행에서 돈을 빌릴 때 내야 하는 이자 비율이야. 금리가 높으면 빌리기 어렵고, 낮으면 쉬워.\n\n**왜 중요할까요?**\n이런 경제 뉴스는 우리의 일상생활에 영향을 미칩니다. 예를 들어, 물가가 올라가면 우리가 사는 물건이 비싸지고, 회사들이 잘되면 더 많은 사람들이 일자리를 얻을 수 있어요.",
+      "source": "https://www.tokenpost.kr/news/cryptocurrency/340925",
+      "date": "2026. 3. 18.",
       "category": "economic",
-      "readingTime": 6,
-      "link": "https://www.thehindubusinessline.com/economy/indias-garment-exports-slip-in-february-but-aprilfebruary-growth-stays-positive/article70753301.ece",
-      "sourceUrl": "https://www.thehindubusinessline.com/economy/indias-garment-exports-slip-in-february-but-aprilfebruary-growth-stays-positive/article70753301.ece",
-      "publishedAt": "2026-03-17T14:25:31Z",
-      "source": "BusinessLine",
-      "urlToImage": "https://bl-i.thgim.com/public/incoming/kau25k/article70754666.ece/alternates/LANDSCAPE_1200/IMG_readymade_garments_2_1_8EDBTEN4.jpg"
+      "investmentOpinion": {
+        "opinion": "중립적",
+        "confidence": 85.74674634555294,
+        "reason": "경제 지표 분석 기반"
+      }
     },
     {
-      "id": "news_2",
-      "title": "Citi Downgrades 암호화폐 전망 as 디지털 Asset Legislation Slows",
-      "originalTitle": "Citi Downgrades Crypto Outlook as Digital Asset Legislation Slows",
-      "summary": "Citigroup has reportedly reduced its 12-month 예측 for 비트코인 and 이더리움. The 하향 is due in part to slow progress on cryptocurrency legislation in the U.S., Reuters reported Tuesday (March. 17). Movement on the 암호화폐 시장 structure legislation…",
-      "originalSummary": "Citigroup has reportedly reduced its 12-month forecast for bitcoin and ethereum. The downgrade is due in part to slow progress on cryptocurrency legislation in the U.S., Reuters reported Tuesday (March. 17). Movement on the crypto market structure legislation…",
-      "detailedExplanation": {
-        "title": "💡 이 뉴스란 무엇일까요?",
-        "content": "경제에 관련된 중요한 소식입니다. 이 뉴스는 우리의 경제 생활에 영향을 미칠 수 있습니다.",
-        "meaning": "🌍 우리 생활에 미치는 영향",
-        "meaningContent": "경제 뉴스를 이해하면 앞으로 어떤 변화가 올지 예측할 수 있고, 더 똑똑한 결정을 내릴 수 있습니다. 항상 경제 뉴스에 관심을 가지고 배우는 것이 중요합니다."
-      },
-      "investmentOpinion": {
-        "sentiment": "neutral",
-        "opinion": "중립적 신호입니다. 추가 정보를 수집한 후 투자 결정을 하세요.",
-        "riskLevel": "low",
-        "confidence": 0.7497859587845078
-      },
+      "id": 3,
+      "title": "aT, '프랜차이즈 엑스포 파리 2026'서 한국 외식기업의 유럽 진출 지원",
+      "content": "전기찬 aT 수출식품이사는 &quot;이번 파리 프랜차이즈 박람회 한국관은 미식의 중심지 파리에서도 K-외식기업의 시장 경쟁력을 확인한 의미 있는 자리였다&quot;라고 답했다. 이어 &quot;앞으로도 국내 외식기업이 해외 각국에... ",
+      "summary": "우리나라에서 만든 물건을 다른 나라에 팔아주는 거야.",
+      "detailedExplanation": "이 뉴스는 경제 분야의 중요한 소식입니다.\n\n**핵심 내용:**\n전기찬 aT 수출식품이사는 &quot;이번 파리 프랜차이즈 박람회 한국관은 미식의 중심지 파리에서도 K-외식기업의 시장 경쟁력을 확인한 의미 있는 자리였다&quot;라고 답했다. 이어 &quot;앞으로도 국내 외식기업이 해외 각국에... ...\n\n**초등학생을 위한 설명:**\n우리나라에서 만든 물건을 다른 나라에 팔아주는 거야.\n\n**왜 중요할까요?**\n이런 경제 뉴스는 우리의 일상생활에 영향을 미칩니다. 예를 들어, 물가가 올라가면 우리가 사는 물건이 비싸지고, 회사들이 잘되면 더 많은 사람들이 일자리를 얻을 수 있어요.",
+      "source": "http://www.seoulwire.com/news/articleView.html?idxno=711988",
+      "date": "2026. 3. 18.",
       "category": "economic",
-      "readingTime": 6,
-      "link": "https://www.pymnts.com/cryptocurrency/2026/citi-downgrades-crypto-outlook-as-digital-asset-legislation-slows/",
-      "sourceUrl": "https://www.pymnts.com/cryptocurrency/2026/citi-downgrades-crypto-outlook-as-digital-asset-legislation-slows/",
-      "publishedAt": "2026-03-17T14:25:11Z",
-      "source": "pymnts.com",
-      "urlToImage": "https://www.pymnts.com/wp-content/uploads/2024/12/Bitcoin-crypto-retail-investors.jpg"
+      "investmentOpinion": {
+        "opinion": "긍정적",
+        "confidence": 89.51966068637641,
+        "reason": "경제 지표 분석 기반"
+      }
     },
     {
-      "id": "news_3",
-      "title": "US Department Of The Treasury Completes A Record $14.7B 빚 Buyback \nMarch",
-      "originalTitle": "US Department Of The Treasury Completes A Record $14.7B Debt Buyback \nMarch",
-      "summary": "The US Department of the Treasury completed a record $14.7 십억 빚 buyback operation on March 10, 2026 with settlement on March 11, 2026. This marks the largest single Treasury buyback in history. The operation targeted nominal coupon securities maturing…",
-      "originalSummary": "The US Department of the Treasury completed a record $14.7 billion debt buyback operation on March 10, 2026 with settlement on March 11, 2026. This marks the largest single Treasury buyback in history. The operation targeted nominal coupon securities maturing…",
-      "detailedExplanation": {
-        "title": "💡 이 뉴스란 무엇일까요?",
-        "content": "경제에 관련된 중요한 소식입니다. 이 뉴스는 우리의 경제 생활에 영향을 미칠 수 있습니다.",
-        "meaning": "🌍 우리 생활에 미치는 영향",
-        "meaningContent": "경제 뉴스를 이해하면 앞으로 어떤 변화가 올지 예측할 수 있고, 더 똑똑한 결정을 내릴 수 있습니다. 항상 경제 뉴스에 관심을 가지고 배우는 것이 중요합니다."
-      },
-      "investmentOpinion": {
-        "sentiment": "negative",
-        "opinion": "중립적 신호입니다. 추가 정보를 수집한 후 투자 결정을 하세요.",
-        "riskLevel": "high",
-        "confidence": 0.6879785893275809
-      },
+      "id": 4,
+      "title": "[사설] 자본시장 육성 좋지만 투기성 거래 급증은 위험신호",
+      "content": "반도체주 호조에 정책 기대감까지 겹치며 이날 코스피 지수도 5900선을 탈환했다. 하지만 유례없는 변동성 속에 투기성 거래가 급증하는 상황에서 열린 간담회에서 당국이 제대로 된 경계 메시지나 대책을 내놓지 않은 건... ",
+      "summary": "경제 뉴스입니다.",
+      "detailedExplanation": "이 뉴스는 경제 분야의 중요한 소식입니다.\n\n**핵심 내용:**\n반도체주 호조에 정책 기대감까지 겹치며 이날 코스피 지수도 5900선을 탈환했다. 하지만 유례없는 변동성 속에 투기성 거래가 급증하는 상황에서 열린 간담회에서 당국이 제대로 된 경계 메시지나 대책을 내놓지 않은 건... ...\n\n**초등학생을 위한 설명:**\n경제 뉴스입니다.\n\n**왜 중요할까요?**\n이런 경제 뉴스는 우리의 일상생활에 영향을 미칩니다. 예를 들어, 물가가 올라가면 우리가 사는 물건이 비싸지고, 회사들이 잘되면 더 많은 사람들이 일자리를 얻을 수 있어요.",
+      "source": "https://n.news.naver.com/mnews/article/025/0003510049?sid=110",
+      "date": "2026. 3. 18.",
       "category": "economic",
-      "readingTime": 4,
-      "link": "https://freerepublic.com/focus/f-news/4371007/posts",
-      "sourceUrl": "https://freerepublic.com/focus/f-news/4371007/posts",
-      "publishedAt": "2026-03-17T14:25:06Z",
-      "source": "Freerepublic.com",
-      "urlToImage": null
+      "investmentOpinion": {
+        "opinion": "중립적",
+        "confidence": 82.71053689433943,
+        "reason": "경제 지표 분석 기반"
+      }
     },
     {
-      "id": "news_4",
-      "title": "Rapidly developing Naidupeta emerges as a key industrial node in southern AP",
-      "originalTitle": "Rapidly developing Naidupeta emerges as a key industrial node in southern AP",
-      "summary": "Naidupeta transforms into a vital industrial hub in southern Andhra Pradesh, attracting investments and boosting local 경제적 성장.",
-      "originalSummary": "Naidupeta transforms into a vital industrial hub in southern Andhra Pradesh, attracting investments and boosting local economic growth.",
-      "detailedExplanation": {
-        "title": "💡 이 뉴스란 무엇일까요?",
-        "content": "경제에 관련된 중요한 소식입니다. 이 뉴스는 우리의 경제 생활에 영향을 미칠 수 있습니다.",
-        "meaning": "🌍 우리 생활에 미치는 영향",
-        "meaningContent": "경제 뉴스를 이해하면 앞으로 어떤 변화가 올지 예측할 수 있고, 더 똑똑한 결정을 내릴 수 있습니다. 항상 경제 뉴스에 관심을 가지고 배우는 것이 중요합니다."
-      },
-      "investmentOpinion": {
-        "sentiment": "positive",
-        "opinion": "중립적 신호입니다. 추가 정보를 수집한 후 투자 결정을 하세요.",
-        "riskLevel": "high",
-        "confidence": 0.965612638179441
-      },
+      "id": 5,
+      "title": "나프타 '경제안보품목' 지정…중동 피해기업에 1조 5000억 금융 지원",
+      "content": "3%p의 우대금리를 지원하겠다&quot;고 말했다. 석유 최고가격제 시행과 관련해선 &quot;최고가격제 시행 이후 정유사 공급가격이 대폭 내려간 만큼 주유소의 소비자가격도 지체없이 더욱 낮아져야 한다&quot;며 &quot;최고가격제 안착에... ",
+      "summary": "은행에서 돈을 빌릴 때 내야 하는 이자 비율이야. 금리가 높으면 빌리기 어렵고, 낮으면 쉬워.",
+      "detailedExplanation": "이 뉴스는 경제 분야의 중요한 소식입니다.\n\n**핵심 내용:**\n3%p의 우대금리를 지원하겠다&quot;고 말했다. 석유 최고가격제 시행과 관련해선 &quot;최고가격제 시행 이후 정유사 공급가격이 대폭 내려간 만큼 주유소의 소비자가격도 지체없이 더욱 낮아져야 한다&quot;며 &quot;최고가격제 안착에... ...\n\n**초등학생을 위한 설명:**\n은행에서 돈을 빌릴 때 내야 하는 이자 비율이야. 금리가 높으면 빌리기 어렵고, 낮으면 쉬워.\n\n**왜 중요할까요?**\n이런 경제 뉴스는 우리의 일상생활에 영향을 미칩니다. 예를 들어, 물가가 올라가면 우리가 사는 물건이 비싸지고, 회사들이 잘되면 더 많은 사람들이 일자리를 얻을 수 있어요.",
+      "source": "https://www.gukjenews.com/news/articleView.html?idxno=3533212",
+      "date": "2026. 3. 18.",
       "category": "economic",
-      "readingTime": 3,
-      "link": "https://www.thehindubusinessline.com/news/variety/rapidly-developing-naidupeta-emerges-as-a-key-industrial-node-in-southern-ap/article70754660.ece",
-      "sourceUrl": "https://www.thehindubusinessline.com/news/variety/rapidly-developing-naidupeta-emerges-as-a-key-industrial-node-in-southern-ap/article70754660.ece",
-      "publishedAt": "2026-03-17T14:25:02Z",
-      "source": "BusinessLine",
-      "urlToImage": "https://bl-i.thgim.com/public/news/variety/x493pi/article70754631.ece/alternates/LANDSCAPE_1200/NaiduPeta%20-%20Premier%20Energy%20March%202026.jpeg"
+      "investmentOpinion": {
+        "opinion": "긍정적",
+        "confidence": 75.17564558730649,
+        "reason": "경제 지표 분석 기반"
+      }
     },
     {
-      "id": "news_5",
-      "title": "minting 2.2.5",
-      "originalTitle": "minting 2.2.5",
-      "summary": "Mintzy SDK for 주식 가격 prediction",
-      "originalSummary": "Mintzy SDK for stock price prediction",
-      "detailedExplanation": {
-        "title": "💡 이 뉴스란 무엇일까요?",
-        "content": "경제에 관련된 중요한 소식입니다. 이 뉴스는 우리의 경제 생활에 영향을 미칠 수 있습니다.",
-        "meaning": "🌍 우리 생활에 미치는 영향",
-        "meaningContent": "경제 뉴스를 이해하면 앞으로 어떤 변화가 올지 예측할 수 있고, 더 똑똑한 결정을 내릴 수 있습니다. 항상 경제 뉴스에 관심을 가지고 배우는 것이 중요합니다."
-      },
-      "investmentOpinion": {
-        "sentiment": "neutral",
-        "opinion": "부정적 신호입니다. 신중한 판단이 필요합니다.",
-        "riskLevel": "low",
-        "confidence": 0.5829880415547404
-      },
+      "id": 6,
+      "title": "봉선동 과밀학급, 위장전입 의혹 규명해야",
+      "content": "과밀학급은 학생들의 학습권 침해와 인근 부동산 가격 상승, 입시 경쟁 치열, 학교 서열화라는 부작용을 낳는다. 문제의 2개 학교는 봉선동 학군의 핵심으로 그렇지 않아도 인기가 많은데 정부의 지역의사제 도입으로... ",
+      "summary": "땅이나 건물처럼 움직일 수 없는 재산을 말해.",
+      "detailedExplanation": "이 뉴스는 경제 분야의 중요한 소식입니다.\n\n**핵심 내용:**\n과밀학급은 학생들의 학습권 침해와 인근 부동산 가격 상승, 입시 경쟁 치열, 학교 서열화라는 부작용을 낳는다. 문제의 2개 학교는 봉선동 학군의 핵심으로 그렇지 않아도 인기가 많은데 정부의 지역의사제 도입으로... ...\n\n**초등학생을 위한 설명:**\n땅이나 건물처럼 움직일 수 없는 재산을 말해.\n\n**왜 중요할까요?**\n이런 경제 뉴스는 우리의 일상생활에 영향을 미칩니다. 예를 들어, 물가가 올라가면 우리가 사는 물건이 비싸지고, 회사들이 잘되면 더 많은 사람들이 일자리를 얻을 수 있어요.",
+      "source": "http://www.kwangju.co.kr/article.php?aid=1773847200796818074",
+      "date": "2026. 3. 18.",
       "category": "economic",
-      "readingTime": 4,
-      "link": "https://pypi.org/project/minting/2.2.5/",
-      "sourceUrl": "https://pypi.org/project/minting/2.2.5/",
-      "publishedAt": "2026-03-17T14:24:30Z",
-      "source": "Pypi.org",
-      "urlToImage": null
+      "investmentOpinion": {
+        "opinion": "중립적",
+        "confidence": 79.69214346729736,
+        "reason": "경제 지표 분석 기반"
+      }
     },
     {
-      "id": "news_6",
-      "title": "Recharge Power Enters Japan’s Electricity Trading 시장, Strengthening Its International Presence",
-      "originalTitle": "Recharge Power Enters Japan’s Electricity Trading Market, Strengthening Its International Presence",
-      "summary": "Recharge Power Enters Japan’s Electricity Trading 시장, Strengthening Its International Presence",
-      "originalSummary": "Recharge Power Enters Japan’s Electricity Trading Market, Strengthening Its International Presence",
-      "detailedExplanation": {
-        "title": "💡 이 뉴스란 무엇일까요?",
-        "content": "경제에 관련된 중요한 소식입니다. 이 뉴스는 우리의 경제 생활에 영향을 미칠 수 있습니다.",
-        "meaning": "🌍 우리 생활에 미치는 영향",
-        "meaningContent": "경제 뉴스를 이해하면 앞으로 어떤 변화가 올지 예측할 수 있고, 더 똑똑한 결정을 내릴 수 있습니다. 항상 경제 뉴스에 관심을 가지고 배우는 것이 중요합니다."
-      },
-      "investmentOpinion": {
-        "sentiment": "neutral",
-        "opinion": "부정적 신호입니다. 신중한 판단이 필요합니다.",
-        "riskLevel": "high",
-        "confidence": 0.737795461925054
-      },
+      "id": 7,
+      "title": "트럼프, '동맹은 호르무즈 해협 개방 도와야' 사설 올려",
+      "content": "이는 장기적으로 미국이 발을 빼고 호르무즈 해협을 통해 원유를 수입하거나 수출하는 나라 중심으로 해협 안보를 맡는 방안을 제시한 것으로 풀이됩니다. 특히 호르무즈 해협 상선 호위 동참에 선을 긋거나 확답을 하지... ",
+      "summary": "우리나라에서 만든 물건을 다른 나라에 팔아주는 거야.",
+      "detailedExplanation": "이 뉴스는 경제 분야의 중요한 소식입니다.\n\n**핵심 내용:**\n이는 장기적으로 미국이 발을 빼고 호르무즈 해협을 통해 원유를 수입하거나 수출하는 나라 중심으로 해협 안보를 맡는 방안을 제시한 것으로 풀이됩니다. 특히 호르무즈 해협 상선 호위 동참에 선을 긋거나 확답을 하지... ...\n\n**초등학생을 위한 설명:**\n우리나라에서 만든 물건을 다른 나라에 팔아주는 거야.\n\n**왜 중요할까요?**\n이런 경제 뉴스는 우리의 일상생활에 영향을 미칩니다. 예를 들어, 물가가 올라가면 우리가 사는 물건이 비싸지고, 회사들이 잘되면 더 많은 사람들이 일자리를 얻을 수 있어요.",
+      "source": "https://n.news.naver.com/mnews/article/052/0002329180?sid=104",
+      "date": "2026. 3. 18.",
       "category": "economic",
-      "readingTime": 6,
-      "link": "https://www.thehindubusinessline.com/brandhub/pr-release/recharge-power-enters-japans-electricity-trading-market-strengthening-its-international-presence/article70753691.ece",
-      "sourceUrl": "https://www.thehindubusinessline.com/brandhub/pr-release/recharge-power-enters-japans-electricity-trading-market-strengthening-its-international-presence/article70753691.ece",
-      "publishedAt": "2026-03-17T14:24:09Z",
-      "source": "BusinessLine",
-      "urlToImage": "https://th-i.thgim.com/public/brandhub/pr-release/7zpjki/article70753685.ece/alternates/LANDSCAPE_1200/1__4.jpg"
+      "investmentOpinion": {
+        "opinion": "긍정적",
+        "confidence": 84.65536003605067,
+        "reason": "경제 지표 분석 기반"
+      }
     },
     {
-      "id": "news_7",
-      "title": "Famed economist Mohamed El-Erian tells us why he thinks rising 석유 가격 are just one reason 경기침체 odds have jumped",
-      "originalTitle": "Famed economist Mohamed El-Erian tells us why he thinks rising oil prices are just one reason recession odds have jumped",
-      "summary": "El-Erian told 사업 Insider he worries about an \"accident\" in markets that could tighten 금융 conditions and stress the 경제.",
-      "originalSummary": "El-Erian told Business Insider he worries about an \"accident\" in markets that could tighten financial conditions and stress the economy.",
-      "detailedExplanation": {
-        "title": "💡 이 뉴스란 무엇일까요?",
-        "content": "경제에 관련된 중요한 소식입니다. 이 뉴스는 우리의 경제 생활에 영향을 미칠 수 있습니다.",
-        "meaning": "🌍 우리 생활에 미치는 영향",
-        "meaningContent": "경제 뉴스를 이해하면 앞으로 어떤 변화가 올지 예측할 수 있고, 더 똑똑한 결정을 내릴 수 있습니다. 항상 경제 뉴스에 관심을 가지고 배우는 것이 중요합니다."
-      },
-      "investmentOpinion": {
-        "sentiment": "positive",
-        "opinion": "긍정적 신호입니다. 투자 기회를 살펴보세요.",
-        "riskLevel": "high",
-        "confidence": 0.9519295740005983
-      },
+      "id": 8,
+      "title": "[이정모의 ‘자연이 전하는말’] 꽃이 아니라 계절이 서두른다",
+      "content": "광주천을 따라 흐르는 바람은 아직 차갑고 물가에는 겨울 냄새가 남아 있을 것이다. 무등산 자락의 나무들도 여전히 잿빛에 가까울 것이다. 그런데 그 사이에서 먼저 신호를 받은 가지들이 있다. 아직 꽃은 보이지 않지만... ",
+      "summary": "물건의 값이 얼마나 비싼지를 나타내는 거야. 물가가 올라가면 같은 돈으로 더 적게 살 수 있어.",
+      "detailedExplanation": "이 뉴스는 경제 분야의 중요한 소식입니다.\n\n**핵심 내용:**\n광주천을 따라 흐르는 바람은 아직 차갑고 물가에는 겨울 냄새가 남아 있을 것이다. 무등산 자락의 나무들도 여전히 잿빛에 가까울 것이다. 그런데 그 사이에서 먼저 신호를 받은 가지들이 있다. 아직 꽃은 보이지 않지만... ...\n\n**초등학생을 위한 설명:**\n물건의 값이 얼마나 비싼지를 나타내는 거야. 물가가 올라가면 같은 돈으로 더 적게 살 수 있어.\n\n**왜 중요할까요?**\n이런 경제 뉴스는 우리의 일상생활에 영향을 미칩니다. 예를 들어, 물가가 올라가면 우리가 사는 물건이 비싸지고, 회사들이 잘되면 더 많은 사람들이 일자리를 얻을 수 있어요.",
+      "source": "http://www.kwangju.co.kr/article.php?aid=1773847200796817066",
+      "date": "2026. 3. 18.",
       "category": "economic",
-      "readingTime": 4,
-      "link": "https://www.businessinsider.com/recession-outlook-mohamed-el-erian-oil-prices-inflation-economy-markets-2026-3",
-      "sourceUrl": "https://www.businessinsider.com/recession-outlook-mohamed-el-erian-oil-prices-inflation-economy-markets-2026-3",
-      "publishedAt": "2026-03-17T14:24:06Z",
-      "source": "Business Insider",
-      "urlToImage": "https://i.insider.com/69b9621ea7a4f9df67ba7455?width=1200&format=jpeg"
+      "investmentOpinion": {
+        "opinion": "중립적",
+        "confidence": 78.35372132673037,
+        "reason": "경제 지표 분석 기반"
+      }
     },
     {
-      "id": "news_8",
-      "title": "Liberal arts degrees have long paid the worst salaries—but Microsoft chief scientist says in the age of 인공지능, they will be ‘really important’ for Gen Z",
-      "originalTitle": "Liberal arts degrees have long paid the worst salaries—but Microsoft chief scientist says in the age of AI, they will be ‘really important’ for Gen Z",
-      "summary": "Move over computer science, Microsoft exec says liberal-arts degrees now teach the skills Gen Z needs to land jobs in the 인공지능 era.",
-      "originalSummary": "Move over computer science, Microsoft exec says liberal-arts degrees now teach the skills Gen Z needs to land jobs in the AI era.",
-      "detailedExplanation": {
-        "title": "💡 이 뉴스란 무엇일까요?",
-        "content": "경제에 관련된 중요한 소식입니다. 이 뉴스는 우리의 경제 생활에 영향을 미칠 수 있습니다.",
-        "meaning": "🌍 우리 생활에 미치는 영향",
-        "meaningContent": "경제 뉴스를 이해하면 앞으로 어떤 변화가 올지 예측할 수 있고, 더 똑똑한 결정을 내릴 수 있습니다. 항상 경제 뉴스에 관심을 가지고 배우는 것이 중요합니다."
-      },
-      "investmentOpinion": {
-        "sentiment": "neutral",
-        "opinion": "부정적 신호입니다. 신중한 판단이 필요합니다.",
-        "riskLevel": "low",
-        "confidence": 0.6220119887965437
-      },
+      "id": 9,
+      "title": "전쟁 상황 여전한데 반등… 코스피 5900선 복귀",
+      "content": "정용택 IBK투자증권 수석연구위원은 “미국·이란 전쟁 이후 증시가 하락하면서 코스피 가격 부담이 해소됐고, 전쟁 이슈에 대해 투자자들이 조금 익숙해져 있던 상황”이라며 “여기에 정부의 주식시장 부양... ",
+      "summary": "회사의 일부를 소유하는 것처럼 생각하면 돼. 회사가 잘되면 주식값이 올라가고, 못하면 내려가.",
+      "detailedExplanation": "이 뉴스는 경제 분야의 중요한 소식입니다.\n\n**핵심 내용:**\n정용택 IBK투자증권 수석연구위원은 “미국·이란 전쟁 이후 증시가 하락하면서 코스피 가격 부담이 해소됐고, 전쟁 이슈에 대해 투자자들이 조금 익숙해져 있던 상황”이라며 “여기에 정부의 주식시장 부양... ...\n\n**초등학생을 위한 설명:**\n회사의 일부를 소유하는 것처럼 생각하면 돼. 회사가 잘되면 주식값이 올라가고, 못하면 내려가.\n\n**왜 중요할까요?**\n이런 경제 뉴스는 우리의 일상생활에 영향을 미칩니다. 예를 들어, 물가가 올라가면 우리가 사는 물건이 비싸지고, 회사들이 잘되면 더 많은 사람들이 일자리를 얻을 수 있어요.",
+      "source": "https://n.news.naver.com/mnews/article/005/0001837958?sid=101",
+      "date": "2026. 3. 18.",
       "category": "economic",
-      "readingTime": 3,
-      "link": "https://fortune.com/2026/03/17/liberal-arts-education-future-of-work-age-of-ai-gen-z-hiring-microsoft-chief-scientist/",
-      "sourceUrl": "https://fortune.com/2026/03/17/liberal-arts-education-future-of-work-age-of-ai-gen-z-hiring-microsoft-chief-scientist/",
-      "publishedAt": "2026-03-17T14:24:02Z",
-      "source": "Fortune",
-      "urlToImage": "https://fortune.com/img-assets/wp-content/uploads/2026/03/GettyImages-1874702491-e1773756102896.jpg?resize=1200,600"
+      "investmentOpinion": {
+        "opinion": "긍정적",
+        "confidence": 72.58526787557814,
+        "reason": "경제 지표 분석 기반"
+      }
     },
     {
-      "id": "news_9",
-      "title": "European markets need to get their act together, CEO of Norway’s $2 조 wealth fund says. ‘The winner takes IT all’",
-      "originalTitle": "European markets need to get their act together, CEO of Norway’s $2 trillion wealth fund says. ‘The winner takes it all’",
-      "summary": "Nicolai Tangen, CEO of Norges 은행 투자 Management, warned Europe is facing a crisis and that “IT is time to act.”",
-      "originalSummary": "Nicolai Tangen, CEO of Norges Bank Investment Management, warned Europe is facing a crisis and that “it is time to act.”",
-      "detailedExplanation": {
-        "title": "💡 이 뉴스란 무엇일까요?",
-        "content": "경제에 관련된 중요한 소식입니다. 이 뉴스는 우리의 경제 생활에 영향을 미칠 수 있습니다.",
-        "meaning": "🌍 우리 생활에 미치는 영향",
-        "meaningContent": "경제 뉴스를 이해하면 앞으로 어떤 변화가 올지 예측할 수 있고, 더 똑똑한 결정을 내릴 수 있습니다. 항상 경제 뉴스에 관심을 가지고 배우는 것이 중요합니다."
-      },
-      "investmentOpinion": {
-        "sentiment": "neutral",
-        "opinion": "부정적 신호입니다. 신중한 판단이 필요합니다.",
-        "riskLevel": "high",
-        "confidence": 0.7299732462044637
-      },
+      "id": 10,
+      "title": "산업부, 美 '철강 등 조선기자재 관세예외 검토' 요청",
+      "content": "한국 정부의 기자재 수출 지원 사업, 올해 개소 예정인 '한-미 조선협력 센터'와 연계한 협력 방안 제안하고, 펜실베니아주의 우수한 대학, 연구기관들과 산업 AX 등 다양한 분야에서 더욱 많은 협력이 이루어지길... ",
+      "summary": "우리나라에서 만든 물건을 다른 나라에 팔아주는 거야.",
+      "detailedExplanation": "이 뉴스는 경제 분야의 중요한 소식입니다.\n\n**핵심 내용:**\n한국 정부의 기자재 수출 지원 사업, 올해 개소 예정인 '한-미 조선협력 센터'와 연계한 협력 방안 제안하고, 펜실베니아주의 우수한 대학, 연구기관들과 산업 AX 등 다양한 분야에서 더욱 많은 협력이 이루어지길... ...\n\n**초등학생을 위한 설명:**\n우리나라에서 만든 물건을 다른 나라에 팔아주는 거야.\n\n**왜 중요할까요?**\n이런 경제 뉴스는 우리의 일상생활에 영향을 미칩니다. 예를 들어, 물가가 올라가면 우리가 사는 물건이 비싸지고, 회사들이 잘되면 더 많은 사람들이 일자리를 얻을 수 있어요.",
+      "source": "http://www.ferrotimes.com/news/articleView.html?idxno=46927",
+      "date": "2026. 3. 18.",
       "category": "economic",
-      "readingTime": 3,
-      "link": "https://www.cnbc.com/2026/03/17/nbim-norway-norwegian-sovereign-wealth-fund-europe-iran-us-stocks-holdings-portfolio-nvidia-apple-microsoft.html",
-      "sourceUrl": "https://www.cnbc.com/2026/03/17/nbim-norway-norwegian-sovereign-wealth-fund-europe-iran-us-stocks-holdings-portfolio-nvidia-apple-microsoft.html",
-      "publishedAt": "2026-03-17T14:23:35Z",
-      "source": "CNBC",
-      "urlToImage": "https://image.cnbcfm.com/api/v1/image/108278877-1773752864426-gettyimages-2242000077-NORWAY_CLIMATE.jpeg?v=1773752901&w=1920&h=1080"
+      "investmentOpinion": {
+        "opinion": "중립적",
+        "confidence": 83.83090968197006,
+        "reason": "경제 지표 분석 기반"
+      }
     }
-  ]
+  ],
+  "investmentReport": {
+    "sentiment": "긍정적",
+    "sectors": [
+      {
+        "name": "금융",
+        "outlook": "긍정적",
+        "reason": "금리 인상 기대"
+      },
+      {
+        "name": "반도체",
+        "outlook": "긍정적",
+        "reason": "수출 증가"
+      },
+      {
+        "name": "에너지",
+        "outlook": "긍정적",
+        "reason": "유가 상승"
+      },
+      {
+        "name": "부동산",
+        "outlook": "중립적",
+        "reason": "금리 영향"
+      },
+      {
+        "name": "수출",
+        "outlook": "긍정적",
+        "reason": "경기 회복"
+      }
+    ],
+    "strategy": "분산 투자로 위험 최소화",
+    "caution": [
+      "금리 인상에 따른 경기 둔화 우려",
+      "국제 정치 불안정성",
+      "환율 변동성 증가",
+      "유가 급등에 따른 물가 상승"
+    ]
+  }
 }
