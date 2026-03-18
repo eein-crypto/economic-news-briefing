@@ -2,7 +2,7 @@
   "buildCommand": "npm run build",
   "installCommand": "npm install",
   "devCommand": "npm run dev",
-  "outputDirectory": "dist/public",
+  "outputDirectory": "dist",
   "env": {
     "NODE_ENV": "production"
   }
