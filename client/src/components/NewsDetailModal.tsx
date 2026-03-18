@@ -49,16 +49,10 @@ export default function NewsDetailModal({ news, isOpen, onClose }: NewsDetailMod
               {news.title}
             </h2>
 
-            {/* Source Info */}
-            <div className="flex items-center gap-4 mb-6 pb-6 border-b border-border">
-              <div>
-                <p className="text-xs text-muted-foreground">출처</p>
-                <p className="text-sm font-medium text-foreground">{news.source}</p>
-              </div>
-              <div>
-                <p className="text-xs text-muted-foreground">읽기 시간</p>
-                <p className="text-sm font-medium text-foreground">약 {news.readingTime}분</p>
-              </div>
+            {/* Meta Info */}
+            <div className="flex items-center gap-2 mb-6 pb-6 border-b border-border text-sm text-muted-foreground">
+              <Clock className="w-4 h-4" />
+              <span>{news.publishedAt ? new Date(news.publishedAt).toLocaleDateString('ko-KR', { year: 'numeric', month: 'long', day: 'numeric' }) : '날짜 미정'}</span>
             </div>
 
             {/* Summary */}
@@ -71,7 +65,7 @@ export default function NewsDetailModal({ news, isOpen, onClose }: NewsDetailMod
 
             {/* Detailed Explanation */}
             <div className="mb-8">
-              <h3 className="text-lg font-semibold text-foreground mb-3">📖 자세한 설명</h3>
+              <h3 className="text-lg font-semibold text-foreground mb-3">📖 이 뉴스가 뭐예요?</h3>
               <div className="text-base text-muted-foreground leading-relaxed space-y-4">
                 {typeof news.detailedExplanation === 'string' ? (
                   news.detailedExplanation.split('\n').map((paragraph, idx) => (

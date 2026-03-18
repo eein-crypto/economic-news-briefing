@@ -404,16 +404,11 @@ function generateKoreanExplanation(title, content, category) {
   }
 
   const detailed = `
-이 뉴스는 ${category} 분야의 중요한 소식입니다.
-
-**핵심 내용:**
-${content.substring(0, 200)}...
-
-**초등학생을 위한 설명:**
+**쉽게 이해하기:**
 ${summary}
 
-**왜 중요할까요?**
-이런 경제 뉴스는 우리의 일상생활에 영향을 미칩니다. 예를 들어, 물가가 올라가면 우리가 사는 물건이 비싸지고, 회사들이 잘되면 더 많은 사람들이 일자리를 얻을 수 있어요.
+**뉴스 내용:**
+${content.substring(0, 300)}...
   `.trim();
 
   return { summary, detailed };
