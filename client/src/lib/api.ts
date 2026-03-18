@@ -1,83 +1,97 @@
-import { BriefingData, NewsItem } from './types';
-
-// Mock data for development
-// In production, this would be replaced with actual API calls or static data from GitHub
-const MOCK_BRIEFING_DATA: BriefingData = {
-  date: new Date().toISOString().split('T')[0],
-  lastUpdated: new Date().toISOString(),
-  news: [
-    {
-      id: '1',
-      title: '원·달러 환율 1500원 넘어 출발…1501.0원 개장',
-      summary: '원화 가치가 달러 대비 약해지고 있습니다. 환율이 1500원을 넘어섰다는 것은 달러 1개를 사려면 원화 1500개 이상을 줘야 한다는 뜻입니다. 이는 한국 경제의 대외 경쟁력과 수출입 가격에 직접적인 영향을 미칩니다.',
-      detailedExplanation: '환율이란 무엇일까요?\n환율은 한 나라의 화폐를 다른 나라의 화폐로 바꿀 때의 교환 비율을 말합니다. 예를 들어, 환율이 1500원이라는 것은 미국 달러 1개를 사려면 한국 원화 1500개를 줘야 한다는 의미입니다.\n\n환율이 올라간다는 것의 의미\n환율이 올라간다는 것은 원화의 가치가 달러에 비해 떨어진다는 뜻입니다. 이전에는 1400원이면 달러 1개를 살 수 있었는데, 이제는 1500원을 줘야 한다면, 원화의 가치가 내려간 것이죠.\n\n환율 변동의 원인\n환율이 변하는 이유는 여러 가지입니다. 첫째, 미국의 경제가 좋아지면 달러를 원하는 사람이 많아져서 달러 가치가 올라갑니다. 둘째, 한국의 경제가 어려워지면 원화를 팔고 달러를 사려는 사람이 많아져서 원화 가치가 내려갑니다. 셋째, 금리 차이도 영향을 미칩니다. 미국의 금리가 높으면 달러에 투자하려는 사람이 많아져서 달러 가치가 올라갑니다.\n\n환율 상승이 우리 생활에 미치는 영향\n환율이 올라가면 여러 가지 변화가 생깁니다. 첫째, 외국에서 물건을 사올 때 더 비싸집니다. 예를 들어, 미국 제품이 100달러라면, 환율이 1400원일 때는 140,000원이지만, 환율이 1500원이 되면 150,000원이 됩니다. 둘째, 해외 여행을 갈 때도 더 많은 돈이 필요합니다. 셋째, 한국 회사들이 외국에서 물건을 사올 때 비용이 올라가므로, 제품 가격이 인상될 수 있습니다.\n\n환율 상승이 긍정적인 측면\n반대로 긍정적인 측면도 있습니다. 환율이 올라가면 한국 제품을 외국에 팔 때 더 싸지므로, 외국 구매자들이 한국 제품을 더 많이 사갑니다. 따라서 한국의 수출 회사들은 더 많은 물건을 팔 수 있게 됩니다. 이는 한국 경제에 긍정적인 영향을 미칠 수 있습니다.',
-      category: 'market',
-      readingTime: 5,
-      link: 'https://www.hankyung.com/economy',
-      sourceUrl: 'https://www.hankyung.com/economy',
-      publishedAt: new Date(Date.now() - 2 * 60 * 60 * 1000).toISOString(),
-      source: '한국경제'
-    },
-    {
-      id: '2',
-      title: '유가 급등에 원전 가동률 80%까지 높인다',
-      summary: '국제유가가 지속적으로 상승하면서 정부가 원자력 발전소의 가동률을 80%까지 높이기로 결정했습니다. 이는 에너지 안보와 전기료 상승 억제를 위한 조치입니다.',
-      detailedExplanation: '유가란 무엇인가요?\n유가는 석유의 가격을 말합니다. 석유는 자동차 연료, 난방유, 플라스틱 원료 등 우리 생활의 거의 모든 분야에 사용되는 중요한 에너지입니다.\n\n최근 유가가 올라가는 이유\n최근 국제유가가 크게 올라갔습니다. 왜 그럴까요? 여러 가지 이유가 있습니다. 첫째, 세계 경제가 회복되면서 석유 수요가 증가했습니다. 둘째, 주요 석유 생산국들의 정치적 불안정으로 공급이 줄어들었습니다. 셋째, 달러 약세로 국제 유가가 상대적으로 올라갔습니다.\n\n유가 상승이 우리 생활에 미치는 영향\n유가가 올라가면 우리 생활의 많은 부분이 영향을 받습니다. 첫째, 휘발유와 경유 가격이 올라갑니다. 따라서 자동차를 타는 사람들의 교통비가 증가합니다. 둘째, 난방유 가격이 올라가므로 겨울철 난방비가 올라갑니다. 셋째, 플라스틱 제품의 가격이 올라갑니다. 넷째, 배송비가 올라가므로 물건 가격이 전반적으로 올라갑니다.\n\n원자력 발전이란?\n원자력 발전은 우라늄이라는 물질의 핵분열 반응에서 나오는 열을 이용해 전기를 만드는 방식입니다. 석유나 가스를 태워서 전기를 만드는 것이 아니라, 원자의 핵분열 에너지를 사용합니다.\n\n정부가 원전 가동률을 높이는 이유\n정부가 원전 가동률을 80%까지 높이기로 한 이유는 다음과 같습니다. 첫째, 유가 상승으로 인한 전기료 인상을 억제하기 위함입니다. 원전은 석유를 사용하지 않으므로 유가 변동의 영향을 받지 않습니다. 둘째, 에너지 자립도를 높이기 위함입니다. 한국은 석유를 거의 수입에 의존하고 있는데, 원전을 늘리면 에너지 자립도를 높일 수 있습니다. 셋째, 탄소 중립 목표를 달성하기 위함입니다. 원전은 발전 과정에서 이산화탄소를 배출하지 않습니다.\n\n원자력 발전의 장단점\n장점은 다음과 같습니다. 첫째, 많은 양의 전기를 안정적으로 생산할 수 있습니다. 둘째, 탄소 배출이 거의 없어 환경 친화적입니다. 셋째, 연료비가 저렴합니다.\n\n단점도 있습니다. 첫째, 방사능 폐기물 처리가 어렵습니다. 둘째, 사고 위험이 있습니다. 셋째, 건설 비용이 많이 듭니다.',
-      category: 'domestic',
-      readingTime: 6,
-      link: 'https://www.hankyung.com/economy',
-      sourceUrl: 'https://www.hankyung.com/economy',
-      publishedAt: new Date(Date.now() - 4 * 60 * 60 * 1000).toISOString(),
-      source: '한국경제'
-    },
-    {
-      id: '3',
-      title: '중국, 7나노 반도체 제조 공정 준비',
-      summary: '중국이 7나노급 반도체 제조 기술 개발을 진행 중이라고 발표했습니다. 이는 세계 반도체 시장의 구도 변화를 의미하며, 한국의 반도체 산업에 중요한 영향을 미칠 것으로 예상됩니다.',
-      detailedExplanation: '반도체란 무엇인가요?\n반도체는 컴퓨터, 스마트폰, TV, 자동차 등 모든 전자제품에 들어가는 핵심 부품입니다. 반도체는 전기를 흘리기도 하고 흘리지 않기도 할 수 있는 특별한 성질을 가진 물질입니다. 이 성질을 이용해 복잡한 전자 회로를 만들 수 있습니다.\n\n반도체의 크기 단위\n반도체의 성능을 나타낼 때 \"나노\"라는 단위를 사용합니다. 나노는 아주 작은 단위로, 1나노는 1미터의 10억 분의 1입니다. 예를 들어, 7나노 반도체는 반도체에 들어가는 회로의 폭이 7나노미터라는 뜻입니다. 이는 머리카락 굵기의 약 10,000분의 1 정도로 매우 작습니다.\n\n반도체가 작을수록 좋은 이유\n반도체가 작을수록 여러 가지 장점이 있습니다. 첫째, 더 많은 회로를 같은 크기의 칩에 집적할 수 있으므로 성능이 좋아집니다. 둘째, 전력 소비가 줄어듭니다. 셋째, 속도가 빨라집니다. 따라서 모든 반도체 회사들은 더 작은 반도체를 만들기 위해 노력하고 있습니다.\n\n현재 반도체 기술 수준\n현재 세계에서 가장 작은 반도체는 3나노급입니다. 이 기술은 미국의 인텔과 대만의 TSMC, 그리고 한국의 삼성전자만 보유하고 있습니다. 7나노 기술은 이미 여러 회사가 보유하고 있지만, 3나노 기술은 아직 소수 회사만 가능합니다.\n\n중국의 7나노 반도체 개발의 의미\n중국이 7나노 반도체 개발을 진행 중이라는 것은 중국의 반도체 기술이 빠르게 발전하고 있다는 뜻입니다. 이는 여러 가지 의미를 가집니다. 첫째, 중국이 반도체 시장에서 더 큰 영향력을 가지게 될 것입니다. 둘째, 한국과 대만의 반도체 회사들의 경쟁이 더욱 심해질 것입니다. 셋째, 세계 반도체 시장의 구도가 변할 것입니다.\n\n한국 반도체 산업에 미치는 영향\n중국의 기술 발전은 한국의 삼성전자와 SK하이닉스에 도전이 될 것입니다. 이들 회사는 더욱 앞선 기술을 개발해야 경쟁력을 유지할 수 있습니다. 하지만 반도체는 계속 필요한 제품이므로, 기술 개발에 성공한 회사들은 계속 성장할 수 있을 것입니다.',
-      category: 'international',
-      readingTime: 6,
-      link: 'https://www.reuters.com',
-      sourceUrl: 'https://www.reuters.com',
-      publishedAt: new Date(Date.now() - 6 * 60 * 60 * 1000).toISOString(),
-      source: '로이터'
-    },
-    {
-      id: '4',
-      title: '기초연금 인상률 소득별 차등 적용',
-      summary: '정부가 기초연금 인상 시 소득에 따라 다른 인상률을 적용하기로 결정했습니다. 이는 저소득 노인층에 더 많은 지원을 제공하려는 정책입니다.',
-      detailedExplanation: '기초연금이란 무엇인가요?\n기초연금은 만 65세 이상의 노인 중 소득이 낮은 분들이 받는 정부 지원금입니다. 일을 할 수 없는 나이가 되었을 때 최소한의 생활비를 보장해주기 위한 제도입니다.\n\n기초연금의 중요성\n대부분의 노인분들은 충분한 연금을 받지 못합니다. 왜냐하면 과거에는 연금 제도가 없었거나 불충분했기 때문입니다. 따라서 정부가 기초연금을 통해 노인분들의 기본 생활을 지원하고 있습니다.\n\n차등 인상이란?\n차등 인상이란 모두를 똑같이 인상하지 않고, 상황에 따라 다르게 인상하는 것을 말합니다. 정부가 기초연금을 차등 인상하기로 한 것은 다음을 의미합니다. 예를 들어, 소득이 매우 낮은 노인분들은 기초연금을 10% 인상해주고, 소득이 조금 있는 노인분들은 5% 인상해주는 식입니다.\n\n차등 인상의 이유\n정부가 차등 인상을 하는 이유는 \"형평성\"이라는 개념 때문입니다. 형평성은 \"모두를 똑같이 대하는 것\"이 아니라 \"필요에 따라 다르게 대하는 것\"을 의미합니다. 예를 들어, 학교에서 키가 작은 학생에게는 높은 의자를 주고, 키가 큰 학생에게는 낮은 의자를 주는 것처럼, 더 어려운 사람을 더 도와주는 것입니다.\n\n차등 인상의 구체적인 내용\n정부의 차등 인상 정책은 다음과 같습니다. 첫째, 소득이 매우 낮은 노인분들(최저생계비 이하)에게는 더 많은 인상을 제공합니다. 둘째, 소득이 중간 정도인 노인분들에게는 표준 인상을 제공합니다. 셋째, 소득이 높은 노인분들에게는 낮은 인상을 제공합니다.\n\n차등 인상의 긍정적인 측면\n첫째, 가장 어려운 노인분들을 더 많이 도울 수 있습니다. 둘째, 정부 예산을 더 효율적으로 사용할 수 있습니다. 셋째, 사회적 불평등을 줄일 수 있습니다.\n\n차등 인상의 고려할 점\n하지만 차등 인상에는 고려할 점도 있습니다. 첫째, 소득 파악이 정확해야 합니다. 둘째, 차등 인상으로 인한 불만이 생길 수 있습니다. 셋째, 행정 비용이 증가할 수 있습니다.',
-      category: 'domestic',
-      readingTime: 6,
-      link: 'https://www.hankyung.com/economy',
-      sourceUrl: 'https://www.hankyung.com/economy',
-      publishedAt: new Date(Date.now() - 8 * 60 * 60 * 1000).toISOString(),
-      source: '한국경제'
-    },
-    {
-      id: '5',
-      title: '미국산 계란 5790원으로 올라',
-      summary: '조류독감으로 인한 계란 공급 부족으로 미국산 계란 가격이 크게 올랐습니다. 한국도 수입 계란의 의존도가 높아지면서 계란 가격 상승이 불가피한 상황입니다.',
-      detailedExplanation: '조류독감이란 무엇인가요?\n조류독감은 조류(새)에게 감염되는 바이러스 질병입니다. 이 병에 걸린 닭이나 오리 같은 가금류는 심각한 증상을 보이며, 결국 죽게 됩니다. 조류독감은 전염성이 매우 높아서 한 마리가 감염되면 빠르게 퍼집니다.\n\n최근 조류독감 상황\n최근 미국과 한국을 포함한 여러 나라에서 조류독감이 크게 유행하고 있습니다. 미국의 경우, 계란을 생산하는 닭들이 조류독감에 감염되면서 계란 생산량이 급격히 줄어들었습니다. 한국도 마찬가지로 조류독감으로 인해 닭과 오리의 수가 크게 줄어들었습니다.\n\n계란 공급 부족의 영향\n계란 생산량이 줄어들면 계란 가격이 올라갑니다. 왜냐하면 수요는 같은데 공급이 줄어들기 때문입니다. 이를 \"공급 부족\"이라고 합니다. 공급 부족이 생기면 가격이 올라가는 것은 경제의 기본 원리입니다.\n\n미국산 계란 수입\n한국의 계란 생산량이 부족해지자, 정부는 미국에서 계란을 수입하기로 결정했습니다. 하지만 미국도 조류독감으로 인해 계란이 부족합니다. 따라서 미국산 계란의 가격도 크게 올랐습니다. 미국산 계란이 5790원까지 올랐다는 것은 국내산 계란보다 훨씬 비싸다는 뜻입니다.\n\n계란 가격 상승이 우리 생활에 미치는 영향\n계란 가격이 올라가면 여러 가지 영향이 생깁니다. 첫째, 계란을 직접 사 먹는 사람들의 식비가 올라갑니다. 둘째, 계란을 사용해서 만드는 음식(계란말이, 계란국, 계란 샌드위치, 케이크 등)의 가격이 올라갑니다. 셋째, 식품 회사들의 생산 비용이 올라가므로 여러 제품의 가격이 올라갈 수 있습니다.\n\n공급 부족의 경제학적 의미\n이 상황은 경제학에서 말하는 \"수급 불균형\"의 좋은 예입니다. 수요(사람들이 원하는 양)는 같은데 공급(생산되는 양)이 줄어들면, 가격이 올라갑니다. 반대로 공급이 늘어나면 가격이 내려갑니다. 이를 \"수급 법칙\"이라고 합니다.\n\n장기적 해결 방안\n이 문제를 해결하기 위해서는 여러 방법이 있습니다. 첫째, 조류독감을 빨리 진정시켜야 합니다. 둘째, 계란 생산을 늘리기 위해 새로운 닭장을 지어야 합니다. 셋째, 계란 수입처를 다양화해야 합니다. 넷째, 계란을 대체할 수 있는 식품을 개발해야 합니다.',
-      category: 'market',
-      readingTime: 6,
-      link: 'https://www.hankyung.com/economy',
-      sourceUrl: 'https://www.hankyung.com/economy',
-      publishedAt: new Date(Date.now() - 10 * 60 * 60 * 1000).toISOString(),
-      source: '한국경제'
-    }
-  ],
-  investmentReport: '## 📊 오늘의 경제 분석 및 투자 리포트\n\n### 현재 경제 상황\n\n**주요 경제 지표:**\n• 환율: 원화 약세 지속 (달러당 1500원대)\n• 유가: 상승 추세 (에너지 비용 증가)\n• 계란 등 생활용품: 공급 부족으로 가격 상승\n• 반도체: 기술 경쟁 심화 (중국의 기술 추격)\n\n### 투자 관점 분석\n\n**1. 에너지 관련 산업**\n유가 상승은 석유 회사들의 수익성을 높입니다. 하지만 정부가 원자력 발전을 확대하고 있으므로, 장기적으로는 석유 수요가 감소할 수 있습니다. 따라서 에너지 회사 투자는 단기 수익성은 좋지만, 장기 성장성은 제한적일 수 있습니다.\n\n**2. 반도체 산업**\n중국의 기술 발전으로 한국의 삼성전자와 SK하이닉스는 더욱 앞선 기술 개발이 필요합니다. 이는 연구개발 비용 증가를 의미하지만, 기술 개발에 성공하면 시장 지배력을 강화할 수 있습니다. 반도체는 계속 필요한 제품이므로 성장 가능성이 있습니다.\n\n**3. 농업 및 식품 관련 산업**\n조류독감으로 인한 계란 공급 부족은 계란 생산 회사들의 수익성을 높입니다. 하지만 이는 일시적 현상일 수 있습니다. 조류독감이 진정되면 계란 가격이 다시 내려갈 수 있기 때문입니다.\n\n**4. 수출 관련 산업**\n원화 약세는 한국 제품을 외국에 팔기 유리합니다. 같은 가격의 한국 제품이 외국인 입장에서는 더 싸 보이기 때문입니다. 따라서 자동차, 전자제품, 화학제품 등을 수출하는 회사들의 수익성이 개선될 수 있습니다.\n\n### 투자 전략\n\n**분산 투자의 중요성**\n투자는 마치 여러 종류의 씨앗을 심는 것과 같습니다. 한 가지 씨앗만 심으면 그 씨앗이 자라지 않을 때 손실이 크지만, 여러 종류의 씨앗을 심으면 일부가 자라지 않아도 다른 것이 자라서 전체적으로는 수확을 할 수 있습니다.\n\n**현재 권장 투자 방향**\n1. 안정적인 대형주: 삼성전자, 현대자동차 등 기본이 탄탄한 회사들\n2. 에너지 관련주: 단기 수익성이 좋지만, 장기 추이를 관찰해야 함\n3. 수출 관련주: 원화 약세 혜택을 받을 수 있는 회사들\n4. 신기술 관련주: 반도체, 배터리, 신재생에너지 등 미래 산업\n\n### 주의할 점\n\n경제는 항상 변합니다. 오늘의 예측이 내일 틀릴 수도 있습니다. 따라서 다음과 같은 점을 주의해야 합니다:\n\n1. **계속 학습하기**: 경제 뉴스를 꾸준히 읽고 배워야 합니다.\n2. **장기 관점 유지**: 단기 변동에 흔들리지 말고 장기 관점을 유지해야 합니다.\n3. **위험 관리**: 손실을 감수할 수 있는 범위 내에서 투자해야 합니다.\n4. **전문가 상담**: 중요한 투자 결정 전에 전문가와 상담하는 것이 좋습니다.'
-};
+import { BriefingData } from './types';
 
 export async function fetchBriefingData(): Promise<BriefingData> {
-  // In production, fetch from API or static file
-  // For now, return mock data
-  return new Promise(resolve => {
-    setTimeout(() => {
-      resolve(MOCK_BRIEFING_DATA);
-    }, 500);
+  try {
+    // Try to fetch from static JSON file
+    const response = await fetch('/data/analysis.json');
+    
+    if (!response.ok) {
+      throw new Error(`HTTP error! status: ${response.status}`);
+    }
+    
+    const data = await response.json();
+    
+    // Transform the data to match BriefingData interface
+    const briefingData: BriefingData = {
+      date: new Date(data.timestamp).toISOString().split('T')[0],
+      lastUpdated: data.timestamp,
+      news: data.topNews.map((news: any) => ({
+        id: news.id,
+        title: news.title,
+        summary: news.summary,
+        detailedExplanation: news.detailedExplanation,
+        investmentOpinion: news.investmentOpinion,
+        category: news.category,
+        readingTime: news.readingTime,
+        link: news.link,
+        sourceUrl: news.sourceUrl,
+        publishedAt: news.publishedAt,
+        source: news.source
+      })),
+      investmentReport: generateInvestmentReport(data.insights),
+      predictions: generatePredictions(data.topNews)
+    };
+    
+    return briefingData;
+  } catch (error) {
+    console.error('Failed to fetch briefing data:', error);
+    // Return empty data on error
+    return {
+      date: new Date().toISOString().split('T')[0],
+      lastUpdated: new Date().toISOString(),
+      news: [],
+      investmentReport: '데이터를 불러올 수 없습니다.',
+      predictions: []
+    };
+  }
+}
+
+/**
+ * 투자 리포트 생성
+ */
+function generateInvestmentReport(insights: any): string {
+  const sectors = insights.sectors || [];
+  const recommendation = insights.recommendation || '';
+  const marketSentiment = insights.marketSentiment || '중립';
+  
+  let report = `## 📊 오늘의 경제 분석 및 투자 리포트\n\n`;
+  report += `### 시장 심리\n**${marketSentiment}**\n\n`;
+  report += `### 투자 권장사항\n${recommendation}\n\n`;
+  report += `### 섹터별 전망\n\n`;
+  
+  sectors.forEach((sector: any) => {
+    const emoji = sector.outlook === '긍정적' ? '📈' : sector.outlook === '부정적' ? '📉' : '➡️';
+    report += `${emoji} **${sector.name}**: ${sector.outlook}\n`;
+    report += `   - ${sector.reason}\n\n`;
   });
+  
+  report += `### 투자 전략\n\n`;
+  report += `**분산 투자의 중요성**\n`;
+  report += `투자는 마치 여러 종류의 씨앗을 심는 것과 같습니다. 한 가지 씨앗만 심으면 그 씨앗이 자라지 않을 때 손실이 크지만, 여러 종류의 씨앗을 심으면 일부가 자라지 않아도 다른 것이 자라서 전체적으로는 수확을 할 수 있습니다.\n\n`;
+  report += `**주의할 점**\n\n`;
+  report += `경제는 항상 변합니다. 오늘의 예측이 내일 틀릴 수도 있습니다. 따라서 다음과 같은 점을 주의해야 합니다:\n\n`;
+  report += `1. **계속 학습하기**: 경제 뉴스를 꾸준히 읽고 배워야 합니다.\n`;
+  report += `2. **장기 관점 유지**: 단기 변동에 흔들리지 말고 장기 관점을 유지해야 합니다.\n`;
+  report += `3. **위험 관리**: 손실을 감수할 수 있는 범위 내에서 투자해야 합니다.\n`;
+  report += `4. **전문가 상담**: 중요한 투자 결정 전에 전문가와 상담하는 것이 좋습니다.`;
+  
+  return report;
+}
+
+/**
+ * 예측 데이터 생성
+ */
+function generatePredictions(news: any[]): any[] {
+  return news.slice(0, 5).map((item: any, index: number) => ({
+    id: `prediction_${index}`,
+    title: item.title,
+    prediction: item.investmentOpinion?.opinion || '정보를 수집 중입니다.',
+    sentiment: item.investmentOpinion?.sentiment || 'neutral',
+    confidence: item.investmentOpinion?.confidence || 0.7,
+    createdAt: item.publishedAt,
+    actualOutcome: null,
+    accuracy: null
+  }));
 }
 
 export function formatTime(dateString: string): string {

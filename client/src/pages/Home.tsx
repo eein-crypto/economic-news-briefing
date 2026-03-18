@@ -1,4 +1,4 @@
-import { useState, useEffect } from 'react';
+import { useState, useEffect, useRef } from 'react';
 import { BriefingData } from '@/lib/types';
 import { fetchBriefingData } from '@/lib/api';
 import { useLocation } from 'wouter';
@@ -16,6 +16,7 @@ export default function Home() {
   const [selectedNews, setSelectedNews] = useState<any>(null);
   const [isModalOpen, setIsModalOpen] = useState(false);
   const [, navigate] = useLocation();
+  const trackerRef = useRef<any>(null);
 
   useEffect(() => {
     loadData();
@@ -26,11 +27,44 @@ export default function Home() {
     try {
       const briefingData = await fetchBriefingData();
       setData(briefingData);
+      
+      // Auto-save predictions from news items
+      if (briefingData.news && briefingData.news.length > 0) {
+        setTimeout(() => {
+          savePredictionsFromNews(briefingData.news);
+        }, 500);
+      }
     } catch (error) {
       console.error('Failed to load briefing data:', error);
     } finally {
       setLoading(false);
     }
+  };
+  
+  const savePredictionsFromNews = (news: any[]) => {
+    const today = new Date().toISOString().split('T')[0];
+    const saved = localStorage.getItem('investmentPredictions');
+    const existing = saved ? JSON.parse(saved) : [];
+    
+    // Check if predictions for today are already saved
+    const todayPredictions = existing.filter((p: any) => p.date === today);
+    if (todayPredictions.length > 0) return; // Already saved
+    
+    // Extract predictions from news items
+    const newPredictions = news
+      .filter(item => item.investmentOpinion)
+      .map((item, index) => ({
+        id: `pred_${today}_${index}`,
+        date: today,
+        prediction: `${item.title}: ${item.investmentOpinion.opinion}`,
+        direction: item.investmentOpinion.sentiment === 'positive' ? 'up' : item.investmentOpinion.sentiment === 'negative' ? 'down' : 'neutral',
+        actualResult: 'pending',
+        newsId: item.id
+      }));
+    
+    // Save to localStorage
+    const allPredictions = [...existing, ...newPredictions];
+    localStorage.setItem('investmentPredictions', JSON.stringify(allPredictions));
   };
 
   const handleNewsClick = (news: any) => {
