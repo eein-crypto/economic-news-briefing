@@ -1,193 +1,193 @@
 {
-  "lastUpdated": "2026-05-07T23:57:59.049Z",
+  "lastUpdated": "2026-05-08T23:59:51.089Z",
   "briefings": [
     {
       "id": 1,
-      "title": "미국 기업 '20년 만의 역대급 실적', 한국 산업엔 '수출 기회'이자 '고금...",
-      "content": "지정학 위기 뚫은 美 기업 실적 서프라이즈 행진 지난 6일(현지시각) 악시오스(Axios) 보도에 따르면, 올 1분기 실적 발표를 마친 S&amp;P 500 기업 중 84%가 시장의 이익 전망치를 웃돌았다. 이는 최근 5년 평균치인 78%를 훌쩍... ",
-      "summary": "지정학 위기 뚫은 美 기업 실적 서프라이즈 행진 지난 6일(현지시각) 악시오스(Axios) 보도에 따르면, 올 1분기 실적 발표를 마친 S&amp;P 500 기업 중 84%가 시장",
-      "detailedExplanation": "**이 뉴스의 핵심:**\n\n지정학 위기 뚫은 美 기업 실적 서프라이즈 행진 지난 6일(현지시각) 악시오스(Axios) 보도에 따르면, 올 1분기 실적 발표를 마친 S&amp;P 500 기업 중 84%가 시장의 이익 전망치를 웃돌았다.  이는 최근 5년 평균치인 78%를 훌쩍\n\n**쉽게 설명하면:**\n\n경제와 관련된 중요한 뉴스예요. 주요 수치는 6, 1, 500입니다. 이 뉴스는 우리의 생활과 밀접한 관련이 있어요. 경제가 좋으면 사람들이 많은 물건을 사고, 회사들이 더 많은 사람을 고용해요.",
-      "source": "https://www.g-enews.com/view.php?ud=202605071425008633fbbec65dfb_1",
-      "sourceUrl": "https://www.g-enews.com/view.php?ud=202605071425008633fbbec65dfb_1",
-      "link": "https://www.g-enews.com/view.php?ud=202605071425008633fbbec65dfb_1",
-      "publishedAt": "2026-05-07T18:46:00.000Z",
-      "date": "2026. 5. 7.",
-      "readingTime": 1,
+      "title": "뉴욕증시, '고용 호조·반도체 랠리'에 S&amp;P500·나스닥 또 최고치",
+      "content": "사진=유토이미지 예상보다 강한 고용지표와 반도체주 랠리가 상승 동력이 됐다. 이날 뉴욕증시에서 S&amp;P 500지수는 전장보다 61.82포인트(0.84%) 오른 7,398.93에, 나스닥 종합지수는 전장보다 440.88포인트(1.71... ",
+      "summary": "사진=유토이미지 예상보다 강한 고용지표와 반도체주 랠리가 상승 동력이 됐다. 이날 뉴욕증시에서 S&amp;P 500지수는 전장보다 61.82포인트(0.84%) 오른 7,398.93",
+      "detailedExplanation": "**이 뉴스의 핵심:**\n\nSNS 기사보내기\r\n\t\t\t\t\n\t\t\n\t\t\t페이스북(으)로 기사보내기\n\t\t\n\t\t\n\n\t\t\n\t\t\t트위터(으)로 기사보내기\n\t\t\n\t\t\n\n\t\t\n\t\t\tURL복사(으)로 기사보내기\n\t\t\n\t\t\n\t\t\t\t이메일(으)로 기사보내기\r\n\t\t\t\t다른 공유 찾기\r\n\t\t\t\t기사저장\r\n\t\t\t\r\n\t\t\r\n\t\t\r\n\t\t\t$(document). ready(function(e) {\r\n\t\t\t\t$('. on('click', function(e) {\r\n\t\t\t\t\tvar idxno = $(this)\n\n**쉽게 설명하면:**\n\n주식 시장이 변했어요. 코스피는 1포인트입니다. 주식 시장이 좋아지면 회사들이 잘되고 있다는 뜻이에요. 그래서 회사들이 더 많은 사람을 고용하고 월급도 많이 줄 수 있어요. 주식 시장이 안 좋아지면 회사들이 어려워지고 사람들을 해고할 수 있어요. 주식 시장은 경제 전체의 건강 상태를 보여주는 거울 같은 역할을 해요.",
+      "source": "https://www.slist.kr/news/articleView.html?idxno=737833",
+      "sourceUrl": "https://www.slist.kr/news/articleView.html?idxno=737833",
+      "link": "https://www.slist.kr/news/articleView.html?idxno=737833",
+      "publishedAt": "2026-05-08T21:58:00.000Z",
+      "date": "2026. 5. 8.",
+      "readingTime": 8,
       "category": "economic",
       "investmentOpinion": {
         "opinion": "긍정적",
-        "confidence": 74.76113454335226,
+        "confidence": 73.4454926160368,
         "reason": "경제 뉴스 분석 기반"
       }
     },
     {
       "id": 2,
-      "title": "오리엔트바이오, 2대 1 주식병합 승인 &quot;적정 주식수 유지 및 기업가치 제...",
-      "content": "이번 주식병합 결정에 따라 1주당 액면가는 기존 500원에서 1000원으로 변경된다. 발행주식 총수는 기존 1억1858만3005주에서 5929만1502주로 감소한다. 주식 매매거래는 오는 20일부터 다음달 8일까지 정지될 예정이다.... ",
-      "summary": "이번 주식병합 결정에 따라 1주당 액면가는 기존 500원에서 1000원으로 변경된다. 발행주식 총수는 기존 1억1858만3005주에서 5929만1502주로 감소한다. 주식 매매거래",
-      "detailedExplanation": "**이 뉴스의 핵심:**\n\n오리엔트바이오는 지난 7일 열린 임시주주총회에서 보통주 2주를 1주로 병합하는 안건을 승인했다고 8일 밝혔다.   이번 주식병합 결정에 따라 1주당 액면가는 기존 500원에서 1000원으로 변경된다.  발행주식 총수는 기존 1억1858만3005주에서 5929만1502주로 감소한다\n\n**쉽게 설명하면:**\n\n주식 시장이 변했어요. 코스피는 7포인트입니다. 주식 시장이 좋아지면 회사들이 잘되고 있다는 뜻이에요. 그래서 회사들이 더 많은 사람을 고용하고 월급도 많이 줄 수 있어요. 주식 시장이 안 좋아지면 회사들이 어려워지고 사람들을 해고할 수 있어요. 주식 시장은 경제 전체의 건강 상태를 보여주는 거울 같은 역할을 해요.",
-      "source": "https://n.news.naver.com/mnews/article/008/0005354569?sid=101",
-      "sourceUrl": "https://n.news.naver.com/mnews/article/008/0005354569?sid=101",
-      "link": "https://n.news.naver.com/mnews/article/008/0005354569?sid=101",
-      "publishedAt": "2026-05-07T23:40:00.000Z",
-      "date": "2026. 5. 7.",
-      "readingTime": 4,
+      "title": "미국, 4월 고용지표 발표...고금리 뚫고 고용 '깜짝' 반등 | 침체 공포 지...",
+      "content": "이는 미국의 고(高)금리 환경 속에서도 기업들의 채용 수요가 여전히 유지되고 있음을 시사한다. 실업률도 안정적인 것으로 나타났다. 상기 통계에 따르면 기국의 4월 실업률은 전월과 동일 4.3%였다. 이번 고용 지표는... ",
+      "summary": "이는 미국의 고(高)금리 환경 속에서도 기업들의 채용 수요가 여전히 유지되고 있음을 시사한다. 실업률도 안정적인 것으로 나타났다. 상기 통계에 따르면 기국의 4월 실업률은 전월과 ",
+      "detailedExplanation": "**이 뉴스의 핵심:**\n\n이는 미국의 고(高)금리 환경 속에서도 기업들의 채용 수요가 여전히 유지되고 있음을 시사한다.  상기 통계에 따르면 기국의 4월 실업률은 전월과 동일 4\n\n**쉽게 설명하면:**\n\n중앙은행이 금리를 결정했어요. 금리는 4%입니다. 금리가 올라가면 은행에서 돈을 빌릴 때 더 많은 이자를 내야 해요. 그래서 사람들이 집을 사거나 사업을 시작할 때 돈을 빌리기 어려워져요. 금리가 내려가면 반대로 돈을 빌리기 쉬워져요. 금리는 경제 전체에 큰 영향을 미치기 때문에 매우 중요한 뉴스예요.",
+      "source": "http://monthly.chosun.com/client/mdaily/daily_view.asp?idx=24319&Newsnumb=20260524319",
+      "sourceUrl": "http://monthly.chosun.com/client/mdaily/daily_view.asp?idx=24319&Newsnumb=20260524319",
+      "link": "http://monthly.chosun.com/client/mdaily/daily_view.asp?idx=24319&Newsnumb=20260524319",
+      "publishedAt": "2026-05-08T22:28:00.000Z",
+      "date": "2026. 5. 8.",
+      "readingTime": 1,
       "category": "economic",
       "investmentOpinion": {
         "opinion": "중립적",
-        "confidence": 76.52631773799476,
+        "confidence": 74.24378106162843,
         "reason": "경제 뉴스 분석 기반"
       }
     },
     {
       "id": 3,
-      "title": "오리엔트바이오, 2대 1 주식병합 승인...&quot;기업가치 제고로 주주신뢰 회...",
-      "content": "이로 인해 주식 매매거래는 오는 20일부터 다음달 8일까지 정지될 예정이다. 이번 주식병합 결정에 따라 1주당 액면가는 기존 500원에서 1000원으로 변경된다. 발행주식 총수는 기존 1억1858만3005주에서 5929만1502주로... ",
-      "summary": "이로 인해 주식 매매거래는 오는 20일부터 다음달 8일까지 정지될 예정이다. 이번 주식병합 결정에 따라 1주당 액면가는 기존 500원에서 1000원으로 변경된다. 발행주식 총수는 ",
-      "detailedExplanation": "**이 뉴스의 핵심:**\n\n[데일리한국 김영문 기자] 오리엔트바이오는 임시주주총회에서 보통주 2주를 1주로 병합하는 안건을 승인했다고 8일 밝혔다.  이로 인해 주식 매매거래는 오는 20일부터 다음달 8일까지 정지될 예정이다. \r\n\r\n이번 주식병합 결정에 따라 1주당 액면가는 기존 500원에서 1000원으로 변경된다\n\n**쉽게 설명하면:**\n\n주식 시장이 변했어요. 코스피는 2포인트입니다. 주식 시장이 좋아지면 회사들이 잘되고 있다는 뜻이에요. 그래서 회사들이 더 많은 사람을 고용하고 월급도 많이 줄 수 있어요. 주식 시장이 안 좋아지면 회사들이 어려워지고 사람들을 해고할 수 있어요. 주식 시장은 경제 전체의 건강 상태를 보여주는 거울 같은 역할을 해요.",
-      "source": "https://daily.hankooki.com/news/articleView.html?idxno=1364997",
-      "sourceUrl": "https://daily.hankooki.com/news/articleView.html?idxno=1364997",
-      "link": "https://daily.hankooki.com/news/articleView.html?idxno=1364997",
-      "publishedAt": "2026-05-07T23:34:00.000Z",
-      "date": "2026. 5. 7.",
-      "readingTime": 6,
+      "title": "부산은행, '원자재·환율 이중고' 지역 수출입기업 지원...1000억 원 대출",
+      "content": "지원대상은 부산시에서 발급하는 '원자재 공동구매 특화자금 융자추천서'를 발급받은 부산 소재 기업 중 최근 6개월 이내 수입 또는 수출실적을 보유한 기업이다. 기업당 지원 한도는 일반기업 최대 8억 원... ",
+      "summary": "지원대상은 부산시에서 발급하는 '원자재 공동구매 특화자금 융자추천서'를 발급받은 부산 소재 기업 중 최근 6개월 이내 수입 또는 수출실적을 보유한 기업이다. 기업당 지원 한도는 일",
+      "detailedExplanation": "**이 뉴스의 핵심:**\n\n지원대상은 부산시에서 발급하는 '원자재 공동구매 특화자금 융자추천서'를 발급받은 부산 소재 기업 중 최근 6개월 이내 수입 또는 수출실적을 보유한 기업이다.  기업당 지원 한도는 일반기업 최대 8억 원\n\n**쉽게 설명하면:**\n\n달러와 원의 환율이 변했어요. 환율은 6원입니다. 환율이 올라가면 (달러가 비싸지면) 외국에서 물건을 사올 때 더 많은 돈을 내야 해요. 그래서 우리나라 물건의 가격도 올라갈 수 있어요. 반대로 환율이 내려가면 외국 물건을 싸게 살 수 있어요. 환율은 우리 생활비에 직접 영향을 미쳐요.",
+      "source": "http://www.newsroad.co.kr/news/articleView.html?idxno=59098",
+      "sourceUrl": "http://www.newsroad.co.kr/news/articleView.html?idxno=59098",
+      "link": "http://www.newsroad.co.kr/news/articleView.html?idxno=59098",
+      "publishedAt": "2026-05-08T07:20:00.000Z",
+      "date": "2026. 5. 8.",
+      "readingTime": 1,
       "category": "economic",
       "investmentOpinion": {
         "opinion": "긍정적",
-        "confidence": 82.90836049695343,
+        "confidence": 85.66806081911385,
         "reason": "경제 뉴스 분석 기반"
       }
     },
     {
       "id": 4,
-      "title": "개인은 주식, 기업은 은행…엇갈린 흐름에 정기예금 잔액 '뚝'",
-      "content": "코스피가 7500선을 등락하는 등 주식시장이 강세를 보이면서 고객 입장에선 정기예금의 금리 매력도가... 기업 자금은 개인 자금에 비해 시장 상황이나 금리 변화에 훨씬 민감하게 반응하는 경향이 있다. 규모 자체가 큰... ",
-      "summary": "코스피가 7500선을 등락하는 등 주식시장이 강세를 보이면서 고객 입장에선 정기예금의 금리 매력도가... 기업 자금은 개인 자금에 비해 시장 상황이나 금리 변화에 훨씬 민감하게 반",
-      "detailedExplanation": "**이 뉴스의 핵심:**\n\n'코스피 7500'에 예금서 증권 계좌로 이동변동성 커지자…기업 대기 자금 비축 움직임유동성 관리 부담 커질까 우려\n\t\n\t\t\n\t\nKB국민은행 여의도 딜링룸에 코스피 7500 돌파 화면이 나오고 있다.  ⓒKB국민은행[데일리안 = 정지수 기자] 시중은행 정기예금에서 개인 자금이 빠져나가고 기업의 대기성 자금은 유입되는 자금 흐름이 뚜렷해지고 있다. 주식시장 호황으로 은행을 떠나는 개인들과 대외 변동성에 대비해 언제든 뺄 수 있는 현금을 쌓아두려는 기업들의 행보가 엇갈리며 나타난 결과다\n\n**쉽게 설명하면:**\n\n주식 시장이 변했어요. 코스피는 7500포인트입니다. 주식 시장이 좋아지면 회사들이 잘되고 있다는 뜻이에요. 그래서 회사들이 더 많은 사람을 고용하고 월급도 많이 줄 수 있어요. 주식 시장이 안 좋아지면 회사들이 어려워지고 사람들을 해고할 수 있어요. 주식 시장은 경제 전체의 건강 상태를 보여주는 거울 같은 역할을 해요.",
-      "source": "https://n.news.naver.com/mnews/article/119/0003088239?sid=101",
-      "sourceUrl": "https://n.news.naver.com/mnews/article/119/0003088239?sid=101",
-      "link": "https://n.news.naver.com/mnews/article/119/0003088239?sid=101",
-      "publishedAt": "2026-05-07T22:08:00.000Z",
-      "date": "2026. 5. 7.",
-      "readingTime": 8,
+      "title": "[이슈] 파마리서치, 역대 최대 실적…리쥬란·화장품·수출 '동반 성장'",
+      "content": "해외 수출 증가에 힘입어 1분기 기준 최대 실적을 기록했다. 의료기기와 화장품 사업이 동시에 성장하면서 외형과 수익성이 함께 개선된 모습이다. ■ 1분기 매출 1461억·영업익 573억…수출 비중 40% 지난 8일 금융감독원... ",
+      "summary": "해외 수출 증가에 힘입어 1분기 기준 최대 실적을 기록했다. 의료기기와 화장품 사업이 동시에 성장하면서 외형과 수익성이 함께 개선된 모습이다. ■ 1분기 매출 1461억·영업익 5",
+      "detailedExplanation": "**이 뉴스의 핵심:**\n\n최종편집 : 2026-05-09 08:55 (토) \r\n\t\t\r\n\t\t\r\n\t\t\r\n\t\t\t\r\n\t\r\n\t\t\r\n\t\t\t\t\t\t\r\n\t\t\t\t서울\r\n\t\t\t\t\r\n\t\t\t\t\tB\r\n\t\t\t\t\t℃\r\n\t\t\t\t\t미세먼지 \r\n\t\t\t\t\r\n\t\t\t\r\n\t\t\t\t\t\t\r\n\t\t\t\t경기\r\n\t\t\t\t\r\n\t\t\t\t\tB\r\n\t\t\t\t\t℃\r\n\t\t\t\t\t미세먼지 \r\n\t\t\t\t\r\n\t\t\t\r\n\t\t\t\t\t\t\r\n\t\t\t\t인천\r\n\t\t\t\t\r\n\t\t\t\t\tB\r\n\t\t\t\t\t℃\r\n\t\t\t\t\t미세먼지 \r\n\t\t\t\t\r\n\t\t\t\r\n\t\t\t\t\t\t\r\n\t\t\t\t광주\r\n\t\t\t\t\r\n\t\t\t\t\tB\r\n\t\t\t\t\t℃\r\n\t\t\t\t\t미세먼지 \r\n\t\t\t\t\r\n\t\t\t\r\n\t\t\t\t\t\t\r\n\t\t\t\t대전\r\n\t\t\t\t\r\n\t\t\t\t\tB\r\n\t\t\t\t\t℃\r\n\t\t\t\t\t미세먼지 \r\n\t\t\t\t\r\n\t\t\t\r\n\t\t\t\t\t\t\r\n\t\t\t\t대구\r\n\t\t\t\t\r\n\t\t\t\t\tB\r\n\t\t\t\t\t℃\r\n\t\t\t\t\t미세먼지 \r\n\t\t\t\t\r\n\t\t\t\r\n\t\t\t\t\t\t\r\n\t\t\t\t울산\r\n\t\t\t\t\r\n\t\t\t\t\tB\r\n\t\t\t\t\t℃\r\n\t\t\t\t\t미세먼지 \r\n\t\t\t\t\r\n\t\t\t\r\n\t\t\t\t\t\t\r\n\t\t\t\t부산\r\n\t\t\t\t\r\n\t\t\t\t\tB\r\n\t\t\t\t\t℃\r\n\t\t\t\t\t미세먼지 \r\n\t\t\t\t\r\n\t\t\t\r\n\t\t\t\t\t\t\r\n\t\t\t\t강원\r\n\t\t\t\t\r\n\t\t\t\t\tB\r\n\t\t\t\t\t℃\r\n\t\t\t\t\t미세먼지 \r\n\t\t\t\t\r\n\t\t\t\r\n\t\t\t\t\t\t\r\n\t\t\t\t충북\r\n\t\t\t\t\r\n\t\t\t\t\tB\r\n\t\t\t\t\t℃\r\n\t\t\t\t\t미세먼지 \r\n\t\t\t\t\r\n\t\t\t\r\n\t\t\t\t\t\t\r\n\t\t\t\t충남\r\n\t\t\t\t\r\n\t\t\t\t\tB\r\n\t\t\t\t\t℃\r\n\t\t\t\t\t미세먼지 \r\n\t\t\t\t\r\n\t\t\t\r\n\t\t\t\t\t\t\r\n\t\t\t\t전북\r\n\t\t\t\t\r\n\t\t\t\t\tB\r\n\t\t\t\t\t℃\r\n\t\t\t\t\t미세먼지 \r\n\t\t\t\t\r\n\t\t\t\r\n\t\t\t\t\t\t\r\n\t\t\t\t전남\r\n\t\t\t\t\r\n\t\t\t\t\tB\r\n\t\t\t\t\t℃\r\n\t\t\t\t\t미세먼지 \r\n\t\t\t\t\r\n\t\t\t\r\n\t\t\t\t\t\t\r\n\t\t\t\t경북\r\n\t\t\t\t\r\n\t\t\t\t\tB\r\n\t\t\t\t\t℃\r\n\t\t\t\t\t미세먼지 \r\n\t\t\t\t\r\n\t\t\t\r\n\t\t\t\t\t\t\r\n\t\t\t\t경남\r\n\t\t\t\t\r\n\t\t\t\t\tB\r\n\t\t\t\t\t℃\r\n\t\t\t\t\t미세먼지 \r\n\t\t\t\t\r\n\t\t\t\r\n\t\t\t\t\t\t\r\n\t\t\t\t제주\r\n\t\t\t\t\r\n\t\t\t\t\tB\r\n\t\t\t\t\t℃\r\n\t\t\t\t\t미세먼지 \r\n\t\t\t\t\r\n\t\t\t\r\n\t\t\t\t\t\t\r\n\t\t\t\t세종\r\n\t\t\t\t\r\n\t\t\t\t\tB\r\n\t\t\t\t\t℃\r\n\t\t\t\t\t미세먼지 \r\n\t\t\t\t\r\n\t\t\t\r\n\t\t\t\t\t\r\n\t\r\n\t\r\n\t$('. slick({\r\n\t\tarrows: false,\r\n\t\tdots: false,\r\n\t\tvertical: true,\r\n\t\tinfinite: true,\r\n\t\tspeed: 300,\r\n\t\tslidesToShow: 1,\r\n\t\tslidesToScroll: 1,\r\n\t\tautoplay: true,\r\n\t\tswipe: false,\r\n\t\tautoplaySpeed: 4000\r\n\t});\r\n\t\r\n\t\t\r\n\t\t\r\n\t\t\r\n\t\t\r\n\t\t\t4개국어 글로벌 경제신문\r\n\t\t\t\t한국어\r\n\t\t\t\t영어\r\n\t\t\t\t일본어\r\n\t\t\t\t중국어\r\n\t\t\t\r\n\t\t\r\n\t\t\r\n\t\t\tfunction googleTranslateElementInit() {\r\n\t\t\t\tnew google. TranslateElement({\r\n\t\t\t\t\tpageLanguage: 'ko',\r\n\t\t\t\t\tincludedLanguages: 'ko,zh-CN,zh-TW,ja,vi,th,tl,km,my,mn,ru,en,fr,ar,es,de,pt,ar,ne,cs,id,th',\r\n\t\t\t\t\tlayout: google\n\n**쉽게 설명하면:**\n\n경제와 관련된 중요한 뉴스예요. 주요 수치는 2026, 05, 09입니다. 이 뉴스는 우리의 생활과 밀접한 관련이 있어요. 경제가 좋으면 사람들이 많은 물건을 사고, 회사들이 더 많은 사람을 고용해요.",
+      "source": "https://www.startuptoday.co.kr/news/articleView.html?idxno=800365",
+      "sourceUrl": "https://www.startuptoday.co.kr/news/articleView.html?idxno=800365",
+      "link": "https://www.startuptoday.co.kr/news/articleView.html?idxno=800365",
+      "publishedAt": "2026-05-08T21:00:00.000Z",
+      "date": "2026. 5. 8.",
+      "readingTime": 10,
       "category": "economic",
       "investmentOpinion": {
         "opinion": "중립적",
-        "confidence": 85.0366167002442,
+        "confidence": 88.77308286495663,
         "reason": "경제 뉴스 분석 기반"
       }
     },
     {
       "id": 5,
-      "title": "수출 中企 물류비 부담 낮춘다…경과원·김포시, 27개 참여기업 모집",
-      "content": "경기도경제과학진흥원(경과원)은 김포시와 공동으로 ‘2026년 김포시 수출물류비 지원사업’ 참여기업을... 고환율 장기화와 국제 정세 불안으로 물류비 부담이 가중된 수출 중소기업의 해외 판로 확보를 돕기 위해... ",
-      "summary": "경기도경제과학진흥원(경과원)은 김포시와 공동으로 ‘2026년 김포시 수출물류비 지원사업’ 참여기업을... 고환율 장기화와 국제 정세 불안으로 물류비 부담이 가중된 수출 중소기업의 ",
-      "detailedExplanation": "**이 뉴스의 핵심:**\n\n고환율 장기화, 국제 정세 불안에 물류 부담↑27개사 참여 기업 선정, 최대 500만원 지원\n\t\n\t\t\n\t\n김포시 수출물류비 지원사업 모집 포스터.  사진 제공=경과원경기도경제과학진흥원(경과원)은 김포시와 공동으로 ‘2026년 김포시 수출물류비 지원사업’ 참여기업을 20일까지 선착순 모집한다고 8일 밝혔다. 올해 총 27개사를 선정하며, 기업당 최대 500만 원(총비용의 70%)을 지원한다\n\n**쉽게 설명하면:**\n\n집이나 땅의 가격이 변했어요. 부동산 가격이 올라가면 우리 가족이 집을 사기 어려워져요. 엄마 아빠가 더 많은 돈을 모아야 하니까요. 부동산 가격이 내려가면 집을 사기 쉬워져요. 또한 이미 집을 가진 사람들은 부동산 가격이 올라가길 바라요. 왜냐하면 자기 집의 가격이 올라가니까요.",
-      "source": "https://n.news.naver.com/mnews/article/011/0004618637?sid=102",
-      "sourceUrl": "https://n.news.naver.com/mnews/article/011/0004618637?sid=102",
-      "link": "https://n.news.naver.com/mnews/article/011/0004618637?sid=102",
-      "publishedAt": "2026-05-07T23:40:00.000Z",
-      "date": "2026. 5. 7.",
-      "readingTime": 4,
+      "title": "고용 호조에 반도체 랠리까지…S&amp;P500·나스닥 또 최고치 [뉴욕증시 브리...",
+      "content": "시장은 강한 고용이 금리 인하 기대를 늦출 수 있다는 점보다 경기 침체 우려를 낮춘다는 데 무게를 뒀다. 미 국채금리는 안정적인 흐름을 보였다. 10년물 금리는 0.02%포인트 내린 4.36%, 2년물 금리는 3.89%로 거의... ",
+      "summary": "시장은 강한 고용이 금리 인하 기대를 늦출 수 있다는 점보다 경기 침체 우려를 낮춘다는 데 무게를 뒀다. 미 국채금리는 안정적인 흐름을 보였다. 10년물 금리는 0.02%포인트 내",
+      "detailedExplanation": "**이 뉴스의 핵심:**\n\nEPA연합뉴스미국 뉴욕증시가 고용 호조와 반도체주 강세에 힘입어 다시 사상 최고치를 갈아치웠다.  중동발 유가 불안과 소비심리 악화에도 투자자들은 미국 경제의 견조한 흐름에 더 주목했다. 8일(현지시간) 뉴욕증권거래소(NYSE)에서 스탠더드앤드푸어스(S&P)500지수는 전 거래일보다 61\n\n**쉽게 설명하면:**\n\n주식 시장이 변했어요. 코스피는 8포인트입니다. 주식 시장이 좋아지면 회사들이 잘되고 있다는 뜻이에요. 그래서 회사들이 더 많은 사람을 고용하고 월급도 많이 줄 수 있어요. 주식 시장이 안 좋아지면 회사들이 어려워지고 사람들을 해고할 수 있어요. 주식 시장은 경제 전체의 건강 상태를 보여주는 거울 같은 역할을 해요.",
+      "source": "https://n.news.naver.com/mnews/article/015/0005284897?sid=101",
+      "sourceUrl": "https://n.news.naver.com/mnews/article/015/0005284897?sid=101",
+      "link": "https://n.news.naver.com/mnews/article/015/0005284897?sid=101",
+      "publishedAt": "2026-05-08T22:15:00.000Z",
+      "date": "2026. 5. 8.",
+      "readingTime": 7,
       "category": "economic",
       "investmentOpinion": {
         "opinion": "긍정적",
-        "confidence": 75.25945822889274,
+        "confidence": 74.3046652956567,
         "reason": "경제 뉴스 분석 기반"
       }
     },
     {
       "id": 6,
-      "title": "삼성생명, 500대 기업 중 실적 20위 ‘안착’…한금서 등 대형GA 성장세...",
-      "content": "2025년 결산 실적을 바탕으로 선정한 ‘2026년 국내 500대 기업’에서 보험사들의 희비가 뚜렷하게 엇갈렸다. 대형 보험사들은 실적 성장을 바탕으로 최상위권 수성에 성공한 반면, 일부 중소형 보험사들은... ",
-      "summary": "2025년 결산 실적을 바탕으로 선정한 ‘2026년 국내 500대 기업’에서 보험사들의 희비가 뚜렷하게 엇갈렸다. 대형 보험사들은 실적 성장을 바탕으로 최상위권 수성에 성공한 반면",
-      "detailedExplanation": "**이 뉴스의 핵심:**\n\n삼성생명&middot;한화생명 등 대형사 상위권 수성&hellip;중소사는 하락한화생명금융서비스 외 GA 지에이코리아도 500대 기업 첫 입성올해 500대 기업 진입 하한선 1\n\n**쉽게 설명하면:**\n\n경제와 관련된 중요한 뉴스예요. 주요 수치는 500, 1.4, 5.5%입니다. 이 뉴스는 우리의 생활과 밀접한 관련이 있어요. 경제가 좋으면 사람들이 많은 물건을 사고, 회사들이 더 많은 사람을 고용해요.",
-      "source": "https://www.ceoscoredaily.com/page/view/2026050610290711162",
-      "sourceUrl": "https://www.ceoscoredaily.com/page/view/2026050610290711162",
-      "link": "https://www.ceoscoredaily.com/page/view/2026050610290711162",
-      "publishedAt": "2026-05-07T22:02:00.000Z",
-      "date": "2026. 5. 7.",
-      "readingTime": 1,
+      "title": "美 4월 고용, 예상치 상회...실업률 4.3%로 안정적",
+      "content": "사진=연합뉴스  미국의 고용이 4월 들어 견조한 흐름을 이어갔다. 8일(미 현지시간) 미 노동부 노동통계국은 4월 미국의 비농업 일자리가 전월 대비 11만5000명 증가했다고 밝혔다. 이는 지난 3월 고용 증가 폭... ",
+      "summary": "사진=연합뉴스  미국의 고용이 4월 들어 견조한 흐름을 이어갔다. 8일(미 현지시간) 미 노동부 노동통계국은 4월 미국의 비농업 일자리가 전월 대비 11만5000명 증가했다고 밝혔",
+      "detailedExplanation": "**이 뉴스의 핵심:**\n\n사진=연합뉴스\r\n\r\n\r\n\r\n[오피니언뉴스=김지은 기자] 미국의 고용이 4월 들어 견조한 흐름을 이어갔다.  \r\n\r\n8일(미 현지시간) 미 노동부 노동통계국은 4월 미국의 비농업 일자리가 전월 대비 11만5000명 증가했다고 밝혔다. \r\n\r\n이는 지난 3월 고용 증가 폭 18만5000명(수정치 기준)에는 못 미치지만, 증가 폭은 다우존스가 집계한 전문가 전망치(5만5000명)의 2배에 달했다\n\n**쉽게 설명하면:**\n\n사람들이 일할 수 있는 일자리가 많아지거나 줄어들었어요. 일자리가 많으면 우리 부모님이 일을 찾기 쉬워요. 회사들이 사람을 찾고 있으니까 월급도 많이 줄 수 있어요. 그래서 우리 가족이 더 편하게 생활할 수 있어요. 일자리가 적으면 부모님이 일을 찾기 어려워져요.",
+      "source": "http://www.opinionnews.co.kr/news/articleView.html?idxno=138136",
+      "sourceUrl": "http://www.opinionnews.co.kr/news/articleView.html?idxno=138136",
+      "link": "http://www.opinionnews.co.kr/news/articleView.html?idxno=138136",
+      "publishedAt": "2026-05-08T23:56:00.000Z",
+      "date": "2026. 5. 8.",
+      "readingTime": 6,
       "category": "economic",
       "investmentOpinion": {
         "opinion": "중립적",
-        "confidence": 70.71549638410346,
+        "confidence": 79.6536899411211,
         "reason": "경제 뉴스 분석 기반"
       }
     },
     {
       "id": 7,
-      "title": "5월 7일 주식시장 주요공시",
-      "content": "80%) ▶씨메스로보틱스, 주식회사 서흥과 52.91억원(최근 매출액대비 40.53%) 규모 공급계약(로봇... 22%) ▶TS인베스트먼트, 1주당 가액 500원을 1,000원으로 병합하는 주식병합 결정(상장예정:2026-06-30)... ",
-      "summary": "80%) ▶씨메스로보틱스, 주식회사 서흥과 52.91억원(최근 매출액대비 40.53%) 규모 공급계약(로봇... 22%) ▶TS인베스트먼트, 1주당 가액 500원을 1,000원으로",
-      "detailedExplanation": "**이 뉴스의 핵심:**\n\n▪ Reader's Pickup\r\n\r\n\r\n\r\n#skin-84 > . item {margin-top:25px;text-align:center}\r\n#skin-84 > . item:first-child {margin-top:0}\r\n#skin-84\n\n**쉽게 설명하면:**\n\n주식 시장이 변했어요. 코스피는 84포인트입니다. 주식 시장이 좋아지면 회사들이 잘되고 있다는 뜻이에요. 그래서 회사들이 더 많은 사람을 고용하고 월급도 많이 줄 수 있어요. 주식 시장이 안 좋아지면 회사들이 어려워지고 사람들을 해고할 수 있어요. 주식 시장은 경제 전체의 건강 상태를 보여주는 거울 같은 역할을 해요.",
-      "source": "https://www.catchnews.kr/news/articleView.html?idxno=123597",
-      "sourceUrl": "https://www.catchnews.kr/news/articleView.html?idxno=123597",
-      "link": "https://www.catchnews.kr/news/articleView.html?idxno=123597",
-      "publishedAt": "2026-05-07T23:50:00.000Z",
-      "date": "2026. 5. 7.",
-      "readingTime": 3,
+      "title": "뉴욕증시 ,S&amp;P500·나스닥 또 최고치 고용 지표 호조·인텔 등 반도체 랠...",
+      "content": "강한 고용 지표가 금리 인하 기대를 일부 늦출 수 있지만, 경기 침체 없는 연착륙 가능성을 높인다는 해석이 우세했다. 미 국채금리는 대체로 안정적이었다. 10년물 국채금리는 2bp 내린 4.36%를 기록했고, 2년물... ",
+      "summary": "강한 고용 지표가 금리 인하 기대를 일부 늦출 수 있지만, 경기 침체 없는 연착륙 가능성을 높인다는 해석이 우세했다. 미 국채금리는 대체로 안정적이었다. 10년물 국채금리는 2bp",
+      "detailedExplanation": "**이 뉴스의 핵심:**\n\n강한 고용 지표가 금리 인하 기대를 일부 늦출 수 있지만, 경기 침체 없는 연착륙 가능성을 높인다는 해석이 우세했다\n\n**쉽게 설명하면:**\n\n주식 시장이 변했어요. 코스피는 10포인트입니다. 주식 시장이 좋아지면 회사들이 잘되고 있다는 뜻이에요. 그래서 회사들이 더 많은 사람을 고용하고 월급도 많이 줄 수 있어요. 주식 시장이 안 좋아지면 회사들이 어려워지고 사람들을 해고할 수 있어요. 주식 시장은 경제 전체의 건강 상태를 보여주는 거울 같은 역할을 해요.",
+      "source": "http://www.smedaily.co.kr/news/articleView.html?idxno=356679",
+      "sourceUrl": "http://www.smedaily.co.kr/news/articleView.html?idxno=356679",
+      "link": "http://www.smedaily.co.kr/news/articleView.html?idxno=356679",
+      "publishedAt": "2026-05-08T21:30:00.000Z",
+      "date": "2026. 5. 8.",
+      "readingTime": 1,
       "category": "economic",
       "investmentOpinion": {
         "opinion": "긍정적",
-        "confidence": 80.90016542338893,
+        "confidence": 79.68880325867653,
         "reason": "경제 뉴스 분석 기반"
       }
     },
     {
       "id": 8,
-      "title": "코스피 전에 대만 주식 알았어야…10년 수익률 봤더니 ‘415%’",
-      "content": "상승 코스피가 7일 장중 7500선을 돌파하는 등 최근 가파른 상승세를 이어가고 있다. 하지만 지난 10년간 주요국 대표 지수 수익률을 비교했을 때 코스피는 미국 나스닥지수는 물론 대만 자취엔지수와 일본... ",
-      "summary": "상승 코스피가 7일 장중 7500선을 돌파하는 등 최근 가파른 상승세를 이어가고 있다. 하지만 지난 10년간 주요국 대표 지수 수익률을 비교했을 때 코스피는 미국 나스닥지수는 물론",
-      "detailedExplanation": "**이 뉴스의 핵심:**\n\n인공지능 하드웨어 공급망 강한 대만TSMC 필두로 랠리 먼저 시작日도 수익률 290%로 韓 앞서선제적 밸류업으로 주가 상승\n\t\n\t\t\n\t\n 대만 타이베이 대만증권거래소.  [EPA 연합뉴스]코스피가 7일 장중 7500선을 돌파하는 등 최근 가파른 상승세를 이어가고 있다.  하지만 지난 10년간 주요국 대표 지수 수익률을 비교했을 때 코스피는 미국 나스닥지수는 물론 대만 자취엔지수와 일본 닛케이225지수 등에 못 미치는 것으로 나타났다\n\n**쉽게 설명하면:**\n\n주식 시장이 변했어요. 코스피는 290%포인트입니다. 주식 시장이 좋아지면 회사들이 잘되고 있다는 뜻이에요. 그래서 회사들이 더 많은 사람을 고용하고 월급도 많이 줄 수 있어요. 주식 시장이 안 좋아지면 회사들이 어려워지고 사람들을 해고할 수 있어요. 주식 시장은 경제 전체의 건강 상태를 보여주는 거울 같은 역할을 해요.",
-      "source": "https://n.news.naver.com/mnews/article/009/0005676865?sid=101",
-      "sourceUrl": "https://n.news.naver.com/mnews/article/009/0005676865?sid=101",
-      "link": "https://n.news.naver.com/mnews/article/009/0005676865?sid=101",
-      "publishedAt": "2026-05-07T21:05:00.000Z",
-      "date": "2026. 5. 7.",
-      "readingTime": 8,
+      "title": "고용 호조·반도체 랠리에 S&amp;P500·나스닥 또 최고치(종합)",
+      "content": "시장은 강한 고용 지표가 금리 인하 기대를 일부 늦추더라도 경기 침체 없는 연착륙 가능성을 높인다는 점에 주목했다. 이에 따라 미 국채금리는 대체로 안정적인 흐름을 보였다. 미 10년물 국채금리는 2bp(1bp=0.01... ",
+      "summary": "시장은 강한 고용 지표가 금리 인하 기대를 일부 늦추더라도 경기 침체 없는 연착륙 가능성을 높인다는 점에 주목했다. 이에 따라 미 국채금리는 대체로 안정적인 흐름을 보였다. 미 1",
+      "detailedExplanation": "**이 뉴스의 핵심:**\n\n7% 올라…인텔, 애플 계약 보도에 14% 급등소비심리는 역대 최저…중동 긴장·고유가 부담에도 위험선호 지속\n\t\n\t\t\n\t\n8일(현지시간) 뉴욕증권거래소(NYSE) 트레이더[EPA=연합뉴스](뉴욕=연합뉴스) 김연숙 특파원 = 8일(현지시간) 미국 뉴욕증시의 스탠더드앤드푸어스(S&amp;P) 500 지수와 나스닥 종합지수가 나란히 사상 최고치를 갈아치우며 6주 연속 상승(금요일 종가기준)했다.      이날 뉴욕증시에서 S&amp;P 500 지수는 전장보다 61. 93에, 나스닥 종합지수는 전장보다 440\n\n**쉽게 설명하면:**\n\n주식 시장이 변했어요. 코스피는 0.8%포인트입니다. 주식 시장이 좋아지면 회사들이 잘되고 있다는 뜻이에요. 그래서 회사들이 더 많은 사람을 고용하고 월급도 많이 줄 수 있어요. 주식 시장이 안 좋아지면 회사들이 어려워지고 사람들을 해고할 수 있어요. 주식 시장은 경제 전체의 건강 상태를 보여주는 거울 같은 역할을 해요.",
+      "source": "https://n.news.naver.com/mnews/article/001/0016066854?sid=104",
+      "sourceUrl": "https://n.news.naver.com/mnews/article/001/0016066854?sid=104",
+      "link": "https://n.news.naver.com/mnews/article/001/0016066854?sid=104",
+      "publishedAt": "2026-05-08T21:13:00.000Z",
+      "date": "2026. 5. 8.",
+      "readingTime": 10,
       "category": "economic",
       "investmentOpinion": {
         "opinion": "중립적",
-        "confidence": 73.13111241829615,
+        "confidence": 79.69379541810258,
         "reason": "경제 뉴스 분석 기반"
       }
     },
     {
       "id": 9,
-      "title": "오리엔트바이오, 2대 1 주식병합 승인",
-      "content": "이번 주식병합 결정에 따라 1주당 액면가는 기존 500원에서 1000원으로 변경된다. 발행주식 총수는 기존 1억1858만3005주에서 5929만1502주로 감소한다. 주식 매매거래는 오는 20일부터 다음달 8일까지 정지될 예정이다.... ",
-      "summary": "이번 주식병합 결정에 따라 1주당 액면가는 기존 500원에서 1000원으로 변경된다. 발행주식 총수는 기존 1억1858만3005주에서 5929만1502주로 감소한다. 주식 매매거래",
-      "detailedExplanation": "**이 뉴스의 핵심:**\n\nad-template { margin:auto; position:relative; display:block; clear:both; z-지수:1; }\n#AD165353163223. col { text-align:center; }\n#AD165353163223. ad-view { position:relative; }\n\n\n\t\n\n\n\r\n\r\n컨슈머타임스=전은정 기자 | 오리엔트바이오는 임시주주총회(임시주총)에서 보통주 2주를 1주로 병합하는 안건을 승인했다고 8일 밝혔다\n\n**쉽게 설명하면:**\n\n주식 시장이 변했어요. 코스피는 165353163223포인트입니다. 주식 시장이 좋아지면 회사들이 잘되고 있다는 뜻이에요. 그래서 회사들이 더 많은 사람을 고용하고 월급도 많이 줄 수 있어요. 주식 시장이 안 좋아지면 회사들이 어려워지고 사람들을 해고할 수 있어요. 주식 시장은 경제 전체의 건강 상태를 보여주는 거울 같은 역할을 해요.",
-      "source": "https://www.cstimes.com/news/articleView.html?idxno=704834",
-      "sourceUrl": "https://www.cstimes.com/news/articleView.html?idxno=704834",
-      "link": "https://www.cstimes.com/news/articleView.html?idxno=704834",
-      "publishedAt": "2026-05-07T23:20:00.000Z",
-      "date": "2026. 5. 7.",
-      "readingTime": 10,
+      "title": "코스피 상승에 국내주식 관련 도서 판매 305% 급증",
+      "content": "코스피가 7000선을 돌파하면서 서점가에는 투자·재테크 도서 바람이 불고 있습니다. 예스24는 지난... 코스피 5000선과 6000선을 각각 돌파했던 지난 1월, 2월에 319%와 294% 판매량이 늘어난 데 이어, 또 한 번 판매... ",
+      "summary": "코스피가 7000선을 돌파하면서 서점가에는 투자·재테크 도서 바람이 불고 있습니다. 예스24는 지난... 코스피 5000선과 6000선을 각각 돌파했던 지난 1월, 2월에 319%",
+      "detailedExplanation": "**이 뉴스의 핵심:**\n\n코스피가 7000선을 돌파하면서 서점가에는 투자·재테크 도서 바람이 불고 있습니다. 예스24는 지난 1월부터 지난 6일까지 상반기 국내주식 관련 도서 판매량이 지난해 같은 기간과 비교해 305% 급증했다고 밝혔습니다. 코스피 5000선과 6000선을 각각 돌파했던 지난 1월, 2월에 319%와 294% 판매량이 늘어난 데 이어, 또 한 번 판매 신기록을 달성했다고 설명했습니다\n\n**쉽게 설명하면:**\n\n주식 시장이 변했어요. 코스피는 7000포인트입니다. 주식 시장이 좋아지면 회사들이 잘되고 있다는 뜻이에요. 그래서 회사들이 더 많은 사람을 고용하고 월급도 많이 줄 수 있어요. 주식 시장이 안 좋아지면 회사들이 어려워지고 사람들을 해고할 수 있어요. 주식 시장은 경제 전체의 건강 상태를 보여주는 거울 같은 역할을 해요.",
+      "source": "https://n.news.naver.com/mnews/article/052/0002350661?sid=103",
+      "sourceUrl": "https://n.news.naver.com/mnews/article/052/0002350661?sid=103",
+      "link": "https://n.news.naver.com/mnews/article/052/0002350661?sid=103",
+      "publishedAt": "2026-05-08T16:09:00.000Z",
+      "date": "2026. 5. 8.",
+      "readingTime": 2,
       "category": "economic",
       "investmentOpinion": {
         "opinion": "긍정적",
-        "confidence": 79.87694689161746,
+        "confidence": 71.17905204479098,
         "reason": "경제 뉴스 분석 기반"
       }
     },
     {
       "id": 10,
-      "title": "고물가·고환율·글로벌 불확실성 극복한 유통업계…2분기 전략은",
-      "content": "사진=함영원 기자 국내 유통업계가 올해 1분기 고물가 및 고환율, 글로벌 경영 불확실성 등에도 불구하고... 중동발 여파로 인한 유가와 환율 상승으로 매입가·물류비 등이 크게 상승해 부담이 커지고 있으며 물류... ",
-      "summary": "사진=함영원 기자 국내 유통업계가 올해 1분기 고물가 및 고환율, 글로벌 경영 불확실성 등에도 불구하고... 중동발 여파로 인한 유가와 환율 상승으로 매입가·물류비 등이 크게 상승",
-      "detailedExplanation": "**이 뉴스의 핵심:**\n\n사진=함영원 기자 국내 유통업계가 올해 1분기 고물가 및 고환율, 글로벌 경영 불확실성 등에도 불구하고.  중동발 여파로 인한 유가와 환율 상승으로 매입가·물류비 등이 크게 상승해 부담이 커지고 있으며 물류\n\n**쉽게 설명하면:**\n\n달러와 원의 환율이 변했어요. 환율은 1원입니다. 환율이 올라가면 (달러가 비싸지면) 외국에서 물건을 사올 때 더 많은 돈을 내야 해요. 그래서 우리나라 물건의 가격도 올라갈 수 있어요. 반대로 환율이 내려가면 외국 물건을 싸게 살 수 있어요. 환율은 우리 생활비에 직접 영향을 미쳐요.",
-      "source": "https://www.pointdaily.co.kr/news/articleView.html?idxno=304150",
-      "sourceUrl": "https://www.pointdaily.co.kr/news/articleView.html?idxno=304150",
-      "link": "https://www.pointdaily.co.kr/news/articleView.html?idxno=304150",
-      "publishedAt": "2026-05-07T23:32:00.000Z",
-      "date": "2026. 5. 7.",
+      "title": "美 고용 호조 · 반도체 랠리...미국증시 나스닥 '껑충'",
+      "content": "미국 국채금리는 하락했다. 인베스팅닷컴에 따르면 벤치마크 금리인 10년물 국채금리는 뉴욕증시 마감시간 기준 4.364%로 전장 대비 0.030%포인트, 통화정책에 민감한 미국 2년물 국채금리는 같은 시각 3.893%로 0.026... ",
+      "summary": "미국 국채금리는 하락했다. 인베스팅닷컴에 따르면 벤치마크 금리인 10년물 국채금리는 뉴욕증시 마감시간 기준 4.364%로 전장 대비 0.030%포인트, 통화정책에 민감한 미국 2년",
+      "detailedExplanation": "**이 뉴스의 핵심:**\n\n인베스팅닷컴에 따르면 벤치마크 금리인 10년물 국채금리는 뉴욕증시 마감시간 기준 4. 030%포인트, 통화정책에 민감한 미국 2년물 국채금리는 같은 시각 3\n\n**쉽게 설명하면:**\n\n주식 시장이 변했어요. 코스피는 10포인트입니다. 주식 시장이 좋아지면 회사들이 잘되고 있다는 뜻이에요. 그래서 회사들이 더 많은 사람을 고용하고 월급도 많이 줄 수 있어요. 주식 시장이 안 좋아지면 회사들이 어려워지고 사람들을 해고할 수 있어요. 주식 시장은 경제 전체의 건강 상태를 보여주는 거울 같은 역할을 해요.",
+      "source": "http://www.choicenews.co.kr/news/articleView.html?idxno=164989",
+      "sourceUrl": "http://www.choicenews.co.kr/news/articleView.html?idxno=164989",
+      "link": "http://www.choicenews.co.kr/news/articleView.html?idxno=164989",
+      "publishedAt": "2026-05-08T20:46:00.000Z",
+      "date": "2026. 5. 8.",
       "readingTime": 1,
       "category": "economic",
       "investmentOpinion": {
         "opinion": "중립적",
-        "confidence": 83.03139048760707,
+        "confidence": 79.46711053498629,
         "reason": "경제 뉴스 분석 기반"
       }
     }
@@ -196,9 +196,14 @@
     "sentiment": "긍정적",
     "sectors": [
       {
-        "name": "부동산",
+        "name": "금융",
+        "outlook": "긍정적",
+        "reason": "금리 인하로 대출 비용 감소"
+      },
+      {
+        "name": "반도체",
         "outlook": "중립적",
-        "reason": "시장 안정화"
+        "reason": "시장 변화 관찰 중"
       },
       {
         "name": "수출",
@@ -206,79 +211,79 @@
         "reason": "원화 강세로 수출 어려움"
       }
     ],
-    "summary": "최근 경제 뉴스를 분석한 결과, 전체적으로 긍정적인 흐름을 보이고 있습니다. 주요 섹터별로는 부동산(중립적), 수출(부정적) 등의 변화가 예상됩니다. 투자 시 이러한 경제 지표 변화를 고려하여 포트폴리오를 조정하시기 바랍니다.",
-    "confidence": 75.76170996872206
+    "summary": "최근 경제 뉴스를 분석한 결과, 전체적으로 긍정적인 흐름을 보이고 있습니다. 주요 섹터별로는 금융(긍정적), 반도체(중립적), 수출(부정적) 등의 변화가 예상됩니다. 투자 시 이러한 경제 지표 변화를 고려하여 포트폴리오를 조정하시기 바랍니다.",
+    "confidence": 76.07808717429083
   },
   "predictions": [
     {
       "id": 1,
-      "date": "2026-05-07T23:57:59.049Z",
+      "date": "2026-05-08T23:59:51.088Z",
       "prediction": "긍정적",
-      "confidence": 74.76113454335226,
-      "sector": "일반"
+      "confidence": 73.4454926160368,
+      "sector": "반도체"
     },
     {
       "id": 2,
-      "date": "2026-05-07T23:57:59.049Z",
+      "date": "2026-05-08T23:59:51.088Z",
       "prediction": "중립적",
-      "confidence": 76.52631773799476,
-      "sector": "일반"
+      "confidence": 74.24378106162843,
+      "sector": "금융"
     },
     {
       "id": 3,
-      "date": "2026-05-07T23:57:59.049Z",
+      "date": "2026-05-08T23:59:51.088Z",
       "prediction": "긍정적",
-      "confidence": 82.90836049695343,
+      "confidence": 85.66806081911385,
       "sector": "일반"
     },
     {
       "id": 4,
-      "date": "2026-05-07T23:57:59.049Z",
+      "date": "2026-05-08T23:59:51.088Z",
       "prediction": "중립적",
-      "confidence": 85.0366167002442,
+      "confidence": 88.77308286495663,
       "sector": "일반"
     },
     {
       "id": 5,
-      "date": "2026-05-07T23:57:59.049Z",
+      "date": "2026-05-08T23:59:51.088Z",
       "prediction": "긍정적",
-      "confidence": 75.25945822889274,
-      "sector": "일반"
+      "confidence": 74.3046652956567,
+      "sector": "반도체"
     },
     {
       "id": 6,
-      "date": "2026-05-07T23:57:59.049Z",
+      "date": "2026-05-08T23:59:51.088Z",
       "prediction": "중립적",
-      "confidence": 70.71549638410346,
+      "confidence": 79.6536899411211,
       "sector": "일반"
     },
     {
       "id": 7,
-      "date": "2026-05-07T23:57:59.049Z",
+      "date": "2026-05-08T23:59:51.088Z",
       "prediction": "긍정적",
-      "confidence": 80.90016542338893,
-      "sector": "일반"
+      "confidence": 79.68880325867653,
+      "sector": "반도체"
     },
     {
       "id": 8,
-      "date": "2026-05-07T23:57:59.049Z",
+      "date": "2026-05-08T23:59:51.088Z",
       "prediction": "중립적",
-      "confidence": 73.13111241829615,
-      "sector": "일반"
+      "confidence": 79.69379541810258,
+      "sector": "반도체"
     },
     {
       "id": 9,
-      "date": "2026-05-07T23:57:59.049Z",
+      "date": "2026-05-08T23:59:51.088Z",
       "prediction": "긍정적",
-      "confidence": 79.87694689161746,
+      "confidence": 71.17905204479098,
       "sector": "일반"
     },
     {
       "id": 10,
-      "date": "2026-05-07T23:57:59.049Z",
+      "date": "2026-05-08T23:59:51.089Z",
       "prediction": "중립적",
-      "confidence": 83.03139048760707,
-      "sector": "일반"
+      "confidence": 79.46711053498629,
+      "sector": "반도체"
     }
   ]
 }
