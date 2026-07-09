@@ -1,193 +1,193 @@
 {
-  "lastUpdated": "2026-07-08T00:02:23.178Z",
+  "lastUpdated": "2026-07-09T00:16:08.087Z",
   "briefings": [
     {
       "id": 1,
-      "title": "[사설]금융연 구조적 고환율 경고, 물가 관리에 빈틈 없어야",
-      "content": "고환율의 파급 효과 가운데 먼저 걱정되는 것은 물가다. 고환율은 수입 원자재 가격 상승 등을 통해 국내 물가를 끌어올린다. 소비자물가 상승률은 올해 들어 4월까지 2%대였다가 5월 3.1%, 6월 3.2%로 두 달 연속 3%대를... ",
-      "summary": "고환율의 파급 효과 가운데 먼저 걱정되는 것은 물가다. 고환율은 수입 원자재 가격 상승 등을 통해 국내 물가를 끌어올린다. 소비자물가 상승률은 올해 들어 4월까지 2%대였다가 5월",
-      "detailedExplanation": "**이 뉴스의 핵심:**\n\n지금의 고환율은 일시적 현상이 아니라 구조적으로 자리 잡은 ‘새로운 평균’이라는 분석이 나왔다.  한국금융연구원은 보고서 ‘원/달러 환율의 구조적 상향 이동 가능성 평가’에서 이같이 분석했다.  평균 환율이 2010년대 중반 이후 세 차례 ‘구조적 단절’을 거치며 상향 이동했다는 것이다\n\n**쉽게 설명하면:**\n\n달러와 원의 환율이 변했어요. 환율은 2010원입니다. 환율이 올라가면 (달러가 비싸지면) 외국에서 물건을 사올 때 더 많은 돈을 내야 해요. 그래서 우리나라 물건의 가격도 올라갈 수 있어요. 반대로 환율이 내려가면 외국 물건을 싸게 살 수 있어요. 환율은 우리 생활비에 직접 영향을 미쳐요.",
-      "source": "https://n.news.naver.com/mnews/article/018/0006324926?sid=110",
-      "sourceUrl": "https://n.news.naver.com/mnews/article/018/0006324926?sid=110",
-      "link": "https://n.news.naver.com/mnews/article/018/0006324926?sid=110",
-      "publishedAt": "2026-07-07T20:01:00.000Z",
-      "date": "2026. 7. 7.",
-      "readingTime": 6,
+      "title": "[탐사경] 한국 경제 '역대급 성장'의 역설…물가·고환율에 '금리 인상'...",
+      "content": "중동 전쟁 장기화에 따른 물가 상승과 1500원대를 돌파한 고환율 국면이 지속되면서, 한국은행이 당장 다음... ◇고성장의 그늘: '1500원대 환율'과 '되살아난 물가 불씨' 문제는 수출 지표의 화려함이 서민 경제나 환율... ",
+      "summary": "중동 전쟁 장기화에 따른 물가 상승과 1500원대를 돌파한 고환율 국면이 지속되면서, 한국은행이 당장 다음... ◇고성장의 그늘: '1500원대 환율'과 '되살아난 물가 불씨' 문",
+      "detailedExplanation": "**이 뉴스의 핵심:**\n\n중동 전쟁 장기화에 따른 물가 상승과 1500원대를 돌파한 고환율 국면이 지속되면서, 한국은행이 당장 다음.  ◇고성장의 그늘: '1500원대 환율'과 '되살아난 물가 불씨' 문제는 수출 지표의 화려함이 서민 경제나 환율\n\n**쉽게 설명하면:**\n\n중앙은행이 금리를 결정했어요. 금리는 1500원%입니다. 금리가 올라가면 은행에서 돈을 빌릴 때 더 많은 이자를 내야 해요. 그래서 사람들이 집을 사거나 사업을 시작할 때 돈을 빌리기 어려워져요. 금리가 내려가면 반대로 돈을 빌리기 쉬워져요. 금리는 경제 전체에 큰 영향을 미치기 때문에 매우 중요한 뉴스예요.",
+      "source": "https://www.moneystorm.kr/news/articleView.html?idxno=4979",
+      "sourceUrl": "https://www.moneystorm.kr/news/articleView.html?idxno=4979",
+      "link": "https://www.moneystorm.kr/news/articleView.html?idxno=4979",
+      "publishedAt": "2026-07-08T22:23:00.000Z",
+      "date": "2026. 7. 8.",
+      "readingTime": 1,
       "category": "economic",
       "investmentOpinion": {
         "opinion": "긍정적",
-        "confidence": 71.54881913555066,
+        "confidence": 88.37151168650868,
         "reason": "경제 뉴스 분석 기반"
       }
     },
     {
       "id": 2,
-      "title": "코스피 9000 돌파에 웃은 국민연금…주식 평가액 200조 늘었다",
-      "content": "코스피가 2분기 사상 처음으로 9000선을 돌파하는 등 강세를 이어가면서 국민연금이 보유한 국내 주식 평가액이 3개월 만에 200조원 가까이 증가한 것으로 나타났다. 분기 기준 역대 최대 증가 폭이다. 8일... ",
-      "summary": "코스피가 2분기 사상 처음으로 9000선을 돌파하는 등 강세를 이어가면서 국민연금이 보유한 국내 주식 평가액이 3개월 만에 200조원 가까이 증가한 것으로 나타났다. 분기 기준 역",
-      "detailedExplanation": "**이 뉴스의 핵심:**\n\n9% '역대 최대'…삼성전자·SK하이닉스 증가분만 151조\n\t\n\t\t\n\t\n▲ 삼성전자·SK하이닉스 [연합뉴스 자료사진]\t\t\t\t\t코스피가 2분기 사상 처음으로 9000선을 돌파하는 등 강세를 이어가면서 국민연금이 보유한 국내 주식 평가액이 3개월 만에 200조원 가까이 증가한 것으로 나타났다. 8일 금융정보업체 에프앤가이드에 따르면 지난 6일 기준 국민연금이 지분 5% 이상을 보유한 상장사 270곳의 주식 평가액은 486조118억원으로 집계됐다.  지난 3월 말 296조4433억원보다 189조5684억원(63\n\n**쉽게 설명하면:**\n\n주식 시장이 변했어요. 코스피는 2포인트입니다. 주식 시장이 좋아지면 회사들이 잘되고 있다는 뜻이에요. 그래서 회사들이 더 많은 사람을 고용하고 월급도 많이 줄 수 있어요. 주식 시장이 안 좋아지면 회사들이 어려워지고 사람들을 해고할 수 있어요. 주식 시장은 경제 전체의 건강 상태를 보여주는 거울 같은 역할을 해요.",
-      "source": "https://n.news.naver.com/mnews/article/654/0000189459?sid=101",
-      "sourceUrl": "https://n.news.naver.com/mnews/article/654/0000189459?sid=101",
-      "link": "https://n.news.naver.com/mnews/article/654/0000189459?sid=101",
-      "publishedAt": "2026-07-07T23:23:00.000Z",
-      "date": "2026. 7. 7.",
-      "readingTime": 6,
+      "title": "코스피 3.31% 오른 7486.64 출발...원·달러 환율 1503.4원",
+      "content": "코스피 코스닥 환율 자료 사진 (사진=국제뉴스DB) 9일 코스피 지수는 전 거래일 대비 239.85P(3.31%) 오른 7486.64로 출발했다. 코스닥 지수는 전 거래일 대비 7.99p(1.02%) 오른 792.99에 개장했다.",
+      "summary": "코스피 코스닥 환율 자료 사진 (사진=국제뉴스DB) 9일 코스피 지수는 전 거래일 대비 239.85P(3.31%) 오른 7486.64로 출발했다. 코스닥 지수는 전 거래일 대비 7",
+      "detailedExplanation": "**이 뉴스의 핵심:**\n\n기자명 \r\n\t\t\t\t\t한경상 기자\t\t\t\t\r\n\t\t\t\t 입력 2026. 09 09:07\r\n\t\t\t\t\t\t\t\t\t 수정 2026. 09 09:14\r\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t 댓글 0\n\n**쉽게 설명하면:**\n\n달러와 원의 환율이 변했어요. 환율은 2026.07원입니다. 환율이 올라가면 (달러가 비싸지면) 외국에서 물건을 사올 때 더 많은 돈을 내야 해요. 그래서 우리나라 물건의 가격도 올라갈 수 있어요. 반대로 환율이 내려가면 외국 물건을 싸게 살 수 있어요. 환율은 우리 생활비에 직접 영향을 미쳐요.",
+      "source": "https://www.gukjenews.com/news/articleView.html?idxno=3630668",
+      "sourceUrl": "https://www.gukjenews.com/news/articleView.html?idxno=3630668",
+      "link": "https://www.gukjenews.com/news/articleView.html?idxno=3630668",
+      "publishedAt": "2026-07-09T00:08:00.000Z",
+      "date": "2026. 7. 9.",
+      "readingTime": 1,
       "category": "economic",
       "investmentOpinion": {
         "opinion": "중립적",
-        "confidence": 81.84114957172329,
+        "confidence": 76.5156684290721,
         "reason": "경제 뉴스 분석 기반"
       }
     },
     {
       "id": 3,
-      "title": "코스피 9000선 돌파에 웃은 국민연금, 3개월 만에 주식 가치 200조원 불어...",
-      "content": "뉴시스 국민연금이 보유한 국내 상장사 주식 평가액이 올해 2분기 코스피 9000선 돌파에 힘입어 3개월 만에 200조원 가까이 불어난 것으로 추정된다. 이는 분기 기준 역대 최대 증가 폭으로, 직전 분기 증가액을... ",
-      "summary": "뉴시스 국민연금이 보유한 국내 상장사 주식 평가액이 올해 2분기 코스피 9000선 돌파에 힘입어 3개월 만에 200조원 가까이 불어난 것으로 추정된다. 이는 분기 기준 역대 최대 ",
-      "detailedExplanation": "**이 뉴스의 핵심:**\n\n9%로 분기 기준 역대 최대 추정, 반도체 ‘양대 산맥’이 상승세 견인 \n\t\n\t\t\n\t\n    7일 오후 서울 중구 하나은행 본점 딜링룸 전광판에 삼성전자와 SK하이닉스의 종가가 표시되고 있다.  뉴시스    &#160;  국민연금이 보유한 국내 상장사 주식 평가액이 올해 2분기 코스피 9000선 돌파에 힘입어 3개월 만에 200조원 가까이 불어난 것으로 추정된다.  이는 분기 기준 역대 최대 증가 폭으로, 직전 분기 증가액을 100조원 이상 뛰어넘은 수치이다\n\n**쉽게 설명하면:**\n\n주식 시장이 변했어요. 코스피는 2포인트입니다. 주식 시장이 좋아지면 회사들이 잘되고 있다는 뜻이에요. 그래서 회사들이 더 많은 사람을 고용하고 월급도 많이 줄 수 있어요. 주식 시장이 안 좋아지면 회사들이 어려워지고 사람들을 해고할 수 있어요. 주식 시장은 경제 전체의 건강 상태를 보여주는 거울 같은 역할을 해요.",
-      "source": "https://n.news.naver.com/mnews/article/022/0004141372?sid=101",
-      "sourceUrl": "https://n.news.naver.com/mnews/article/022/0004141372?sid=101",
-      "link": "https://n.news.naver.com/mnews/article/022/0004141372?sid=101",
-      "publishedAt": "2026-07-07T23:44:00.000Z",
-      "date": "2026. 7. 7.",
+      "title": "&quot;물가 못 견딘 중소기업 도태&quot;…日 상반기 기업 도산 5000건 돌파",
+      "content": "여기에 일본은행이 지난해 12월 정책금리를 0.75%로 추가 인상하는 등 '금리 있는 세계'로 전환하면서, 실적이 부진한 기업일수록 차입과 차환 과정에서 늘어난 이자 부담을 떠안게 됐다. 부채 총액도 7340억엔(약... ",
+      "summary": "여기에 일본은행이 지난해 12월 정책금리를 0.75%로 추가 인상하는 등 '금리 있는 세계'로 전환하면서, 실적이 부진한 기업일수록 차입과 차환 과정에서 늘어난 이자 부담을 떠안게",
+      "detailedExplanation": "**이 뉴스의 핵심:**\n\n日 상반기 도산 5346건으로 5년 연속 증가도산 90%가 종업원 10명 미만 중소기업인건비에 따른 도산 전년 대비 2. 3배 ↑물가 상승과 인력 부족 등의 여파로 올해 상반기 일본의 기업 도산 건수가 12년 만에 처음으로 5000건을 넘어섰다.  TASS연합뉴스연합뉴스는 8일 니혼게이자이신문(닛케이) 등을 인용해 \"기업 신용조사업체 도쿄상공리서치가 이날 발표한 2026년 상반기(1∼6월) 전국 기업 도산 건수(부채 1000만엔 이상)는 5346건으로 전년 동기보다 7\n\n**쉽게 설명하면:**\n\n물건의 가격이 변했어요. 물가상승률은 5346%입니다. 물가가 올라가면 우리가 사는 모든 물건이 비싸져요. 밥, 옷, 휴대폰 등 모든 것이 비싸지니까 우리 가족이 더 많은 돈을 써야 해요. 물가가 내려가면 물건을 싸게 살 수 있어요. 물가는 우리 생활에 가장 직접적인 영향을 미치는 경제 지표예요.",
+      "source": "https://n.news.naver.com/mnews/article/277/0005787544?sid=104",
+      "sourceUrl": "https://n.news.naver.com/mnews/article/277/0005787544?sid=104",
+      "link": "https://n.news.naver.com/mnews/article/277/0005787544?sid=104",
+      "publishedAt": "2026-07-08T23:50:00.000Z",
+      "date": "2026. 7. 8.",
       "readingTime": 8,
       "category": "economic",
       "investmentOpinion": {
         "opinion": "긍정적",
-        "confidence": 72.06833535610318,
+        "confidence": 89.67876001459115,
         "reason": "경제 뉴스 분석 기반"
       }
     },
     {
       "id": 4,
-      "title": "원료의약품 수입액 줄었지만 고환율에 국내 자급도 휘청",
-      "content": "수출 증가와 수입 감소로 원료의약품 무역수지가 처음으로 흑자를 기록했지만 원‧달러 환율 상승으로 자급도는 낮아졌다. 올해 들어 1500원을 웃도는 고환율이 장기화하면서 국내 원료의약품 기업들의 원가... ",
-      "summary": "수출 증가와 수입 감소로 원료의약품 무역수지가 처음으로 흑자를 기록했지만 원‧달러 환율 상승으로 자급도는 낮아졌다. 올해 들어 1500원을 웃도는 고환율이 장기화하면서 국내 원료의",
-      "detailedExplanation": "**이 뉴스의 핵심:**\n\n수출 증가와 수입 감소로 원료의약품 무역수지가 처음으로 흑자를 기록했지만 원‧달러 환율 상승으로 자급도는 낮아졌다.  올해 들어 1500원을 웃도는 고환율이 장기화하면서 국내 원료의약품 기업들의 원가\n\n**쉽게 설명하면:**\n\n달러와 원의 환율이 변했어요. 환율은 1500원원입니다. 환율이 올라가면 (달러가 비싸지면) 외국에서 물건을 사올 때 더 많은 돈을 내야 해요. 그래서 우리나라 물건의 가격도 올라갈 수 있어요. 반대로 환율이 내려가면 외국 물건을 싸게 살 수 있어요. 환율은 우리 생활비에 직접 영향을 미쳐요.",
-      "source": "https://www.dailypharm.com/user/news/340208?REFERER=NP",
-      "sourceUrl": "https://www.dailypharm.com/user/news/340208?REFERER=NP",
-      "link": "https://www.dailypharm.com/user/news/340208?REFERER=NP",
-      "publishedAt": "2026-07-07T21:02:00.000Z",
-      "date": "2026. 7. 7.",
-      "readingTime": 1,
+      "title": "한탑, 주식병합 완료 후 거래 재개…&quot;기업가치 재평가 기대&quot;",
+      "content": "한탑이 주식병합(액면병합) 절차를 마무리하고 오는 10일부터 주식 거래가 재개된다. 9일 한탑에 따르면 적정 유통주식수 유지와 주가 안정, 기업가치 제고를 위해 5대 1 액면병합을 결의했다. 이번 병합으로 액면가액은... ",
+      "summary": "한탑이 주식병합(액면병합) 절차를 마무리하고 오는 10일부터 주식 거래가 재개된다. 9일 한탑에 따르면 적정 유통주식수 유지와 주가 안정, 기업가치 제고를 위해 5대 1 액면병합을",
+      "detailedExplanation": "**이 뉴스의 핵심:**\n\n한탑이 주식병합(액면병합) 절차를 마무리하고 오는 10일부터 주식 거래가 재개된다. \n\t\n\t\t\n\t\n9일 한탑에 따르면 적정 유통주식수 유지와 주가 안정, 기업가치 제고를 위해 5대 1 액면병합을 결의했다.  이번 병합으로 액면가액은 기존 500원에서 2500원으로 변경됐고, 발행주식 총수는 3231만 6799주에서 646만 3359주로 축소됐다\n\n**쉽게 설명하면:**\n\n주식 시장이 변했어요. 코스피는 10포인트입니다. 주식 시장이 좋아지면 회사들이 잘되고 있다는 뜻이에요. 그래서 회사들이 더 많은 사람을 고용하고 월급도 많이 줄 수 있어요. 주식 시장이 안 좋아지면 회사들이 어려워지고 사람들을 해고할 수 있어요. 주식 시장은 경제 전체의 건강 상태를 보여주는 거울 같은 역할을 해요.",
+      "source": "https://n.news.naver.com/mnews/article/277/0005787546?sid=101",
+      "sourceUrl": "https://n.news.naver.com/mnews/article/277/0005787546?sid=101",
+      "link": "https://n.news.naver.com/mnews/article/277/0005787546?sid=101",
+      "publishedAt": "2026-07-08T23:51:00.000Z",
+      "date": "2026. 7. 8.",
+      "readingTime": 4,
       "category": "economic",
       "investmentOpinion": {
         "opinion": "중립적",
-        "confidence": 72.05165854356268,
+        "confidence": 73.69622554716084,
         "reason": "경제 뉴스 분석 기반"
       }
     },
     {
       "id": 5,
-      "title": "미국증시, 국채금리 상승에 나스닥 약세…반도체주 차익실현",
-      "content": "원·달러 환율은 7월 7일 현재 기준 1516.7원으로 전일보다 13.8원 하락했지만, 미국증시 안에서는 달러지수와 국채금리 상승이 기술주 부담을 키운 변수로 작용했다. 결국 시장은 방어 업종의 선방보다 인공지능반도체... ",
-      "summary": "원·달러 환율은 7월 7일 현재 기준 1516.7원으로 전일보다 13.8원 하락했지만, 미국증시 안에서는 달러지수와 국채금리 상승이 기술주 부담을 키운 변수로 작용했다. 결국 시장",
-      "detailedExplanation": "**이 뉴스의 핵심:**\n\nvar ___BANNER = \"ban_1732513509_82\";\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\n\t\t\t\t\n\t\t\t\n\n\t\t\t\n\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t정치\n\t\t\t\t\t사회\n\t\t\t\t\t경제\n\t\t\t\t\t국제\t\t\n\t\t\t\t\t스포츠\n\t\t\t\t\t\t\t\t\t\t\t로그인\n\t\t\t\t\t\t회원가입 -->\n\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t2026-07-08 08:47 (수) \n\t\t\t\t\t인터넷신문위원회 윤리강령을 준수합니다\n\t\t\t\t\n\t\t\t\t\n\n\t\t\t\t\n\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t가요\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t방송\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t영화\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t셀럽\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\tHD포토\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\tHD동영상\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t이슈\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t리부트\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t이슈종합\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\n\n\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\t검색\n\t\t\t\t\t\t\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t기사검색\n\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t검색\n\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\n\n\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\t전체메뉴 버튼\n\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t엔터테인먼트\n\t\t\t\t\t\t\t\t\t가요\n\t\t\t\t\t\t\t\t\t방송\n\t\t\t\t\t\t\t\t\t영화\n\t\t\t\t\t\t\t\t\t셀럽\n\t\t\t\t\t\t\t\t\t문화/예술\n\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\tHD포토\n\t\t\t\t\t\t\t\t\tHD동영상\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t출근길\t\n\t\t\t\t\t\t\t\t\t쇼케이스\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t시상식\n\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t인터뷰\n\t\t\t\t\t\t\t\t\t현장리포트\n\t\t\t\t\t\t\t\t\t이슈\n\t\t\t\t\t\t\t\t\t단독\n\t\t\t\t\t\t\t\t\t기획\n\t\t\t\t\t\t\t\t\t무비포커스\n\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t리부트 \n\t\t\t\t\t\t\t\t\t이슈종합\n\t\t\t\t\t\t\t\t\tTOP리뷰\n\t\t\t\t\t\t\t\t\tTOP초점\n\t\t\t\t\t\t\t\t\tTOP이슈\n\t\t\t\t\t\t\t\t\tTOP주간이슈\n\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t씨네T\n\t\t\t\t\t\t\t\t\t스타포커스\n\t\t\t\t\t\t\t\t\tMy Starot\n\t\t\t\t\t\t\t\t\tF레터\n\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t전체기사\n\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t여론조사\n\t\t\t\t\t\t\t\t\t영웅신문\n\t\t\t\t\t\t\t\t\tBTS News\n\t\t\t\t\t\t\t\t\t1위\n\t\t\t\t\t\t\t\t\t순위\n\t\t\t\t\t\t\t\t\t차트\n\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t정치\n\t\t\t\t\t\t\t\t\t경제                                    \n\t\t\t\t\t\t\t\t\t사회\n\t\t\t\t\t\t\t\t\t국제\n\t\t\t\t\t\t\t\t\t스포츠\n\t\t\t\t\t\t\t\t\t라이프\n\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t콘텐츠 구매 문의\n\t\t\t\t\t\t\t\t\t기사제보\n\n**쉽게 설명하면:**\n\n중앙은행이 금리를 결정했어요. 금리는 1732513509%입니다. 금리가 올라가면 은행에서 돈을 빌릴 때 더 많은 이자를 내야 해요. 그래서 사람들이 집을 사거나 사업을 시작할 때 돈을 빌리기 어려워져요. 금리가 내려가면 반대로 돈을 빌리기 쉬워져요. 금리는 경제 전체에 큰 영향을 미치기 때문에 매우 중요한 뉴스예요.",
-      "source": "https://www.topstarnews.net/news/articleView.html?idxno=16127221",
-      "sourceUrl": "https://www.topstarnews.net/news/articleView.html?idxno=16127221",
-      "link": "https://www.topstarnews.net/news/articleView.html?idxno=16127221",
-      "publishedAt": "2026-07-07T22:12:00.000Z",
-      "date": "2026. 7. 7.",
-      "readingTime": 10,
+      "title": "파주시, 제4회 ‘구인·구직 만남의 날’ 참여기업 모집",
+      "content": "참여기업은 모집 마감 다음 날인 7월 31일에 선정되며, 행사는 8월 25일부터 27일까지 3일간 파주고용복지플... 자세한 사항은 파주시 누리집 또는 고용24에서 확인하거나 파주시일자리센터(031-940-9781~9795)로 문의하면... ",
+      "summary": "참여기업은 모집 마감 다음 날인 7월 31일에 선정되며, 행사는 8월 25일부터 27일까지 3일간 파주고용복지플... 자세한 사항은 파주시 누리집 또는 고용24에서 확인하거나 파주",
+      "detailedExplanation": "**이 뉴스의 핵심:**\n\n7월 30일까지 파주·고양 소재 기업 신청\n\t\n\t\t\n\t\n파주시가 2026년 제4회 ‘구인·구직 만남의 날’에 참여할 파주시와 고양시 소재 기업을 오는 오는 30일까지 모집한다.  파주시 제공파주=김준구 기자경기 파주시는 2026년 제4회 ‘구인·구직 만남의 날’에 참여할 파주시와 고양시 소재 기업을 오는 오는 30일까지 모집한다고 9일 밝혔다. 이번 행사는 올해 네 번째로 열리는 소규모 맞춤형 행사로, 10개 이상 기업의 참여를 목표로 한다\n\n**쉽게 설명하면:**\n\n집이나 땅의 가격이 변했어요. 부동산 가격이 올라가면 우리 가족이 집을 사기 어려워져요. 엄마 아빠가 더 많은 돈을 모아야 하니까요. 부동산 가격이 내려가면 집을 사기 쉬워져요. 또한 이미 집을 가진 사람들은 부동산 가격이 올라가길 바라요. 왜냐하면 자기 집의 가격이 올라가니까요.",
+      "source": "https://n.news.naver.com/mnews/article/021/0002803414?sid=102",
+      "sourceUrl": "https://n.news.naver.com/mnews/article/021/0002803414?sid=102",
+      "link": "https://n.news.naver.com/mnews/article/021/0002803414?sid=102",
+      "publishedAt": "2026-07-08T23:10:00.000Z",
+      "date": "2026. 7. 8.",
+      "readingTime": 5,
       "category": "economic",
       "investmentOpinion": {
         "opinion": "긍정적",
-        "confidence": 89.98784920761335,
+        "confidence": 89.65654909563341,
         "reason": "경제 뉴스 분석 기반"
       }
     },
     {
       "id": 6,
-      "title": "고환율에 원자재 수입 부담…관세청, 중기 세정지원 확대",
-      "content": "고환율로 원자재 수입 부담이 커진 중소기업을 대상으로 관세 납부기한 연장 등 세정지원이 확대된다. 원·달러 환율이 지난해 말보다 110원 이상 오르면서 수입 원·부자재 비중이 높은 기업의 자금 부담을 덜기 위한... ",
-      "summary": "고환율로 원자재 수입 부담이 커진 중소기업을 대상으로 관세 납부기한 연장 등 세정지원이 확대된다. 원·달러 환율이 지난해 말보다 110원 이상 오르면서 수입 원·부자재 비중이 높은",
-      "detailedExplanation": "**이 뉴스의 핵심:**\n\n원·부자재 수입 비중 20% 이상 중소기업 대상납부기한 연장·분할납부·환급금 신속 지급 지원\n\t\n\t\t\n\t\n중소기업 세정지원 프로그램 지원 실적.  ⓒ관세청[데일리안 = 김소희 기자] 고환율로 원자재 수입 부담이 커진 중소기업을 대상으로 관세 납부기한 연장 등 세정지원이 확대된다.  원·달러 환율이 지난해 말보다 110원 이상 오르면서 수입 원·부자재 비중이 높은 기업의 자금 부담을 덜기 위한 조치다\n\n**쉽게 설명하면:**\n\n달러와 원의 환율이 변했어요. 환율은 20%원입니다. 환율이 올라가면 (달러가 비싸지면) 외국에서 물건을 사올 때 더 많은 돈을 내야 해요. 그래서 우리나라 물건의 가격도 올라갈 수 있어요. 반대로 환율이 내려가면 외국 물건을 싸게 살 수 있어요. 환율은 우리 생활비에 직접 영향을 미쳐요.",
-      "source": "https://n.news.naver.com/mnews/article/119/0003109058?sid=101",
-      "sourceUrl": "https://n.news.naver.com/mnews/article/119/0003109058?sid=101",
-      "link": "https://n.news.naver.com/mnews/article/119/0003109058?sid=101",
-      "publishedAt": "2026-07-07T23:57:00.000Z",
-      "date": "2026. 7. 7.",
-      "readingTime": 5,
+      "title": "경상흑자에도 코스피 '찬바람'…SK하이닉스 나스닥 상장 촉각",
+      "content": "반도체 수출에 힘입어 5월 경상수지가 사상 최대 흑자를 기록했지만, 코스피는 이틀 연속 급락하며... 결국, 코스피는 5% 넘게 급락해 7246선으로 거래를 마쳤습니다. 특히, 반도체 대장주인 삼성전자와 SK하이닉스가 각각... ",
+      "summary": "반도체 수출에 힘입어 5월 경상수지가 사상 최대 흑자를 기록했지만, 코스피는 이틀 연속 급락하며... 결국, 코스피는 5% 넘게 급락해 7246선으로 거래를 마쳤습니다. 특히, 반",
+      "detailedExplanation": "**이 뉴스의 핵심:**\n\n[앵커]반도체 수출에 힘입어 5월 경상수지가 사상 최대 흑자를 기록했지만, 코스피는 이틀 연속 급락하며 7200선까지 밀려났습니다.  중동 불안에 반도체가 고점이라는 우려가 겹치면서 크게 떨어진 겁니다.  우리시간으로 금요일 밤에 SK하이닉스가 나스닥에 상장하는데 이 주가가 반도체 사이클의 가늠자가 될 전망입니다\n\n**쉽게 설명하면:**\n\n주식 시장이 변했어요. 코스피는 5포인트입니다. 주식 시장이 좋아지면 회사들이 잘되고 있다는 뜻이에요. 그래서 회사들이 더 많은 사람을 고용하고 월급도 많이 줄 수 있어요. 주식 시장이 안 좋아지면 회사들이 어려워지고 사람들을 해고할 수 있어요. 주식 시장은 경제 전체의 건강 상태를 보여주는 거울 같은 역할을 해요.",
+      "source": "https://n.news.naver.com/mnews/article/437/0000500254?sid=101",
+      "sourceUrl": "https://n.news.naver.com/mnews/article/437/0000500254?sid=101",
+      "link": "https://n.news.naver.com/mnews/article/437/0000500254?sid=101",
+      "publishedAt": "2026-07-08T23:47:00.000Z",
+      "date": "2026. 7. 8.",
+      "readingTime": 6,
       "category": "economic",
       "investmentOpinion": {
         "opinion": "중립적",
-        "confidence": 87.34121635670434,
+        "confidence": 85.2226966864128,
         "reason": "경제 뉴스 분석 기반"
       }
     },
     {
       "id": 7,
-      "title": "코스피, 4.91% 하락...'호실적' 삼성전자 6.92% 급락",
-      "content": "7일 코스피는 삼성전자와 SK하이닉스 주가 급락으로 7600선으로 후퇴했다 (사진=연합뉴스) 코스피가 7일 삼성전자 2분기 어닝 서프라이즈에도 불구하고 장중 극심한 변동성을 보인 끝에 7600선으로 후퇴했다. 이날... ",
-      "summary": "7일 코스피는 삼성전자와 SK하이닉스 주가 급락으로 7600선으로 후퇴했다 (사진=연합뉴스) 코스피가 7일 삼성전자 2분기 어닝 서프라이즈에도 불구하고 장중 극심한 변동성을 보인 ",
-      "detailedExplanation": "**이 뉴스의 핵심:**\n\n7일 코스피는 삼성전자와 SK하이닉스 주가 급락으로 7600선으로 후퇴했다 (사진=연합뉴스) 코스피가 7일 삼성전자 2분기 어닝 서프라이즈에도 불구하고 장중 극심한 변동성을 보인 끝에 7600선으로 후퇴했다\n\n**쉽게 설명하면:**\n\n주식 시장이 변했어요. 코스피는 7포인트입니다. 주식 시장이 좋아지면 회사들이 잘되고 있다는 뜻이에요. 그래서 회사들이 더 많은 사람을 고용하고 월급도 많이 줄 수 있어요. 주식 시장이 안 좋아지면 회사들이 어려워지고 사람들을 해고할 수 있어요. 주식 시장은 경제 전체의 건강 상태를 보여주는 거울 같은 역할을 해요.",
-      "source": "https://www.delighti.co.kr/news/articleView.html?idxno=118723",
-      "sourceUrl": "https://www.delighti.co.kr/news/articleView.html?idxno=118723",
-      "link": "https://www.delighti.co.kr/news/articleView.html?idxno=118723",
-      "publishedAt": "2026-07-07T23:12:00.000Z",
-      "date": "2026. 7. 7.",
+      "title": "경북도, 수출물류비·수출보험료 지원 확대…중소·중견기업 부담 던다",
+      "content": "일반 기업은 최대 지원금이 700만원에서 1000만원으로 늘어나고, 중동·북아프리카 22개국 수출 실적이 있는 기업은 기존 1000만원에서 2000만원까지 지원받을 수 있도록 기준을 확대했다.수출보험료 지원도 강화된다. 관련... ",
+      "summary": "일반 기업은 최대 지원금이 700만원에서 1000만원으로 늘어나고, 중동·북아프리카 22개국 수출 실적이 있는 기업은 기존 1000만원에서 2000만원까지 지원받을 수 있도록 기준",
+      "detailedExplanation": "**이 뉴스의 핵심:**\n\n일반 기업은 최대 지원금이 700만원에서 1000만원으로 늘어나고, 중동·북아프리카 22개국 수출 실적이 있는 기업은 기존 1000만원에서 2000만원까지 지원받을 수 있도록 기준을 확대했다\n\n**쉽게 설명하면:**\n\n경제와 관련된 중요한 뉴스예요. 주요 수치는 700, 1000, 22입니다. 이 뉴스는 우리의 생활과 밀접한 관련이 있어요. 경제가 좋으면 사람들이 많은 물건을 사고, 회사들이 더 많은 사람을 고용해요.",
+      "source": "https://www.ksmnews.co.kr/news/view.php?idx=612544",
+      "sourceUrl": "https://www.ksmnews.co.kr/news/view.php?idx=612544",
+      "link": "https://www.ksmnews.co.kr/news/view.php?idx=612544",
+      "publishedAt": "2026-07-08T12:10:00.000Z",
+      "date": "2026. 7. 8.",
       "readingTime": 1,
       "category": "economic",
       "investmentOpinion": {
         "opinion": "긍정적",
-        "confidence": 71.50125810848633,
+        "confidence": 82.52503918416409,
         "reason": "경제 뉴스 분석 기반"
       }
     },
     {
       "id": 8,
-      "title": "[아침에 PICK] 역대급 실적에도 '폭락'…&quot;주식판이 도박판&quot;",
-      "content": "서지용 상명대 경영학부 교수와 자세히 짚어보겠습니다. - 삼성전자 역대급 실적에도 주가 7％ 하락 - SK하이닉스 주가도 6％ 동반 하락 - WSJ &quot;코스피 변동성, '오징어게임' 같아&quot; - 이찬진, 최근 레버리지 ETF (상장지수펀드)에…&quot;막았어야&quot;",
-      "summary": "서지용 상명대 경영학부 교수와 자세히 짚어보겠습니다. - 삼성전자 역대급 실적에도 주가 7％ 하락 - SK하이닉스 주가도 6％ 동반 하락 - WSJ &quot;코스피 변동성, '오",
-      "detailedExplanation": "**이 뉴스의 핵심:**\n\n삼성전자가 어제 역대급 성적표를 냈지만, 오히려 주가는 폭락하고 우리 증시는 또한번 롤러코스터를 탔습니다.  사상 최대 실적에도 시장의 반응이 왜 냉담한건지, 서지용 상명대 경영학부 교수와 자세히 짚어보겠습니다. - 삼성전자 역대급 실적에도 주가 7％ 하락- SK하이닉스 주가도 6％ 동반 하락- WSJ \"코스피 변동성, '오징어게임' 같아\"- 이찬진, 최근 레버리지 ETF (상장지수펀드)에…\"막았어야\"\n\n**쉽게 설명하면:**\n\n주식 시장이 변했어요. 코스피는 7포인트입니다. 주식 시장이 좋아지면 회사들이 잘되고 있다는 뜻이에요. 그래서 회사들이 더 많은 사람을 고용하고 월급도 많이 줄 수 있어요. 주식 시장이 안 좋아지면 회사들이 어려워지고 사람들을 해고할 수 있어요. 주식 시장은 경제 전체의 건강 상태를 보여주는 거울 같은 역할을 해요.",
-      "source": "https://n.news.naver.com/mnews/article/448/0000625099?sid=101",
-      "sourceUrl": "https://n.news.naver.com/mnews/article/448/0000625099?sid=101",
-      "link": "https://n.news.naver.com/mnews/article/448/0000625099?sid=101",
-      "publishedAt": "2026-07-07T23:06:00.000Z",
-      "date": "2026. 7. 7.",
-      "readingTime": 2,
+      "title": "미국증시 유가·금리 압박에도 나스닥 반등…엔비디아·반도체주 선별 ...",
+      "content": "원/달러 환율은 1,506.5원으로 전일보다 10.7원 내렸다. 달러가 마감 기준으로 크게 치솟지 않은 점은 위험회피가 전면 확산되지는 않았음을 보여준다. 이날 투자심리는 혼합적이었다. 유가와 금리 상승, VIX (공포지수) 상승... ",
+      "summary": "원/달러 환율은 1,506.5원으로 전일보다 10.7원 내렸다. 달러가 마감 기준으로 크게 치솟지 않은 점은 위험회피가 전면 확산되지는 않았음을 보여준다. 이날 투자심리는 혼합적이",
+      "detailedExplanation": "**이 뉴스의 핵심:**\n\nvar ___BANNER = \"ban_1732513509_82\";\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\n\t\t\t\t\n\t\t\t\n\n\t\t\t\n\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t정치\n\t\t\t\t\t사회\n\t\t\t\t\t경제\n\t\t\t\t\t국제\t\t\n\t\t\t\t\t스포츠\n\t\t\t\t\t\t\t\t\t\t\t로그인\n\t\t\t\t\t\t회원가입 -->\n\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t2026-07-09 09:02 (목) \n\t\t\t\t\t인터넷신문위원회 윤리강령을 준수합니다\n\t\t\t\t\n\t\t\t\t\n\n\t\t\t\t\n\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t가요\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t방송\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t영화\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t셀럽\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\tHD포토\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\tHD동영상\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t이슈\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t리부트\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t이슈종합\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\n\n\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\t검색\n\t\t\t\t\t\t\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t기사검색\n\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t검색\n\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\n\n\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\t전체메뉴 버튼\n\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t엔터테인먼트\n\t\t\t\t\t\t\t\t\t가요\n\t\t\t\t\t\t\t\t\t방송\n\t\t\t\t\t\t\t\t\t영화\n\t\t\t\t\t\t\t\t\t셀럽\n\t\t\t\t\t\t\t\t\t문화/예술\n\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\tHD포토\n\t\t\t\t\t\t\t\t\tHD동영상\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t출근길\t\n\t\t\t\t\t\t\t\t\t쇼케이스\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t시상식\n\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t인터뷰\n\t\t\t\t\t\t\t\t\t현장리포트\n\t\t\t\t\t\t\t\t\t이슈\n\t\t\t\t\t\t\t\t\t단독\n\t\t\t\t\t\t\t\t\t기획\n\t\t\t\t\t\t\t\t\t무비포커스\n\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t리부트 \n\t\t\t\t\t\t\t\t\t이슈종합\n\t\t\t\t\t\t\t\t\tTOP리뷰\n\t\t\t\t\t\t\t\t\tTOP초점\n\t\t\t\t\t\t\t\t\tTOP이슈\n\t\t\t\t\t\t\t\t\tTOP주간이슈\n\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t씨네T\n\t\t\t\t\t\t\t\t\t스타포커스\n\t\t\t\t\t\t\t\t\tMy Starot\n\t\t\t\t\t\t\t\t\tF레터\n\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t전체기사\n\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t여론조사\n\t\t\t\t\t\t\t\t\t영웅신문\n\t\t\t\t\t\t\t\t\tBTS News\n\t\t\t\t\t\t\t\t\t1위\n\t\t\t\t\t\t\t\t\t순위\n\t\t\t\t\t\t\t\t\t차트\n\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t정치\n\t\t\t\t\t\t\t\t\t경제                                    \n\t\t\t\t\t\t\t\t\t사회\n\t\t\t\t\t\t\t\t\t국제\n\t\t\t\t\t\t\t\t\t스포츠\n\t\t\t\t\t\t\t\t\t라이프\n\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t콘텐츠 구매 문의\n\t\t\t\t\t\t\t\t\t기사제보\n\n**쉽게 설명하면:**\n\n중앙은행이 금리를 결정했어요. 금리는 1732513509%입니다. 금리가 올라가면 은행에서 돈을 빌릴 때 더 많은 이자를 내야 해요. 그래서 사람들이 집을 사거나 사업을 시작할 때 돈을 빌리기 어려워져요. 금리가 내려가면 반대로 돈을 빌리기 쉬워져요. 금리는 경제 전체에 큰 영향을 미치기 때문에 매우 중요한 뉴스예요.",
+      "source": "https://www.topstarnews.net/news/articleView.html?idxno=16128404",
+      "sourceUrl": "https://www.topstarnews.net/news/articleView.html?idxno=16128404",
+      "link": "https://www.topstarnews.net/news/articleView.html?idxno=16128404",
+      "publishedAt": "2026-07-08T21:56:00.000Z",
+      "date": "2026. 7. 8.",
+      "readingTime": 10,
       "category": "economic",
       "investmentOpinion": {
         "opinion": "중립적",
-        "confidence": 89.27071385604796,
+        "confidence": 74.88679563626519,
         "reason": "경제 뉴스 분석 기반"
       }
     },
     {
       "id": 9,
-      "title": "뉴욕연은 총재 &quot;물가 전망 개선&quot;…금리 방향엔 신중론 유지",
-      "content": "다만 금리 인하 가능성을 직접 시사하지는 않았다. 그는 “현재 통화정책이 최대 고용과 물가 안정이라는... 향후 금리 경로에 대해서는 신중한 태도를 유지했다. 윌리엄스 총재는 “물가와 경기 전망을 둘러싼... ",
-      "summary": "다만 금리 인하 가능성을 직접 시사하지는 않았다. 그는 “현재 통화정책이 최대 고용과 물가 안정이라는... 향후 금리 경로에 대해서는 신중한 태도를 유지했다. 윌리엄스 총재는 “물",
-      "detailedExplanation": "**이 뉴스의 핵심:**\n\n존 윌리엄스 미국 뉴욕 연방준비은행 총재.  [사진=AFP연합뉴스]\r\n\r\n\r\n존 윌리엄스 미국 뉴욕 연방준비은행 총재가 단기 물가 전망을 이전보다 다소 낙관적으로 평가했다.  최근 에너지 가격 하락이 전체 물가 상승률을 낮출 수 있다는 이유에서다\n\n**쉽게 설명하면:**\n\n중앙은행이 금리를 결정했어요. 금리는 7%입니다. 금리가 올라가면 은행에서 돈을 빌릴 때 더 많은 이자를 내야 해요. 그래서 사람들이 집을 사거나 사업을 시작할 때 돈을 빌리기 어려워져요. 금리가 내려가면 반대로 돈을 빌리기 쉬워져요. 금리는 경제 전체에 큰 영향을 미치기 때문에 매우 중요한 뉴스예요.",
-      "source": "https://www.ajunews.com/view/20260708072722208",
-      "sourceUrl": "https://www.ajunews.com/view/20260708072722208",
-      "link": "https://www.ajunews.com/view/20260708072722208",
-      "publishedAt": "2026-07-07T22:30:00.000Z",
-      "date": "2026. 7. 7.",
-      "readingTime": 10,
+      "title": "코스피 이틀 폭락 딛고 반등…장 초반 3%↑ 7400선 탈환",
+      "content": "9일 코스피가 이틀 연속 급락을 딛고 장초반 3% 오른 7400선을 나타내고 있다. 이날 오전 9시 1분 현재 코스피는 전날보다 219.33포인트(3.03%) 오른 7466.12다. 지수는 개장부터 전장 대비 239.85포인트(3.31... ",
+      "summary": "9일 코스피가 이틀 연속 급락을 딛고 장초반 3% 오른 7400선을 나타내고 있다. 이날 오전 9시 1분 현재 코스피는 전날보다 219.33포인트(3.03%) 오른 7466.12다",
+      "detailedExplanation": "**이 뉴스의 핵심:**\n\n9일 코스피가 이틀 연속 급락을 딛고 장초반 3% 오른 7400선을 나타내고 있다.  이날 오전 9시 1분 현재 코스피는 전날보다 219\n\n**쉽게 설명하면:**\n\n주식 시장이 변했어요. 코스피는 9포인트입니다. 주식 시장이 좋아지면 회사들이 잘되고 있다는 뜻이에요. 그래서 회사들이 더 많은 사람을 고용하고 월급도 많이 줄 수 있어요. 주식 시장이 안 좋아지면 회사들이 어려워지고 사람들을 해고할 수 있어요. 주식 시장은 경제 전체의 건강 상태를 보여주는 거울 같은 역할을 해요.",
+      "source": "https://www.jnilbo.com/news/articleView.html?idxno=90000048738",
+      "sourceUrl": "https://www.jnilbo.com/news/articleView.html?idxno=90000048738",
+      "link": "https://www.jnilbo.com/news/articleView.html?idxno=90000048738",
+      "publishedAt": "2026-07-09T00:11:00.000Z",
+      "date": "2026. 7. 9.",
+      "readingTime": 1,
       "category": "economic",
       "investmentOpinion": {
         "opinion": "긍정적",
-        "confidence": 82.89765268478196,
+        "confidence": 74.61936421766106,
         "reason": "경제 뉴스 분석 기반"
       }
     },
     {
       "id": 10,
-      "title": "[아침밥]신영증권 &quot;LG에너지솔루션, 2분기 실적 시장 기대치 하회&quot;",
-      "content": "박 연구원은 &quot;구체적인 실적 코멘트는 오는 30일 실적 컨퍼런스콜을 통해 제공될 예정&quot;이라고 밝혔다. 지난 7일 LG에너지솔루션은 코스피 시장에서 전 거래일 대비 2만2500원(6.35%) 내린 33만2000원에 거래를 종료했다.",
-      "summary": "박 연구원은 &quot;구체적인 실적 코멘트는 오는 30일 실적 컨퍼런스콜을 통해 제공될 예정&quot;이라고 밝혔다. 지난 7일 LG에너지솔루션은 코스피 시장에서 전 거래일 대비",
-      "detailedExplanation": "**이 뉴스의 핵심:**\n\n투자의견 매수…목표주가 64만원[편집자주] 동행미디어 시대 증권전문기자들이 매일 아침 쏟아지는 증권사 리포트 중에서 가장 알찬 리포트의 핵심을 요약해 제공하는 '아침밥'을 통해 든든하게 성공투자를 시작하세요. \n\t\n\t\t\n\t\n신영증권이 LG에너지솔루션이 올해 2분기 시장 기대치를 하회하는 실적을 냈다고 평가했다.  /사진=뉴시스    신영증권이 LG에너지솔루션에 대해 미국 관세 환급 효과에도 올해 2분기 시장 기대치를 크게 밑도는 실적을 기록했다고 평가했다\n\n**쉽게 설명하면:**\n\n경제와 관련된 중요한 뉴스예요. 주요 수치는 64, 2, 8입니다. 이 뉴스는 우리의 생활과 밀접한 관련이 있어요. 경제가 좋으면 사람들이 많은 물건을 사고, 회사들이 더 많은 사람을 고용해요.",
-      "source": "https://n.news.naver.com/mnews/article/417/0001150737?sid=101",
-      "sourceUrl": "https://n.news.naver.com/mnews/article/417/0001150737?sid=101",
-      "link": "https://n.news.naver.com/mnews/article/417/0001150737?sid=101",
-      "publishedAt": "2026-07-07T23:58:00.000Z",
-      "date": "2026. 7. 7.",
-      "readingTime": 8,
+      "title": "코스피·코스닥 나란히 반등…급락 이후 저가 매수 유입에 투자심리 개...",
+      "content": "9일 장중 코스피는 전 거래일 대비 200.03포인트(2.76%) 오른 7,446.82에서 거래되고 있다. 코스닥지수도 7.74포인트(0.99%) 상승한 792.74를 기록하며 강세 흐름에 동참했다. 대표 대형주 지수인 코스피200은 3.37% 오른 1,197.43을... ",
+      "summary": "9일 장중 코스피는 전 거래일 대비 200.03포인트(2.76%) 오른 7,446.82에서 거래되고 있다. 코스닥지수도 7.74포인트(0.99%) 상승한 792.74를 기록하며 강",
+      "detailedExplanation": "**이 뉴스의 핵심:**\n\n단박제보\n\t\t\t\n\t\t\n\t\t\n\t\t\t\n\t\t\t\t단박제보\n\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\t제목\n\t\t\t\t\t\t작성자\n\t\t\t\t\t\t날짜\n\t\t\t\t\t\t결과\n\t\t\t\t\t\n\t\t\t\t\n\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t전체\n\t\t\t\t\t\t쿠팡입찰사기물품사기\n\t\t\t\t\t\t최홍락단박접수\n\t\t\t\t\t\t 2026-07-04 02:01 \n\t\t\t\t\t\t -->\n\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t전체\n\t\t\t\t\t\t블리자드 코리아의 운영정책 위반 및 부당한 이용자 제재\n\t\t\t\t\t\t김아무개단박접수\n\t\t\t\t\t\t 2026-06-23 23:26 \n\t\t\t\t\t\t -->\n\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t기타\n\t\t\t\t\t\t인천골프협회 국가대표 선발포인트 대회 운영 및 랭킹포인트 반영 배제 결정의 적법성·공정성 조사\n\t\t\t\t\t\t탁주희단박접수\n\t\t\t\t\t\t 2026-06-23 16:59 \n\t\t\t\t\t\t -->\n\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t전체\n\t\t\t\t\t\t서호새마을금고, 영세기업 존폐 위기 몰아넣은 보복성 가압류 논란\n\t\t\t\t\t\t엄태용단박접수\n\t\t\t\t\t\t 2026-06-23 14:58 \n\t\t\t\t\t\t -->\n\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t기타\n\t\t\t\t\t\t내 아이디어 방송노출\n\t\t\t\t\t\t이**게시완료\n\t\t\t\t\t\t 2026-06-06 17:46 \n\t\t\t\t\t\t -->\n\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t정부&공공기관\n\t\t\t\t\t\t노란우산 공제 해약시 불입금이 특별소득으로 잡히는거 알고 계시나요. \n\t\t\t\t\t\t송연호게시완료\n\t\t\t\t\t\t 2026-06-04 17:50 \n\t\t\t\t\t\t -->\n\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t기타\n\t\t\t\t\t\t‘회의실 퇴사 압박· 직장내괴롭힘 산재 인정·실업급여 수급방해’ 등등 독일계 기업 부당해고 사건\n\t\t\t\t\t\t정해원추가자료요청\n\t\t\t\t\t\t 2026-05-16 15:37 \n\t\t\t\t\t\t -->\n\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t식음료\n\t\t\t\t\t\t불공정거래계약서및 본사갑질\n\t\t\t\t\t\t최경진추가자료요청\n\t\t\t\t\t\t 2026-05-14 11:02 \n\t\t\t\t\t\t -->\n\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t증권\n\t\t\t\t\t\t[제보] 롯데 CALIVERSE, 이벤트 내부자 수상·환불 구조 관련 공정성 논란 제기\n\t\t\t\t\t\t김진추가자료요청\n\t\t\t\t\t\t 2026-05-11 18:13 \n\t\t\t\t\t\t -->\n\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t전체\n\t\t\t\t\t\t코레일관광개발 임금피크제 평가조작 및 이해충돌 의혹 제보\n\t\t\t\t\t\t이민석추가자료요청\n\t\t\t\t\t\t 2026-05-11 15:36 \n\t\t\t\t\t\t -->\n\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t정부&공공기관\n\t\t\t\t\t\t김택균 경위의 신고자 폭행\n\t\t\t\t\t\t김선아추가자료요청\n\t\t\t\t\t\t 2026-05-10 20:08 \n\t\t\t\t\t\t -->\n\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t전체\n\t\t\t\t\t\t주 변시세를 무시한 마을 공동 재산인 부동산 매도\n\t\t\t\t\t\t경규홍게시완료\n\t\t\t\t\t\t 2026-05-08 03:54 \n\t\t\t\t\t\t -->\n\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t은행\n\t\t\t\t\t\t새마을금고와 우리은행의 금융거래정지 횡포를 고발합니다. \n\t\t\t\t\t\t안대영추가자료요청\n\t\t\t\t\t\t 2026-05-07 09:24 \n\t\t\t\t\t\t -->\n\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t기타\n\t\t\t\t\t\t보이시피싱 투자사기 krfxt 사이트 6000만원 사기-피해우려확산\n\t\t\t\t\t\t최재연추가자료요청\n\t\t\t\t\t\t 2026-05-02 09:37 \n\t\t\t\t\t\t -->\n\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t기타\n\t\t\t\t\t\t법원, 인권위 ‘(주)어울림 여성 한정 채용’ 정보부존재 통지 취소  관련 자료 보유·관리 개연성 인정… 차별 진정 사건 설명책임·기록관리 책임 재확인\n\t\t\t\t\t\t강현승게시완료\n\t\t\t\t\t\t 2026-04-29 21:15 \n\t\t\t\t\t\t -->\n\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t기타\n\t\t\t\t\t\t알토스벤쳐스의 조카라고 말하고 다니며 사기행각  (공익제보)\n\t\t\t\t\t\t공익제보자추가자료요청\n\t\t\t\t\t\t 2026-04-23 23:00 \n\t\t\t\t\t\t -->\n\n**쉽게 설명하면:**\n\n주식 시장이 변했어요. 코스피는 2026포인트입니다. 주식 시장이 좋아지면 회사들이 잘되고 있다는 뜻이에요. 그래서 회사들이 더 많은 사람을 고용하고 월급도 많이 줄 수 있어요. 주식 시장이 안 좋아지면 회사들이 어려워지고 사람들을 해고할 수 있어요. 주식 시장은 경제 전체의 건강 상태를 보여주는 거울 같은 역할을 해요.",
+      "source": "https://www.cbci.co.kr/news/articleView.html?idxno=587729",
+      "sourceUrl": "https://www.cbci.co.kr/news/articleView.html?idxno=587729",
+      "link": "https://www.cbci.co.kr/news/articleView.html?idxno=587729",
+      "publishedAt": "2026-07-09T00:10:00.000Z",
+      "date": "2026. 7. 9.",
+      "readingTime": 10,
       "category": "economic",
       "investmentOpinion": {
         "opinion": "중립적",
-        "confidence": 85.96344747741014,
+        "confidence": 75.68768334927236,
         "reason": "경제 뉴스 분석 기반"
       }
     }
@@ -197,8 +197,8 @@
     "sectors": [
       {
         "name": "금융",
-        "outlook": "긍정적",
-        "reason": "금리 인하로 대출 비용 감소"
+        "outlook": "부정적",
+        "reason": "금리 인상으로 대출 비용 증가"
       },
       {
         "name": "반도체",
@@ -206,83 +206,88 @@
         "reason": "시장 변화 관찰 중"
       },
       {
+        "name": "부동산",
+        "outlook": "중립적",
+        "reason": "시장 안정화"
+      },
+      {
         "name": "수출",
-        "outlook": "긍정적",
-        "reason": "원화 약세로 수출 경쟁력 강화"
+        "outlook": "부정적",
+        "reason": "원화 강세로 수출 어려움"
       }
     ],
-    "summary": "최근 경제 뉴스를 분석한 결과, 전체적으로 긍정적인 흐름을 보이고 있습니다. 주요 섹터별로는 금융(긍정적), 반도체(중립적), 수출(긍정적) 등의 변화가 예상됩니다. 투자 시 이러한 경제 지표 변화를 고려하여 포트폴리오를 조정하시기 바랍니다.",
-    "confidence": 79.21337303341384
+    "summary": "최근 경제 뉴스를 분석한 결과, 전체적으로 긍정적인 흐름을 보이고 있습니다. 주요 섹터별로는 금융(부정적), 반도체(중립적), 부동산(중립적), 수출(부정적) 등의 변화가 예상됩니다. 투자 시 이러한 경제 지표 변화를 고려하여 포트폴리오를 조정하시기 바랍니다.",
+    "confidence": 80.0955598752423
   },
   "predictions": [
     {
       "id": 1,
-      "date": "2026-07-08T00:02:23.178Z",
+      "date": "2026-07-09T00:16:08.087Z",
       "prediction": "긍정적",
-      "confidence": 71.54881913555066,
-      "sector": "일반"
+      "confidence": 88.37151168650868,
+      "sector": "금융"
     },
     {
       "id": 2,
-      "date": "2026-07-08T00:02:23.178Z",
+      "date": "2026-07-09T00:16:08.087Z",
       "prediction": "중립적",
-      "confidence": 81.84114957172329,
+      "confidence": 76.5156684290721,
       "sector": "일반"
     },
     {
       "id": 3,
-      "date": "2026-07-08T00:02:23.178Z",
+      "date": "2026-07-09T00:16:08.087Z",
       "prediction": "긍정적",
-      "confidence": 72.06833535610318,
+      "confidence": 89.67876001459115,
       "sector": "일반"
     },
     {
       "id": 4,
-      "date": "2026-07-08T00:02:23.178Z",
+      "date": "2026-07-09T00:16:08.087Z",
       "prediction": "중립적",
-      "confidence": 72.05165854356268,
+      "confidence": 73.69622554716084,
       "sector": "일반"
     },
     {
       "id": 5,
-      "date": "2026-07-08T00:02:23.178Z",
+      "date": "2026-07-09T00:16:08.087Z",
       "prediction": "긍정적",
-      "confidence": 89.98784920761335,
-      "sector": "반도체"
+      "confidence": 89.65654909563341,
+      "sector": "일반"
     },
     {
       "id": 6,
-      "date": "2026-07-08T00:02:23.178Z",
+      "date": "2026-07-09T00:16:08.087Z",
       "prediction": "중립적",
-      "confidence": 87.34121635670434,
+      "confidence": 85.2226966864128,
       "sector": "일반"
     },
     {
       "id": 7,
-      "date": "2026-07-08T00:02:23.178Z",
+      "date": "2026-07-09T00:16:08.087Z",
       "prediction": "긍정적",
-      "confidence": 71.50125810848633,
+      "confidence": 82.52503918416409,
       "sector": "일반"
     },
     {
       "id": 8,
-      "date": "2026-07-08T00:02:23.178Z",
+      "date": "2026-07-09T00:16:08.087Z",
       "prediction": "중립적",
-      "confidence": 89.27071385604796,
-      "sector": "일반"
+      "confidence": 74.88679563626519,
+      "sector": "반도체"
     },
     {
       "id": 9,
-      "date": "2026-07-08T00:02:23.178Z",
+      "date": "2026-07-09T00:16:08.087Z",
       "prediction": "긍정적",
-      "confidence": 82.89765268478196,
-      "sector": "금융"
+      "confidence": 74.61936421766106,
+      "sector": "일반"
     },
     {
       "id": 10,
-      "date": "2026-07-08T00:02:23.178Z",
+      "date": "2026-07-09T00:16:08.087Z",
       "prediction": "중립적",
-      "confidence": 85.96344747741014,
+      "confidence": 75.68768334927236,
       "sector": "일반"
     }
   ]
